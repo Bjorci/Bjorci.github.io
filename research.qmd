@@ -1,0 +1,85 @@
+---
+pagetitle: "Research · Björn Thor Arnarson"
+description: "Working papers and publications by Björn Thor Arnarson on international trade, knowledge spillovers and labour markets, using linked Danish and Swedish register data."
+listing:
+  - id: wip
+    contents: data/working-papers.yml
+    template: _templates/papers.ejs
+    sort: false
+  - id: pubs
+    contents: data/publications.yml
+    template: _templates/papers.ejs
+    sort: false
+---
+
+::: {.wrap}
+
+::: {.page-head}
+::: {}
+# Research
+
+[International trade, knowledge spillovers and labour markets, mostly using linked Danish and Swedish register data. [About the data](about.qmd#background).]{.intro}
+
+:::
+::: {.chip-row}
+[Working papers](#working-papers)
+[Publications](#publications)
+[Books and other writing](#other)
+:::
+:::
+
+::: {.sec #working-papers}
+::: {.label}
+## Working papers
+:::
+::: {#wip}
+:::
+:::
+
+::: {.sec #publications}
+::: {.label}
+## Publications
+:::
+::: {#pubs}
+:::
+:::
+
+::: {.sec #other}
+::: {.label}
+## Books, thesis and other writing
+:::
+::: {}
+::: {.row-line}
+[2023]{.when}
+
+[*Omstilling på Arbejdsmarkedet: Globalisering, Automatisering og Uddannelse*. Syddansk Universitetsforlag, Odense.]{.what}
+
+:::
+::: {.row-line}
+[2016]{.when}
+
+[*Exports and Externalities*. Doctoral thesis, Lund University.]{.what}
+
+:::
+::: {.row-line}
+[2025]{.when}
+
+[“Trump og tollar: Fórn á við margfalda íslenska verðmætasköpun – ár eftir ár?” *Vísbending* (in Icelandic).]{.what}
+
+:::
+::: {.row-line}
+[Until 2026]{.when}
+
+[*The Road to Exporting* (RoadtoExporting.dk): lead designer of the research-based policy website, with Jakob Munch and Georg Schaur.]{.what}
+
+:::
+::: {.row-line}
+[2010–2012]{.when}
+
+[Commissioned reports for the Institute of Economic Studies, University of Iceland, and the Iceland Chamber of Commerce.]{.what}
+
+:::
+:::
+:::
+
+:::

@@ -1,0 +1,24 @@
+<%
+const featuredOnly = (typeof templateParams !== 'undefined') && templateParams && templateParams.featured;
+const list = featuredOnly ? items.filter(p => p.featured) : items;
+%>
+<div class="papers">
+<% for (const p of list) {
+const tag = featuredOnly ? (p.status || p.tagline) : p.status;
+const isRR = tag && String(tag).indexOf('R&R') === 0;
+const links = Array.isArray(p.links) ? p.links : [];
+const hasAbstract = !featuredOnly && p.abstract;
+%>
+<article class="paper">
+<% if (tag) { %><div class="tag <%= isRR ? 'tag-rr' : '' %>"><%= tag %></div><% } %>
+<% if (p.page) { %><a class="paper-title" href="<%- p.page %>"><%= p.title %></a><% } else { %><div class="paper-title"><%= p.title %></div><% } %>
+<% if (p.authors) { %><div class="paper-authors"><%= p.authors %></div><% } %>
+<% if (!featuredOnly && (hasAbstract || links.length || p.venue)) { %>
+<div class="paper-row">
+<% if (hasAbstract) { %><details class="abstract"><summary>Abstract</summary><p><%= p.abstract %></p></details><% } %>
+<div class="paper-links"><% for (const l of links) { %><a href="<%- l.href %>"><%= l.label %></a><% } %><% if (p.venue) { %><span class="venue"><%= p.venue %></span><% } %></div>
+</div>
+<% } %>
+</article>
+<% } %>
+</div>

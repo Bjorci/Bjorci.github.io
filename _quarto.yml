@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - llms.txt
+    - robots.txt
+    - .nojekyll
+    - files/
+    - images/
+
+website:
+  title: "Björn Thor Arnarson"
+  site-url: "https://www.bjornthorarnarson.com"
+  description: "Economist at the ROCKWOOL Foundation Research Unit, Copenhagen. Trade, globalization, knowledge spillovers and labour markets in Scandinavia and the Øresund region."
+  favicon: images/favicon.svg
+  search: false
+  open-graph: true
+  navbar:
+    title: "B. T. Arnarson"
+    logo-href: index.html
+    right:
+      - text: Research
+        href: research.qmd
+      - text: News
+        href: news.qmd
+      - text: Talks
+        href: talks.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: About
+        href: about.qmd
+      - text: CV
+        href: cv.qmd
+      - text: "SV"
+        href: sv/index.qmd
+        aria-label: "Svenska"
+      - text: "IS"
+        href: is/index.qmd
+        aria-label: "Íslenska"
+  page-footer:
+    left: "ROCKWOOL Foundation Research Unit · Ny Kongensgade 6 · DK-1472 Copenhagen K"
+    right:
+      - text: "RSS"
+        href: news.xml
+      - text: "bth@rff.dk"
+        href: "mailto:bth@rff.dk"
+
+format:
+  html:
+    theme: [default, styles/site.scss]
+    minimal: false
+    page-layout: custom
+    title-block-style: none
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    lang: en
+    include-in-header:
+      - _includes/head.html

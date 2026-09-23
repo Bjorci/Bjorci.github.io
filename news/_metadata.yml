@@ -1,0 +1,5 @@
+# Settings shared by every news item. A news item is a short .qmd file in this folder:
+# copy one, change title/date/datelabel/categories/description, and render.
+format:
+  html:
+    title-block-style: default

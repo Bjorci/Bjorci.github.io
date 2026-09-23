@@ -1,0 +1,29 @@
+---
+pagetitle: "News · Björn Thor Arnarson"
+description: "Submissions, revisions, publications and talks."
+listing:
+  id: news-all
+  contents: news/*.qmd
+  template: _templates/news.ejs
+  template-params:
+    big: true
+  sort: "date desc"
+  date-format: "MMMM YYYY"
+  feed: true
+---
+
+::: {.wrap}
+
+::: {.page-head}
+::: {}
+# News
+
+[Submissions, revisions, publications and talks. [Follow by RSS](news.xml).]{.intro}
+
+:::
+:::
+
+::: {#news-all}
+:::
+
+:::

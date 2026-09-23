@@ -1,0 +1,11 @@
+---
+title: "Talks at RMET, DIEW and DIW Berlin"
+date: 2026-02-01   # TODO: real date (only the order matters; the page shows datelabel)
+datelabel: "2026"
+categories: [Talk]
+description: "Presented at RMET (Banff), DIEW (Aarhus) and DIW Berlin."
+---
+
+Presented at RMET (Banff), DIEW (Aarhus) and DIW Berlin.
+
+[← All news](../news.qmd)

@@ -1,0 +1,22 @@
+<%
+const mode = ((typeof templateParams !== 'undefined') && templateParams && templateParams.mode) || 'past';
+%>
+<% if (mode === 'upcoming-cards') { %>
+<div class="cards-2">
+<% for (const t of items.filter(t => t.upcoming)) { %>
+<div class="card"><div class="k"><%= t.when %></div><div class="t"><%= t.title %></div><div class="n"><%= t.text %></div></div>
+<% } %>
+</div>
+<% } else if (mode === 'upcoming-rows') { %>
+<div>
+<% for (const t of items.filter(t => t.upcoming)) { %>
+<div class="row-line"><div class="when"><%= t.when %></div><div class="what"><%= t.title %> · <%= t.text %></div></div>
+<% } %>
+</div>
+<% } else { %>
+<div>
+<% for (const t of items.filter(t => !t.upcoming)) { %>
+<div class="row-line"><div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;"><%= t.year %></div><div class="what"><%= t.text %></div></div>
+<% } %>
+</div>
+<% } %>

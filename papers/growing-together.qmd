@@ -1,0 +1,95 @@
+---
+title: "Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains"
+pagetitle: "Growing Together and Apart · Björn Thor Arnarson"
+description: "Working paper by Björn Thor Arnarson, Magnus T. Buus, Andreas Moxnes, Jakob R. Munch and Chong Xiang. Revise and resubmit at the Journal of Political Economy."
+# TODO: confirm author order (alphabetical assumed)
+body-classes: paper-page
+google-scholar: true
+author:
+  - name:
+      given: Björn Thor
+      family: Arnarson
+  - name:
+      given: Magnus T.
+      family: Buus
+  - name:
+      given: Andreas
+      family: Moxnes
+  - name:
+      given: Jakob R.
+      family: Munch
+  - name:
+      given: Chong
+      family: Xiang
+citation:
+  type: report
+  genre: "CESifo Working Paper"
+  number: "12710"
+  publisher: CESifo
+  doi: 10.65864/rekivjv2z7
+  url: https://www.bjornthorarnarson.com/papers/growing-together.html
+  # TODO: add issued: YYYY once confirmed
+---
+
+::: {.wrap}
+
+::: {.sec style="padding-bottom: 48px; border-bottom: 1px solid #c8cfc9; margin-top: 24px;"}
+::: {.label}
+[← Research](../research.qmd)
+
+[R&R, Journal of Political Economy]{.tag .tag-rr}
+
+:::
+::: {}
+```{=html}
+<h1 style="font-family: 'Instrument Serif', serif; font-size: 3.25rem; line-height: 1.05; margin: 0 0 18px;">Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains</h1>
+```
+
+[Björn Thor Arnarson, Magnus T. Buus, Andreas Moxnes, Jakob R. Munch and Chong Xiang]{style="font-size: 1.05rem; color: #33403a; display: block;"}
+
+[CESifo Working Paper 12710 · CEPR Discussion Paper 21543]{style="font-size: 0.95rem; color: #56615c; display: block; margin-top: 6px;"}
+
+::: {.btn-row style="margin-top: 18px;"}
+[PDF](https://doi.org/10.65864/rekivjv2z7){.btn-pill}
+[Slides]{.btn-ghost style="opacity: 0.5;" title="Slides to be added"}
+
+[Cite](#quarto-appendix){.btn-ghost}
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## In short
+:::
+::: {.big-serif}
+[Two or three sentences in plain language: the question, what you find, and why it matters. This is the text reporters quote and AI tools summarise.]
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Abstract
+:::
+::: {style="font-size: 1.05rem; line-height: 1.7; color: #33403a; max-width: 760px;"}
+[Abstract, pasted from the paper.]
+:::
+:::
+
+::: {.sec .sec-3}
+::: {.label}
+## Around the paper
+:::
+::: {}
+[Presented at]{.sub-h style="display:block;"}
+
+[Seminars and conferences]
+:::
+::: {}
+[Coverage]{.sub-h style="display:block;"}
+
+[VoxEU column, press, podcast]
+:::
+:::
+
+:::

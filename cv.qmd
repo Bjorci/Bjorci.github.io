@@ -1,0 +1,194 @@
+---
+pagetitle: "CV · Björn Thor Arnarson"
+description: "Curriculum vitae of Björn Thor Arnarson: positions, education, grants and service."
+---
+
+::: {.wrap}
+
+::: {.page-head}
+# Curriculum vitae
+
+::: {.btn-row}
+[Download PDF](files/Arnarson_CV.pdf){.btn-pill}
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Positions
+:::
+::: {}
+::: {.row-cv}
+[**Researcher**, ROCKWOOL Foundation Research Unit]{}
+
+[2025–]{.when}
+
+:::
+::: {.row-cv}
+[**Affiliated Researcher**, Department of Economics, Lund University]{}
+
+[2025–]{.when}
+
+:::
+::: {.row-cv}
+[**Affiliate**, CESifo]{}
+
+[2024–]{.when}
+
+:::
+::: {.row-cv}
+[**Affiliated Research Fellow**, Economic Policy Research Unit (EPRU)]{}
+
+[2017–]{.when}
+
+:::
+::: {.row-cv}
+[**Assistant Professor**, University of Copenhagen]{}
+
+[2021–2026]{.when}
+
+:::
+::: {.row-cv}
+[**Marie Skłodowska-Curie Research Fellow**, University of Copenhagen]{}
+
+[2019–2021]{.when}
+
+:::
+::: {.row-cv}
+[**Postdoctoral Researcher**, University of Copenhagen]{}
+
+[2017–2019]{.when}
+
+:::
+::: {.row-cv}
+[**Affiliated Researcher**, Centre for Öresund Studies, Lund University]{}
+
+[2017–2025]{.when}
+
+:::
+::: {.row-cv}
+[**Postdoctoral Researcher**, Lund University]{}
+
+[2016]{.when}
+
+:::
+::: {.row-cv}
+[**Chief Economist**, Iceland Chamber of Commerce]{}
+
+[2009–2011]{.when}
+
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Education
+:::
+::: {}
+::: {.row-cv}
+[**PhD in Economics**, Lund University]{}
+
+[2011–2016]{.when}
+
+:::
+::: {.row-cv}
+[**MA in Economics**, Boston University]{}
+
+[2008–2009]{.when}
+
+:::
+::: {.row-cv}
+[**BS in Economics**, University of Iceland]{}
+
+[2005–2008]{.when}
+
+:::
+::: {.row-cv}
+[**Exchange student in Economics**, University of Oklahoma]{}
+
+[2006–2007]{.when}
+
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Selected grants
+
+Full list in the PDF.
+:::
+::: {}
+::: {.row-cv}
+::: {}
+Disruption and Structural Change: Challenges and Opportunities in the Labor Market\
+[ROCKWOOL Foundation Research Unit; joint PI with Jakob Munch; DKK 9.6m]{.detail}
+
+:::
+[2024–2028]{.when}
+
+:::
+::: {.row-cv}
+::: {}
+Labor Market Effects of Automation, Offshoring and Multinationals\
+[ROCKWOOL Foundation Research Unit; co-recipient, PI Jakob Munch; USD 1.2m]{.detail}
+
+:::
+[2019–2023]{.when}
+
+:::
+::: {.row-cv}
+::: {}
+BRIDGE: Labour Market Integration: Consequences of Cross-Border Commuting\
+[Marie Skłodowska-Curie grant, EU Horizon 2020; sole applicant; DKK 1.58m]{.detail}
+
+:::
+[2018]{.when}
+
+:::
+::: {.row-cv}
+::: {}
+The Labour Market Effects of the Öresund Bridge\
+[EPRN network project grant; sole applicant; DKK 330,000]{.detail}
+
+:::
+[2017]{.when}
+
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Service
+:::
+::: {style="font-size: 1rem; line-height: 1.65; max-width: 780px;"}
+::: {.row-cv style="grid-template-columns: 1fr;"}
+**Conference organisation.** NOITS, the annual Nordic conference in international economics: Copenhagen 2025 and Iceland 2021; web coordinator of the network.
+:::
+::: {.row-cv style="grid-template-columns: 1fr;"}
+**Refereeing.** American Economic Journal: Economic Policy; Economic Journal; European Economic Review; European Review of Economic History; Journal of Economic Behavior & Organization; Scandinavian Journal of Economics; Review of International Economics; Review of World Economics; Economics of Innovation and New Technology; The International Trade Journal; Technological Forecasting & Social Change; Rannís.
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Languages
+:::
+::: {.row-cv style="grid-template-columns: 1fr;"}
+Icelandic (native), English (fluent), Swedish (fluent), Danish (working knowledge).
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Also
+:::
+::: {}
+Publications and working papers are on [Research](research.qmd); talks and research visits on [Talks](talks.qmd); teaching on [Teaching](teaching.qmd).
+:::
+:::
+
+:::

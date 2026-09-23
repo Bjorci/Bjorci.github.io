@@ -1,0 +1,53 @@
+---
+pagetitle: "Teaching · Björn Thor Arnarson"
+description: "Teaching and supervision."
+---
+
+::: {.wrap}
+
+::: {.page-head}
+# Teaching
+:::
+
+::: {.sec}
+::: {.label}
+## Courses
+:::
+::: {}
+::: {.row-line}
+[2021–20??]{.when}
+
+::: {.what}
+[Advanced International Trade]{style="font-family: 'Instrument Serif', serif; font-size: 1.625rem;"}\
+Lecturer and course responsible, University of Copenhagen
+:::
+:::
+::: {.row-line}
+[2012–2016]{.when}
+
+::: {.what}
+[Teaching assistant, Lund University]{style="font-family: 'Instrument Serif', serif; font-size: 1.625rem;"}\
+Introductory Macroeconomics, International Trade and Introductory Microeconomics (undergraduate); Economic Integration and Advanced Trade Theory (MSc)
+:::
+:::
+::: {.row-line}
+[2010–2011]{.when}
+
+::: {.what}
+[Instructor, Reykjavik University]{style="font-family: 'Instrument Serif', serif; font-size: 1.625rem;"}\
+Lecturer, Introductory Macroeconomics; teaching assistant, Applied Statistics (undergraduate)
+:::
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Supervision
+:::
+::: {}
+[Number] MSc and [number] BSc theses supervised at the University of Copenhagen.
+:::
+:::
+
+:::

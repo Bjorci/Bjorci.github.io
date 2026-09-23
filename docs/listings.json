@@ -1,0 +1,36 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/2026-etsg.html",
+      "/news/2026-lmu-visit.html",
+      "/news/2026-jie-published.html",
+      "/news/2026-spring-talks.html",
+      "/news/jpe-revise-resubmit.html",
+      "/news/2025-noits.html",
+      "/news/2025-06-rff.html",
+      "/news/2025-05-visbending.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2026-etsg.html",
+      "/news/2026-lmu-visit.html",
+      "/news/2026-jie-published.html",
+      "/news/2026-spring-talks.html",
+      "/news/jpe-revise-resubmit.html",
+      "/news/2025-noits.html",
+      "/news/2025-06-rff.html",
+      "/news/2025-05-visbending.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": []
+  },
+  {
+    "listing": "/talks.html",
+    "items": []
+  }
+]

@@ -1,0 +1,250 @@
+---
+pagetitle: "About · Björn Thor Arnarson"
+description: "Björn Thor Arnarson: background, areas of expertise, languages and a biography free to reuse."
+image: images/bjorn.jpg
+---
+
+::: {.wrap}
+
+```{=html}
+<section class="page-head">
+  <div>
+    <h1>About</h1>
+    <p class="lead">Economist working on trade, globalization and labour markets in Scandinavia, with a particular focus on the Øresund region.</p>
+  </div>
+  <img class="page-head-photo" src="images/bjorn.jpg" alt="Portrait of Björn Thor Arnarson">
+</section>
+```
+
+::: {.sec #background}
+::: {.label}
+## Background
+:::
+::: {}
+::: {.prose}
+I was born and raised in Iceland, studied economics at the University of Iceland and Boston University, and worked as an economist in Reykjavik before moving to Lund for my doctoral studies in 2011.
+
+In Lund, with Copenhagen a short train ride across the bridge, I became interested early in the Øresund region: two countries, two sets of institutions and a labour market that increasingly spans both. That interest has shaped my research for well over a decade.
+
+Most of my work builds on Danish and Swedish administrative microdata. Over the years I have built a database that merges and links these registers, with multiple links across the border. The result is a unique dataset, and it underpins several of my research projects, including work on [scale economies in global value chains](papers/growing-together.qmd), knowledge spillovers from cross-border commuters and multinational firms, as well as a number of others.
+:::
+
+::: {.timeline}
+::: {}
+[Iceland]{.place}\
+[Born and raised; BS, University of Iceland, 2008]{.what}
+
+:::
+::: {}
+[United States]{.place}\
+[MA, Boston University, 2009]{.what}
+
+:::
+::: {}
+[Lund]{.place}\
+[PhD, Lund University, 2016]{.what}
+
+:::
+::: {}
+[Copenhagen]{.place}\
+[University of Copenhagen, 2017–2026; ROCKWOOL Foundation Research Unit since 2025]{.what}
+
+:::
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Biography
+
+In three lengths, free to reuse.
+:::
+::: {.bio}
+::: {.panel-tabset}
+## One line
+
+Björn Thor Arnarson is an economist at the ROCKWOOL Foundation Research Unit in Copenhagen who studies trade, globalization and labour markets in Scandinavia and the Øresund region.
+
+## Paragraph
+
+Björn Thor Arnarson is a researcher at the ROCKWOOL Foundation Research Unit in Copenhagen and an affiliated researcher at the Department of Economics, Lund University. He uses Danish and Swedish administrative data to study how globalization, trade and knowledge spillovers affect firms and workers, with a particular focus on the integrated labour market of the Øresund region. His research has appeared in the Journal of International Economics and the Scandinavian Journal of Economics.
+
+## Full
+
+Björn Thor Arnarson is a researcher at the ROCKWOOL Foundation Research Unit in Copenhagen, an affiliated researcher at the Department of Economics, Lund University, a CESifo affiliate and an affiliated research fellow at EPRU. He uses Danish and Swedish administrative data to study how globalization, trade and knowledge spillovers affect firms and workers, with a particular focus on the Øresund region. Born in Iceland, he studied economics at the University of Iceland and Boston University (MA) and was chief economist of the Iceland Chamber of Commerce before completing his PhD at Lund University (2016), and he was later an assistant professor at the University of Copenhagen (2021–2026) and a Marie Skłodowska-Curie fellow. He has built a unique database that merges and links Danish and Swedish administrative microdata across the border, which underpins much of his research. His work has appeared in the Journal of International Economics and the Scandinavian Journal of Economics. He is fluent in Icelandic, English and Swedish and has a working knowledge of Danish.
+:::
+
+```{=html}
+<button type="button" class="copy-bio" id="copy-bio">Copy this bio</button>
+<script>
+document.getElementById('copy-bio').addEventListener('click', function () {
+  var pane = document.querySelector('.bio .tab-pane.active');
+  if (!pane) return;
+  var btn = this;
+  navigator.clipboard.writeText(pane.innerText.trim()).then(function () {
+    btn.textContent = 'Copied';
+    setTimeout(function () { btn.textContent = 'Copy this bio'; }, 2000);
+  });
+});
+</script>
+```
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## The Øresund region
+:::
+::: {.dark-box}
+[What does a shared labour market across the strait mean for firms and workers on both sides?]{.q}
+
+::: {.items}
+::: {}
+Affiliated researcher, Centre for Öresund Studies, Lund University, 2017–2025.
+:::
+::: {}
+Marie Skłodowska-Curie project BRIDGE, *Labour Market Integration: Consequences of Cross-Border Commuting*, EU Horizon 2020.
+:::
+::: {}
+EPRN project, *The Labour Market Effects of the Öresund Bridge*, 2017.
+:::
+::: {}
+Ongoing research on knowledge spillovers from cross-border commuters, with Jakob R. Munch, Morten G. Olsen and Emil A. L. Simonsen.
+:::
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Areas of expertise
+:::
+::: {}
+::: {.grid-2}
+::: {.topic}
+[The Øresund region]{.t}
+
+[Cross-border commuting, the integrated Copenhagen–Malmö labour market, knowledge spillovers across the bridge.]{.n}
+
+:::
+::: {.topic}
+[Danish and Swedish register data]{.t}
+
+[Merging and linking administrative microdata across Denmark and Sweden, including links across the border.]{.n}
+
+:::
+::: {.topic}
+[Trade policy and tariffs]{.t}
+
+[US tariffs, trade wars, what they mean for small open Nordic economies.]{.n}
+
+:::
+::: {.topic}
+[Knowledge spillovers]{.t}
+
+[How know-how travels between firms, workers and regions, including across national borders.]{.n}
+
+:::
+::: {.topic}
+[Globalization and workers]{.t}
+
+[Offshoring, import competition, wages and well-being.]{.n}
+
+:::
+::: {.topic}
+[Multinationals and R&D]{.t}
+
+[How firms’ research and supplier networks spread across borders.]{.n}
+
+:::
+::: {.topic}
+[Exporting and export promotion]{.t}
+
+[Which firms export, and what export-support policy achieves.]{.n}
+
+:::
+::: {.topic}
+[Iceland’s economy]{.t}
+
+[Icelandic trade, EU relations and business conditions.]{.n}
+
+:::
+:::
+
+[Languages]{.sub-h style="display:block; margin-top: 36px;"}
+
+::: {.cards-4}
+::: {.card}
+[Icelandic]{.t}\
+[Native]{.n}
+
+:::
+::: {.card}
+[English]{.t}\
+[Fluent]{.n}
+
+:::
+::: {.card}
+[Swedish]{.t}\
+[Fluent]{.n}
+
+:::
+::: {.card}
+[Danish]{.t}\
+[Working knowledge]{.n}
+
+:::
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Research in plain language
+:::
+::: {}
+::: {.paper}
+[Growing Together and Apart](papers/growing-together.qmd){.paper-title}
+
+[Two or three sentences a reporter can quote: the question, the finding, why it matters for Danish or Swedish workers.]
+:::
+::: {.paper}
+[Globalization and the Gender Gap in Mental Well-being]{.paper-title}
+
+[Plain-language summary.]
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## In the media
+:::
+::: {}
+::: {.row-line}
+[May 2025]{.when}
+
+[*Vísbending* (op-ed, Icelandic): “Trump og tollar: Fórn á við margfalda íslenska verðmætasköpun – ár eftir ár?”]{.what}
+
+:::
+:::
+:::
+
+::: {.sec .sec-3}
+::: {.label}
+## Contact
+:::
+::: {}
+[Email]{.sub-h style="display:block;"}
+
+[bth@rff.dk](mailto:bth@rff.dk){.contact-mail}
+:::
+::: {}
+[Photo]{.sub-h style="display:block;"}
+
+[Download high resolution (JPG)](images/bjorn.jpg)
+:::
+:::
+
+:::

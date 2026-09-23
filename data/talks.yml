@@ -1,0 +1,35 @@
+# Talks. Upcoming talks (upcoming: true) show on Home and at the top of the Talks page.
+# When a talk has happened, remove "upcoming: true" and fold it into its year line below.
+
+- upcoming: true
+  when: "[Date]"
+  title: "RFBerlin"
+  text: "Seminar, Berlin"
+
+- upcoming: true
+  when: "[Date]"
+  title: "OECD"
+  text: "Invited seminar, Paris"
+
+- year: "2026"
+  text: "RMET (Banff); DIEW (Aarhus); DIW Berlin; ETSG (Exeter)."
+- year: "2025"
+  text: "Swedish Network for European Studies in Economics and Business (SNEE); invited seminar, ROCKWOOL Foundation Research Unit."
+- year: "2024"
+  text: "NOITS (Oslo); SNEE (Lund); CESifo Area Conference on the Global Economy."
+- year: "2023"
+  text: "Invited seminar, Icelandic Economists Abroad conference (University of Iceland); EPRN Copenhagen; SNEE (Lund)."
+- year: "2021"
+  text: "Invited seminar for Business Sweden."
+- year: "2019"
+  text: "Road to Exporting, Copenhagen."
+- year: "2018"
+  text: "Moscow International Economics Conference (Moscow); ADI Conference (Copenhagen); SNEE (Lund)."
+- year: "2017"
+  text: "Empirical Investigations in Trade and Investment, Yogyakarta (FREIT); invited seminar, Örebro University; NOITS (Helsinki); LETC (Slovenia, FREIT); ADI Conference (Copenhagen); SNEE (Lund)."
+- year: "2016"
+  text: "Invited seminars at the University of Copenhagen and IFN Stockholm; NOITS (Oslo); ADI Conference (Copenhagen); Lund University; ETSG (Helsinki)."
+- year: "2015"
+  text: "ETSG (Paris); NOITS (Copenhagen); GEP Postgraduate Conference (University of Nottingham); Lund University; Danish International Economics Workshop (Aarhus); invited seminar, Sydsvenska Handelskammaren (Malmö)."
+- year: "2014"
+  text: "NOITS; Nordic Summer Symposium in Macroeconomics; Lund University; ETSG."

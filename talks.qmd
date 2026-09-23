@@ -1,0 +1,61 @@
+---
+pagetitle: "Talks · Björn Thor Arnarson"
+description: "Upcoming and past talks, seminars and research visits."
+listing:
+  - id: talks-upcoming
+    contents: data/talks.yml
+    template: _templates/talks.ejs
+    template-params:
+      mode: upcoming-cards
+    sort: false
+  - id: talks-past
+    contents: data/talks.yml
+    template: _templates/talks.ejs
+    template-params:
+      mode: past
+    sort: false
+---
+
+::: {.wrap}
+
+::: {.page-head}
+# Talks
+:::
+
+::: {.sec}
+::: {.label}
+## Upcoming
+:::
+::: {#talks-upcoming}
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Past talks
+:::
+::: {#talks-past}
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Research visits
+:::
+::: {}
+::: {.row-line}
+[July 2026]{.when}
+
+[LMU Munich]{.what}
+
+:::
+::: {.row-line}
+[July 2024]{.when}
+
+[CESifo, Munich]{.what}
+
+:::
+:::
+:::
+
+:::

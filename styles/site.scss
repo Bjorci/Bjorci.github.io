@@ -1,0 +1,198 @@
+/*-- scss:defaults --*/
+
+// Palette: toned grey-green ground, near-black ink, one teal accent, gold for R&R status
+$ground:     #eef0ec;
+$ink:        #1b2420;
+$ink-soft:   #33403a;
+$muted:      #56615c;
+$rule:       #d3d9d4;
+$rule-strong:#c8cfc9;
+$accent:     #1f5f5b;
+$accent-dark:#123d3a;
+$accent-soft:#9fbfbb;
+$gold-ink:   #7a5010;
+$gold-bg:    #f6ecd6;
+$gold-line:  #d9b877;
+
+$body-bg: $ground;
+$body-color: $ink;
+$link-color: $accent;
+$font-family-sans-serif: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family: "Instrument Serif", Georgia, serif;
+$headings-font-weight: 400;
+$font-size-base: 1.0625rem;
+$line-height-base: 1.6;
+
+$navbar-bg: $ground;
+$navbar-fg: $ink;
+$navbar-hl: $accent;
+$footer-bg: $ground;
+$footer-fg: $muted;
+
+/*-- scss:rules --*/
+
+$serif: "Instrument Serif", Georgia, serif;
+
+body { background: $ground; color: $ink; }
+a { color: $accent; text-decoration: underline; text-decoration-color: $accent-soft; text-underline-offset: 3px; }
+a:hover { color: $accent-dark; text-decoration-color: $accent; }
+
+// ---------- Navbar and footer ----------
+.navbar { background: $ground !important; box-shadow: none; border: 0; padding-top: 1.25rem; padding-bottom: 1.25rem; }
+.navbar .navbar-brand, .navbar .navbar-title { font-family: $font-family-sans-serif; font-weight: 600; font-size: 0.9rem; letter-spacing: 0.02em; color: $ink !important; }
+.navbar .nav-link { font-size: 0.9rem; font-weight: 500; color: $ink !important; padding-left: 0.9rem !important; padding-right: 0.9rem !important; }
+.navbar .nav-link.active, .navbar .nav-link:hover { color: $accent !important; text-decoration: underline; text-decoration-color: $accent; text-underline-offset: 4px; }
+.navbar .nav-link[aria-label="Svenska"], .navbar .nav-link[aria-label="Íslenska"] { color: $accent !important; font-size: 0.8rem; }
+.nav-footer { border-top: 1px solid $rule-strong; font-size: 0.8rem; color: $muted; background: $ground; }
+.nav-footer a { color: $muted; }
+
+// ---------- Layout ----------
+.wrap { max-width: 1088px; margin: 0 auto; padding: 0 24px 72px; }
+main.content { margin-top: 0; }
+p { margin: 0 0 1rem; }
+
+// A section: 240px label column + content
+.sec { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 48px; margin: 64px 0; }
+.sec-3 { grid-template-columns: 240px minmax(0, 1fr) minmax(0, 1fr); }
+.sec > .label, .sec-3 > .label { display: flex; flex-direction: column; gap: 10px; }
+.label h2, h2.label-h {
+  font-family: $font-family-sans-serif; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: $accent; margin: 0; line-height: 1.4;
+}
+.label p, .label .note { font-size: 0.875rem; line-height: 1.6; color: $muted; margin: 0; }
+.label a { font-size: 0.875rem; }
+.sub-h { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: $muted; margin: 0 0 12px; }
+
+// ---------- Hero (home) ----------
+.hero { display: flex; gap: 64px; align-items: flex-end; padding: 24px 0 56px; border-bottom: 1px solid $rule-strong; }
+.hero-text { flex: 1; display: flex; flex-direction: column; gap: 28px; }
+.hero-name { font-family: $serif; font-size: 6.5rem; line-height: 0.95; letter-spacing: -0.01em; margin: 0; }
+.hero-lead { font-family: $serif; font-size: 2rem; line-height: 1.3; color: $ink-soft; max-width: 720px; margin: 0; }
+.hero-links { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 0.95rem; }
+.hero-photo { width: 240px; height: 300px; object-fit: cover; object-position: 50% 20%; flex-shrink: 0; }
+
+// ---------- Page head (inner pages) ----------
+.page-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 48px; padding: 24px 0 40px; border-bottom: 1px solid $rule-strong; }
+.page-head h1 { font-family: $serif; font-size: 3.75rem; line-height: 1; margin: 0; }
+.page-head .lead { font-family: $serif; font-size: 1.75rem; line-height: 1.3; color: $ink-soft; max-width: 700px; margin: 18px 0 0; }
+.page-head .intro { font-size: 1.05rem; color: $ink-soft; max-width: 640px; margin: 18px 0 0; }
+.page-head .kicker { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: $accent; margin-bottom: 18px; }
+.page-head-photo { width: 200px; height: 250px; object-fit: cover; object-position: 50% 20%; flex-shrink: 0; }
+
+// ---------- Rows and lists ----------
+.rows > * { border-top: 1px solid $rule; }
+.row-line { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 24px; padding: 14px 0; border-top: 1px solid $rule; align-items: baseline; }
+.row-line .when { font-size: 0.875rem; color: $muted; }
+.row-line .what { font-size: 1.05rem; line-height: 1.5; }
+.row-cv { display: grid; grid-template-columns: minmax(0, 1fr) 180px; gap: 24px; padding: 14px 0; border-top: 1px solid $rule; align-items: baseline; }
+.row-cv .when { font-size: 0.875rem; color: $muted; text-align: right; }
+.row-cv .detail { font-size: 0.875rem; color: $muted; }
+
+// ---------- News ----------
+.news-row { display: grid; grid-template-columns: 140px 100px minmax(0, 1fr); gap: 20px; padding: 14px 0; border-top: 1px solid $rule; align-items: baseline; }
+.news-row .when { font-size: 0.875rem; color: $muted; }
+.news-row .kind { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: $muted; }
+.news-row .what { font-size: 1.05rem; line-height: 1.5; }
+.news-row .what p { margin: 0; }
+.news-big .news-row { grid-template-columns: 240px 110px minmax(0, 1fr); gap: 48px; padding: 22px 0; }
+.news-big .news-row .when { font-family: $serif; font-size: 1.5rem; color: $ink-soft; }
+
+// ---------- Papers ----------
+.paper { display: flex; flex-direction: column; gap: 8px; padding: 22px 0; border-top: 1px solid $rule; }
+.paper-title { font-family: $serif; font-size: 1.75rem; line-height: 1.2; color: $ink; margin: 0; }
+a.paper-title { text-decoration-color: $rule-strong; }
+.paper-authors { font-size: 0.95rem; color: $muted; }
+.paper-links { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; font-size: 0.875rem; font-weight: 500; }
+.paper-links .venue { color: $muted; font-weight: 400; }
+details.abstract > summary {
+  display: inline-block; list-style: none; cursor: pointer; border: 1px solid $accent-soft; border-radius: 999px;
+  padding: 5px 14px; font-size: 0.875rem; font-weight: 500; color: $accent;
+}
+details.abstract > summary::-webkit-details-marker { display: none; }
+details.abstract[open] > summary { background: $ink; border-color: $ink; color: $ground; }
+details.abstract > p { margin: 14px 0 0; font-size: 1rem; line-height: 1.65; color: $ink-soft; max-width: 680px; }
+.paper-row { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; }
+
+.tag { align-self: flex-start; display: inline-block; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 9px; border: 1px solid $rule-strong; color: $muted; }
+.tag-rr { color: $gold-ink; background: $gold-bg; border-color: $gold-line; }
+
+// ---------- Buttons ----------
+.btn-pill, .btn-ghost { display: inline-block; border-radius: 999px; padding: 9px 18px; font-size: 0.875rem; font-weight: 500; text-decoration: none; }
+.btn-pill { background: $ink; color: $ground !important; }
+.btn-pill:hover { background: $accent-dark; }
+.btn-ghost { border: 1px solid $accent-soft; color: $accent; }
+.btn-ghost:hover { border-color: $accent; }
+.btn-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+.chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip-row a { border-radius: 999px; padding: 7px 16px; font-size: 0.875rem; font-weight: 500; text-decoration: none; border: 1px solid $rule-strong; color: $ink-soft; }
+.chip-row a:hover { border-color: $ink; color: $ink; }
+
+// ---------- Blocks ----------
+.big-serif { font-family: $serif; font-size: 1.875rem; line-height: 1.3; color: $ink; max-width: 760px; }
+.big-serif p { margin: 0; }
+.prose { font-size: 1.1875rem; line-height: 1.7; max-width: 760px; }
+.prose p:first-child { font-family: $serif; font-size: 1.75rem; line-height: 1.35; }
+.dark-box { background: $ink; color: $ground; padding: 32px 36px; display: flex; flex-direction: column; gap: 20px; }
+.dark-box .q { font-family: $serif; font-size: 1.875rem; line-height: 1.3; max-width: 700px; margin: 0; }
+.dark-box .items > div { padding-top: 12px; border-top: 1px solid #3a4a43; margin-top: 12px; color: #cfd8d3; font-size: 1rem; line-height: 1.6; }
+.dark-box a { color: #9fd0c9; }
+
+.timeline { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid $ink; margin-top: 28px; }
+.timeline > div { padding: 16px 20px 0; border-left: 1px solid $rule; }
+.timeline > div:first-child { padding-left: 0; border-left: 0; }
+.timeline .place { font-family: $serif; font-size: 1.5rem; }
+.timeline .what { font-size: 0.8rem; line-height: 1.5; color: $muted; }
+
+.grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; }
+.topic { padding: 18px 0; border-top: 1px solid $rule; }
+.topic .t { font-family: $serif; font-size: 1.625rem; line-height: 1.2; }
+.topic .n { font-size: 0.875rem; line-height: 1.55; color: $muted; margin-top: 6px; }
+
+.cards-4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.cards-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.card { background: #ffffff; border: 1px solid $rule; padding: 18px 20px; }
+.card .t { font-family: $serif; font-size: 1.625rem; line-height: 1.15; }
+.card .n { font-size: 0.8rem; color: $muted; }
+.card .k { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: $accent; }
+
+.contact-mail { font-family: $serif; font-size: 1.875rem; }
+
+// Bio tabs (Quarto panel-tabset restyled as pills)
+.bio .panel-tabset .nav-tabs { border: 0; gap: 8px; margin-bottom: 18px; }
+.bio .panel-tabset .nav-tabs .nav-link { border: 1px solid $rule-strong; border-radius: 999px; padding: 7px 16px; font-size: 0.875rem; font-weight: 500; color: $ink-soft; background: none; }
+.bio .panel-tabset .nav-tabs .nav-link.active { background: $ink; border-color: $ink; color: $ground; }
+.bio .tab-content { border: 0; padding: 0; font-size: 1.1875rem; line-height: 1.65; max-width: 760px; min-height: 150px; }
+.copy-bio { background: none; border: 1px solid $accent-soft; border-radius: 999px; padding: 8px 16px; font-size: 0.875rem; font-weight: 500; color: $accent; cursor: pointer; }
+
+// Quarto appendix (citation block on paper pages)
+#quarto-appendix { max-width: 1088px; margin: 0 auto; padding: 0 24px; background: $ground; }
+#quarto-appendix .quarto-appendix-heading { font-family: $font-family-sans-serif; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: $accent; border: 0; }
+div.csl-entry, .quarto-appendix-bibtex pre { font-size: 0.85rem; }
+
+// ---------- Phone and tablet ----------
+@media (max-width: 860px) {
+  .sec, .sec-3 { grid-template-columns: minmax(0, 1fr); gap: 16px; margin: 40px 0; }
+  .hero { flex-direction: column-reverse; align-items: flex-start; gap: 20px; padding-bottom: 32px; }
+  .hero-name { font-size: 3.5rem; }
+  .hero-lead { font-size: 1.375rem; }
+  .hero-photo { width: 120px; height: 150px; }
+  .page-head { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .page-head h1 { font-size: 2.75rem; }
+  .page-head .lead { font-size: 1.375rem; }
+  .page-head-photo { width: 120px; height: 150px; order: -1; }
+  .news-row, .news-big .news-row { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .row-line, .row-cv { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .row-cv .when { text-align: left; }
+  .grid-2, .cards-2 { grid-template-columns: minmax(0, 1fr); }
+  .cards-4, .timeline { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 16px; }
+  .timeline > div:nth-child(3) { padding-left: 0; border-left: 0; }
+  .paper-title { font-size: 1.5rem; }
+  .prose p:first-child { font-size: 1.375rem; }
+}
+
+.label h2, h2.label-h { border-bottom: 0 !important; padding-bottom: 0 !important; }
+
+.paper-page #title-block-header { display: none; }
+.hero-text, .page-head > div { min-width: 0; max-width: 100%; }
+#title-block-header { max-width: 1088px; margin: 32px auto 0; padding: 0 24px; }
+#title-block-header h1.title { font-family: "Instrument Serif", Georgia, serif; font-size: 2.75rem; }

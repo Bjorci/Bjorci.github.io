@@ -1,0 +1,11 @@
+---
+title: "Organised NOITS in Copenhagen"
+date: 2025-08-01   # TODO: real date (only the order matters; the page shows datelabel)
+datelabel: "2025"
+categories: [Service]
+description: "Organised the NOITS conference in Copenhagen."
+---
+
+Organised the NOITS conference in Copenhagen.
+
+[← All news](../news.qmd)

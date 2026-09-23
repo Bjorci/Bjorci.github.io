@@ -1,0 +1,75 @@
+---
+pagetitle: "Björn Thor Arnarson · Economist"
+description: "Björn Thor Arnarson is an economist at the ROCKWOOL Foundation Research Unit in Copenhagen who studies trade, globalization and labour markets in Scandinavia and the Øresund region."
+image: images/bjorn.jpg
+listing:
+  - id: latest
+    contents: news/*.qmd
+    template: _templates/news.ejs
+    sort: "date desc"
+    max-items: 4
+    date-format: "MMMM YYYY"
+  - id: selected
+    contents: [data/working-papers.yml, data/publications.yml]
+    template: _templates/papers.ejs
+    template-params:
+      featured: true
+    sort: false
+  - id: upcoming
+    contents: data/talks.yml
+    template: _templates/talks.ejs
+    template-params:
+      mode: upcoming-rows
+    sort: false
+---
+
+::: {.wrap}
+
+```{=html}
+<section class="hero">
+  <div class="hero-text">
+    <h1 class="hero-name">Björn Thor<br>Arnarson</h1>
+    <p class="hero-lead">Economist at the ROCKWOOL Foundation Research Unit, Copenhagen. I study how globalization, knowledge spillovers and firm networks shape firms and workers.</p>
+    <div class="hero-links">
+      <a href="mailto:bth@rff.dk">bth@rff.dk</a>
+      <a href="#">Google Scholar</a>
+      <a href="#">RePEc</a>
+      <a href="#">LinkedIn</a>
+      <a href="about.html">More about me</a>
+    </div>
+  </div>
+  <img class="hero-photo" src="images/bjorn.jpg" alt="Portrait of Björn Thor Arnarson">
+</section>
+```
+
+::: {.sec}
+::: {.label}
+## Latest
+
+[All news →](news.qmd)
+:::
+::: {#latest}
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Selected research
+
+[All research →](research.qmd)
+:::
+::: {#selected}
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Upcoming talks
+
+[All talks →](talks.qmd)
+:::
+::: {#upcoming}
+:::
+:::
+
+:::

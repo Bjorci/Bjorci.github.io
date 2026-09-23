@@ -1,0 +1,124 @@
+---
+pagetitle: "Um mig · Björn Thor Arnarson"
+description: "Björn Thor Arnarson er hagfræðingur hjá ROCKWOOL Foundation Research Unit í Kaupmannahöfn og rannsakar alþjóðaviðskipti, hnattvæðingu og vinnumarkaði á Norðurlöndum, einkum á Eyrarsundssvæðinu."
+lang: is
+image: ../images/bjorn.jpg
+---
+
+::: {.wrap}
+
+```{=html}
+<section class="page-head">
+  <div>
+    <div class="kicker">Um mig</div>
+    <h1>Björn Thor Arnarson</h1>
+    <p class="lead">Hagfræðingur hjá ROCKWOOL Foundation Research Unit í Kaupmannahöfn. Ég rannsaka alþjóðaviðskipti, hnattvæðingu og vinnumarkaði á Norðurlöndum, einkum á Eyrarsundssvæðinu.</p>
+  </div>
+  <img class="page-head-photo" src="../images/bjorn.jpg" alt="Mynd af Birni Thor Arnarsyni">
+</section>
+```
+
+::: {.sec}
+::: {.label}
+## Bakgrunnur
+:::
+::: {.prose}
+Ég er fæddur og uppalinn á Íslandi, lauk BS-prófi í hagfræði frá Háskóla Íslands og MA-prófi frá Boston University, og starfaði sem hagfræðingur í Reykjavík áður en ég flutti til Lundar í doktorsnám árið 2011.
+
+Í Lundi, steinsnar frá Kaupmannahöfn hinum megin við Eyrarsundsbrúna, vaknaði snemma áhugi minn á Eyrarsundssvæðinu. Sá áhugi hefur mótað rannsóknir mínar í meira en áratug.
+
+Rannsóknir mínar byggja að mestu á dönskum og sænskum skrárgögnum. Ég hef byggt upp gagnagrunn sem samtengir þessi gögn, meðal annars þvert á landamærin, og er einstakur á sínu sviði. Hann liggur til grundvallar mörgum rannsóknaverkefnum mínum.
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Sérsvið
+:::
+::: {}
+::: {.grid-2}
+::: {.topic}
+[Eyrarsundssvæðið og vinnusókn yfir landamæri]{.t}
+
+:::
+::: {.topic}
+[Dönsk og sænsk skrárgögn]{.t}
+
+:::
+::: {.topic}
+[Tollar og viðskiptastefna]{.t}
+
+:::
+::: {.topic}
+[Hnattvæðing og vinnumarkaðurinn]{.t}
+
+:::
+::: {.topic}
+[Fjölþjóðafyrirtæki og nýsköpun]{.t}
+
+:::
+::: {.topic}
+[Íslenskt efnahagslíf]{.t}
+
+:::
+:::
+
+[Tungumál]{.sub-h style="display:block; margin-top: 36px;"}
+
+::: {.cards-4}
+::: {.card}
+[Íslenska]{.t}\
+[Móðurmál]{.n}
+
+:::
+::: {.card}
+[Enska]{.t}\
+[Reiprennandi]{.n}
+
+:::
+::: {.card}
+[Sænska]{.t}\
+[Reiprennandi]{.n}
+
+:::
+::: {.card}
+[Danska]{.t}\
+[Góð kunnátta]{.n}
+
+:::
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Á íslensku
+:::
+::: {}
+::: {.row-line}
+[Maí 2025]{.when}
+
+[„Trump og tollar: Fórn á við margfalda íslenska verðmætasköpun – ár eftir ár?“ *Vísbending*.]{.what}
+
+:::
+::: {.row-line}
+[2010–2012]{.when}
+
+[Skýrslur fyrir Hagfræðistofnun Háskóla Íslands og Viðskiptaráð Íslands.]{.what}
+
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Samband
+:::
+::: {}
+[bth@rff.dk](mailto:bth@rff.dk){.contact-mail}
+
+Rannsóknir, fréttir og fyrirlestrar eru á [ensku síðunni](../index.qmd).
+:::
+:::
+
+:::
