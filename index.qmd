@@ -7,13 +7,19 @@ listing:
     contents: news/*.qmd
     template: _templates/news.ejs
     sort: "date desc"
-    max-items: 5
+    max-items: 4
     date-format: "MMMM YYYY"
-  - id: selected
+  - id: home-wp
     contents: data/papers.yml
     template: _templates/papers.ejs
     template-params:
-      featured: true
+      type: working-paper
+    sort: false
+  - id: home-pub
+    contents: data/papers.yml
+    template: _templates/papers.ejs
+    template-params:
+      type: publication
     sort: false
   - id: upcoming
     contents: data/talks.yml
@@ -36,6 +42,7 @@ listing:
       <a href="https://ideas.repec.org/f/par416.html">RePEc</a>
       <a href="https://orcid.org/0000-0003-4981-8965">ORCID</a>
       <a href="https://www.linkedin.com/in/bjornthor/">LinkedIn</a>
+      <a href="https://x.com/bjorci">X</a>
       <a href="https://bsky.app/profile/bjorci.bsky.social">Bluesky</a>
       <a href="cv.html">CV</a>
     </div>
@@ -66,45 +73,39 @@ listing:
 
 ::: {.sec .reveal}
 ::: {.label}
-## Selected research
+## Working papers
 
-[All research →](research.qmd)
-
-[Working papers](research.qmd#type=working-paper) · [Publications](research.qmd#type=publication)
+[With abstracts →](research.qmd#type=working-paper)
 :::
-::: {#selected}
+::: {#home-wp}
 :::
 :::
-
-```{=html}
-<figure class="photo-band reveal">
-  <img src="images/oresund-bridge.jpg" alt="The Øresund Bridge between Malmö and Copenhagen at dusk, seen from Västra Hamnen in Malmö" loading="lazy">
-  <figcaption class="band-text">
-    <div class="k">The Øresund region</div>
-    <p class="q">Two countries, two sets of institutions and one labour market across the strait: the setting for much of my research.</p>
-    <a href="about.html#oresund">Read more</a> · <a href="research.html#topic=Øresund">Øresund papers</a>
-  </figcaption>
-  <span class="credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:%C3%96resundsbron_October_2017_02.jpg">Arild Vågen</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></span>
-</figure>
-```
 
 ::: {.sec .reveal}
 ::: {.label}
-## Conference organising
+## Publications
+
+[With abstracts →](research.qmd#type=publication)
 :::
-::: {.service-list}
+::: {#home-pub}
+:::
+:::
+
+::: {.sec .reveal}
+::: {.label}
+## The Øresund region
+:::
 ::: {}
-[NOITS 2025, Copenhagen]{.t}\
-[Organiser of NOITS, the annual Nordic conference in international economics.]{.n}
-:::
-::: {}
-[NOITS 2021, Iceland]{.t}\
-[Organiser of the Iceland edition of the conference.]{.n}
-:::
-::: {}
-[noits.org]{.t}\
-[Administrator of the network homepage, [www.noits.org](https://www.noits.org).]{.n}
-:::
+```{=html}
+<a class="region-card" href="about.html#oresund">
+  <img src="images/oresund-bridge.jpg" alt="The Øresund Bridge between Malmö and Copenhagen at dusk" loading="lazy">
+  <span class="region-text">
+    <span class="t">One labour market across the strait</span>
+    <span class="n">Much of my research uses Danish and Swedish register data linked across the border, and the opening of the bridge as a natural experiment. Read more →</span>
+  </span>
+</a>
+<p class="region-credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:%C3%96resundsbron_October_2017_02.jpg">Arild Vågen</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></p>
+```
 :::
 :::
 

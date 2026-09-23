@@ -84,18 +84,25 @@
     "text": "Latest\nAll news →"
   },
   {
-    "objectID": "index.html#selected-research",
-    "href": "index.html#selected-research",
+    "objectID": "index.html#working-papers",
+    "href": "index.html#working-papers",
     "title": "Björn Thor Arnarson",
-    "section": "Selected research",
-    "text": "Selected research\nAll research →\nWorking papers · Publications"
+    "section": "Working papers",
+    "text": "Working papers\nWith abstracts →"
   },
   {
-    "objectID": "index.html#conference-organising",
-    "href": "index.html#conference-organising",
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
     "title": "Björn Thor Arnarson",
-    "section": "Conference organising",
-    "text": "Conference organising"
+    "section": "Publications",
+    "text": "Publications\nWith abstracts →"
+  },
+  {
+    "objectID": "index.html#the-øresund-region",
+    "href": "index.html#the-øresund-region",
+    "title": "Björn Thor Arnarson",
+    "section": "The Øresund region",
+    "text": "The Øresund region"
   },
   {
     "objectID": "about.html#background",
@@ -140,18 +147,18 @@
     "text": "In the media"
   },
   {
-    "objectID": "about.html#conference-organising",
-    "href": "about.html#conference-organising",
-    "title": "Björn Thor Arnarson",
-    "section": "Conference organising",
-    "text": "Conference organising"
-  },
-  {
     "objectID": "about.html#collaborators",
     "href": "about.html#collaborators",
     "title": "Björn Thor Arnarson",
     "section": "Collaborators",
     "text": "Collaborators"
+  },
+  {
+    "objectID": "about.html#conference-organising",
+    "href": "about.html#conference-organising",
+    "title": "Björn Thor Arnarson",
+    "section": "Conference organising",
+    "text": "Conference organising"
   },
   {
     "objectID": "about.html#contact-and-profiles",

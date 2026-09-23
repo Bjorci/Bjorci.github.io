@@ -53,13 +53,13 @@ listing:
 ::: {.row-line}
 [2023]{.when}
 
-[*Omstilling på Arbejdsmarkedet: Globalisering, Automatisering og Uddannelse*. Syddansk Universitetsforlag, Odense. [PDF](https://drive.google.com/file/d/1JdR9u26q6BISogb4glArD2KD48b6jDTS/view?usp=drive_link)]{.what}
+[*Omstilling på Arbejdsmarkedet: Globalisering, Automatisering og Uddannelse*, with J. R. Munch, A. N. Christensen, D. Hémous, A. Humlum, B. Javorcik, B. B. Meyer, M. Olsen, P. Plato, M. Rasmussen and E. Vestergaard. Syddansk Universitetsforlag, Odense. [PDF](https://drive.google.com/file/d/1JdR9u26q6BISogb4glArD2KD48b6jDTS/view?usp=drive_link)]{.what}
 
 :::
 ::: {.row-line}
 [2016]{.when}
 
-[*Exports and Externalities*. Doctoral thesis, Lund University. Opponent: Andreas Moxnes. [Lund University Research Portal](http://portal.research.lu.se/portal/en/publications/exports-and-externalities(c2dcfddd-bcf3-4cab-bb61-ce55349fa004).html)]{.what}
+[*Exports and Externalities*. Doctoral thesis, Lund University. Opponent: [Andreas Moxnes](https://sites.google.com/site/moxnes/home); committee: [Rikard Forslid](https://sites.google.com/site/rikardforslidhomepage/home), [Kerstin Enflo](https://sites.google.com/view/kerstinenflo/) and [Karin Olofsdotter](https://sites.google.com/site/karinmolofsdotter/research). [Lund University Research Portal](http://portal.research.lu.se/portal/en/publications/exports-and-externalities(c2dcfddd-bcf3-4cab-bb61-ce55349fa004).html)]{.what}
 
 :::
 ::: {.row-line}
@@ -69,9 +69,9 @@ listing:
 
 :::
 ::: {.row-line}
-[Until 2026]{.when}
+[Policy website]{.when}
 
-[*The Road to Exporting* ([RoadtoExporting.dk](https://www.roadtoexporting.dk/)): lead designer of the research-based policy website on exporting, with Jakob Munch and Georg Schaur, financed by the Innovation Fund. [Presentation](https://www.dropbox.com/scl/fi/n4n3z394i2kcu6wrjam2j/Road_To_Exporting.pdf?rlkey=zdw4n2qnjjsqpaz2qrllp5vnq&st=ory2one7&dl=0) · [Methods appendix](https://www.dropbox.com/scl/fi/05mgshlos3ztjqlts9w9t/Road_to_Exporting_methodology_appendix.pdf?rlkey=f6xno6yxeeh8nul4krom5pn93&dl=0)]{.what}
+[*The Road to Exporting* (RoadtoExporting.dk, now closed): lead designer of the research-based policy website on exporting, with Jakob Munch and Georg Schaur, financed by the Innovation Fund. [Example of the website](https://www.dropbox.com/scl/fi/bti8y184yhoicbuqvjs60/ku_website.dk.pdf?rlkey=67a9k93wrc6inrq7crrunf8p0&st=64y782rw&dl=0) · [Presentation](https://www.dropbox.com/scl/fi/n4n3z394i2kcu6wrjam2j/Road_To_Exporting.pdf?rlkey=zdw4n2qnjjsqpaz2qrllp5vnq&st=ory2one7&dl=0) · [Methods appendix](https://www.dropbox.com/scl/fi/05mgshlos3ztjqlts9w9t/Road_to_Exporting_methodology_appendix.pdf?rlkey=f6xno6yxeeh8nul4krom5pn93&dl=0)]{.what}
 
 :::
 ::: {.row-line}

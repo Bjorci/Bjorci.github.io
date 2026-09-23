@@ -269,22 +269,6 @@ When a Danish firm trades with partners in distant time zones, work spills outsi
 
 ::: {.sec}
 ::: {.label}
-## Conference organising
-:::
-::: {.service-list}
-::: {}
-[NOITS 2025, Copenhagen, and NOITS 2021, Iceland]{.t}\
-[Organiser of NOITS, the annual Nordic conference in international economics.]{.n}
-:::
-::: {}
-[www.noits.org](https://www.noits.org){.t}\
-[Administrator of the network homepage.]{.n}
-:::
-:::
-:::
-
-::: {.sec}
-::: {.label}
 ## Collaborators
 :::
 ::: {.grid-2}
@@ -352,6 +336,22 @@ When a Danish firm trades with partners in distant time zones, work spills outsi
 [[Chong Xiang](https://sites.google.com/view/chongxiang/home)]{.t}
 
 [Growing Together and Apart]{.n}
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Conference organising
+:::
+::: {.service-list}
+::: {}
+[NOITS 2025, Copenhagen, and NOITS 2021, Iceland]{.t}\
+[Organiser of NOITS, the annual Nordic conference in international economics.]{.n}
+:::
+::: {}
+[www.noits.org](https://www.noits.org){.t}\
+[Administrator of the network homepage.]{.n}
 :::
 :::
 :::

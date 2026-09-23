@@ -23,6 +23,7 @@
   topics: [Trade, Labour markets, Gender and health]
   abstract: "Working with business partners in distant countries often requires operating outside standard working hours, potentially harming workers’ mental well-being—especially for women balancing professional and family responsibilities. This hypothesis is investigated using matched employer-employee data from Denmark merged with information on workers’ use of prescription antidepressants (AD) and firms’ import and export transactions. The analysis exploits variation within job spells and controls for both unobservable firm-year heterogeneity and for the average differential in annual AD use among men and women. The results indicate that a decline in the business hour overlap between a Danish firm and its foreign trading partners leads to an increased AD use among women relative to men. This effect is economically meaningful, largest for college-educated workers under 45 and more pronounced for single mothers. In addition to the gender effect, workers in occupations requiring establishing relationships with others are more strongly affected than those in other occupations."
   links:
+    - {label: "PDF", href: "https://drive.google.com/file/d/1Rhq3FLU0QwxFyOqgCar04nUHoR96aZMY/view?usp=drive_link"}
     - {label: "Journal", href: "https://doi.org/10.1016/j.jinteco.2026.104253"}
     - {label: "Working paper (ROCKWOOL Study Paper 196)", href: "https://en.rockwoolfonden.dk/publications/globalisation-and-the-gender-gap-in-mental-well-being/"}
     - {label: "CEPR DP19633", href: "https://cepr.org/publications/dp19633"}
@@ -68,12 +69,14 @@
   year: 2021
   coauthors: []
   venue: "Scientific Reports, 2021, 11: 24390"
+  note: "Part of the Marie Skłodowska-Curie research fellowship BRIDGE."
   topics: [Gender and health]
   abstract: "This paper investigates the role of large outbreaks on the persistence of Covid-19 over time. Using data from 650 European regions in 14 countries, I first show that winter school holidays in late February/early March 2020 (weeks 8, 9 and 10) led to large regional outbreaks of Covid-19 in the spring with the spread being 60% and up-to over 90% higher compared to regions with earlier school holidays. While the impact of these initial large outbreaks fades away over the summer months, it systematically reappears from the fall as regions with school holidays in weeks 8, 9 and 10 had 30-70% higher spread. This suggests that following a large outbreak, there is a strong element of underlying (latent) regional persistence of Covid-19. The strong degree of persistence highlights the long-term benefits of effective (initial) containment policies, as once a large outbreak has occurred, Covid-19 persists. This result emphasizes the need for vaccinations against Covid-19 in regions that have recently experienced large outbreaks but are well below herd-immunity, to avoid a new surge of cases."
   links:
     - {label: "Journal (open access)", href: "https://doi.org/10.1038/s41598-021-03927-z"}
   media:
     - {label: "Weekendavisen", href: "https://www.weekendavisen.dk/2021-8/ideer/rejsefeber"}
+    - {label: "Weekendavisen (PDF)", href: "https://alumni-my.sharepoint.com/:b:/g/personal/vpd239_ku_dk/EQxXGKzULJtLomv58txpdX8B7qsd5W8jMGzyoQS-icSPIw?e=jw1CFW"}
     - {label: "University of Copenhagen news", href: "https://www.econ.ku.dk/Nyheder/Alle_nyheder/how-a-holiday-affected-the-spread-of-covid-19-in-europe/"}
     - {label: "Thread on X", href: "https://twitter.com/bjorci/status/1358696102929850369"}
   bibtex: |

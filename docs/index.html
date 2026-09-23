@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0a54df1e63b06e75de53c43ef3539102.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dccd0957f4813d806766cbf2bd629ec4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -91,20 +91,48 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-selected .list');
+    const listingTargetEl = window.document.querySelector('#listing-home-wp .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-id','listing-type','listing-title','listing-year','listing-coauthors','listing-venue','listing-tagline','listing-featured','listing-topics','listing-abstract','listing-links','listing-media','listing-bibtex','listing-status','listing-page','listing-presented',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-id','listing-type','listing-title','listing-year','listing-coauthors','listing-venue','listing-tagline','listing-featured','listing-topics','listing-abstract','listing-links','listing-media','listing-bibtex','listing-note','listing-status','listing-page','listing-presented',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-id","listing-type","listing-title","listing-year","listing-coauthors","listing-venue","listing-tagline","listing-featured","listing-topics","listing-abstract","listing-links","listing-media","listing-bibtex","listing-status","listing-page","listing-presented"],
+      searchColumns: ["listing-id","listing-type","listing-title","listing-year","listing-coauthors","listing-venue","listing-tagline","listing-featured","listing-topics","listing-abstract","listing-links","listing-media","listing-bibtex","listing-note","listing-status","listing-page","listing-presented"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-selected'] = new List('listing-selected', options);
+    window['quarto-listings']['listing-home-wp'] = new List('listing-home-wp', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-home-pub .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-id','listing-type','listing-title','listing-year','listing-coauthors','listing-venue','listing-tagline','listing-featured','listing-topics','listing-abstract','listing-links','listing-media','listing-bibtex','listing-note','listing-status','listing-page','listing-presented',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-id","listing-type","listing-title","listing-year","listing-coauthors","listing-venue","listing-tagline","listing-featured","listing-topics","listing-abstract","listing-links","listing-media","listing-bibtex","listing-note","listing-status","listing-page","listing-presented"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-home-pub'] = new List('listing-home-pub', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -300,6 +328,7 @@ window.Quarto = {
       <a href="https://ideas.repec.org/f/par416.html">RePEc</a>
       <a href="https://orcid.org/0000-0003-4981-8965">ORCID</a>
       <a href="https://www.linkedin.com/in/bjornthor/">LinkedIn</a>
+      <a href="https://x.com/bjorci">X</a>
       <a href="https://bsky.app/profile/bjorci.bsky.social">Bluesky</a>
       <a href="cv.html">CV</a>
     </div>
@@ -419,83 +448,151 @@ Visit
 Research visit to LMU Munich.
 </div>
 </div>
-<div class="news-row" data-kind="Talk">
-<div class="when">
-2026
-</div>
-<div class="kind">
-Talk
-</div>
-<div class="what">
-Presented “R&amp;D Employment and Transmission in Trade and MNE Networks” at the Rocky Mountain Empirical Trade Conference (RMET, Banff) and at the DIW Berlin Economic Experts conference, and “International Spillovers from Supplying Superstars” at DIEW in Aarhus.
-</div>
-</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </div>
 <div class="sec reveal">
-<section id="selected-research" class="level2 label">
-<h2 data-anchor-id="selected-research">Selected research</h2>
-<p><a href="./research.html">All research →</a></p>
-<p><a href="./research.html#type=working-paper">Working papers</a> · <a href="./research.html#type=publication">Publications</a></p>
+<section id="working-papers" class="level2 label">
+<h2 data-anchor-id="working-papers">Working papers</h2>
+<p><a href="./research.html#type=working-paper">With abstracts →</a></p>
 </section>
-<div id="listing-selected" class="quarto-listing quarto-listing-container-custom">
-<div class="papers">
-<article class="paper">
-<div class="tag">
-Journal of International Economics, 2026
-</div>
-<a class="paper-title" href="research.html#jie">Globalization and the Gender Gap in Mental Well-being</a>
-<div class="paper-authors">
-with <a href="https://researchprofiles.ku.dk/en/persons/asker-nygaard-christensen/">Asker Nygaard David</a>, <a href="https://users.ox.ac.uk/~econ0247/">Beata S. Javorcik</a> and <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a>
-</div>
-</article>
-<article class="paper">
-<div class="tag tag-rr">
-R&amp;R, Journal of Political Economy
-</div>
-<a class="paper-title" href="papers/growing-together.html">Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains</a>
+<div id="listing-home-wp" class="quarto-listing quarto-listing-container-custom">
+<div class="home-papers">
+<article class="home-paper">
+<div class="home-paper-main">
+<a class="home-paper-title" href="papers/growing-together.html">Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains</a>
 <div class="paper-authors">
 with <a href="https://sites.google.com/view/magnusbuus">Magnus T. Buus</a>, <a href="https://sites.google.com/site/moxnes/home">Andreas Moxnes</a>, <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a> and <a href="https://sites.google.com/view/chongxiang/home">Chong Xiang</a>
 </div>
+<div class="home-paper-links">
+<p><span class="tag tag-rr">R&amp;R, Journal of Political Economy</span> <a href="https://www.ifo.de/DocDL/cesifo1_wp12710.pdf">PDF</a><a href="https://doi.org/10.65864/rekivjv2z7">CESifo WP 12710</a></p>
+</div>
+</div>
+<div class="home-paper-year">
+2026
+</div>
 </article>
-<article class="paper">
-<a class="paper-title" href="research.html#comm">Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment</a>
+<article class="home-paper">
+<div class="home-paper-main">
+<a class="home-paper-title" href="research.html#comm">Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment</a>
 <div class="paper-authors">
 with <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a>, <a href="https://morten-olsen.com/">Morten G. Olsen</a> and <a href="https://emilalsimonsen.github.io/index.html">Emil A. L. Simonsen</a>
+</div>
+<div class="home-paper-links">
+<p><span class="home-venue">ROCKWOOL Foundation Study Paper 215, 2024</span> <a href="https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/10/RFF-Studypaper215-Knowledge-Spillovers-from-Cross-Border-Commuters_Oktober2024.pdf">PDF</a><a href="https://en.rockwoolfonden.dk/publications/knowledge-spillovers-from-cross-border-commuters-evidence-from-a-natural-experiment/">ROCKWOOL page</a></p>
+</div>
+</div>
+<div class="home-paper-year">
+2024
+</div>
+</article>
+<article class="home-paper">
+<div class="home-paper-main">
+<a class="home-paper-title" href="research.html#rd">R&amp;D Employment and Transmission in Trade and MNE Networks: Evidence from an R&amp;D Tax Reform</a>
+<div class="paper-authors">
+with <a href="https://sites.google.com/view/magnusbuus">Magnus T. Buus</a>, <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a> and <a href="https://sites.google.com/site/georgschaur/home">Georg Schaur</a>
+</div>
+<div class="home-paper-links">
+<p><span class="home-venue">ROCKWOOL Foundation Study Paper 217, 2024</span> <a href="https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/06/RFF-Studypaper217-RD-reform-spillovers-RFF_September2024.pdf">PDF</a><a href="https://en.rockwoolfonden.dk/publications/rd-employment-and-transmission-in-trade-and-mne-networks-evidence-from-a-rd-tax-reform/">ROCKWOOL page</a></p>
+</div>
+</div>
+<div class="home-paper-year">
+2024
 </div>
 </article>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </div>
-<figure class="photo-band reveal figure">
-  <img src="images/oresund-bridge.jpg" alt="The Øresund Bridge between Malmö and Copenhagen at dusk, seen from Västra Hamnen in Malmö" loading="lazy" class="figure-img">
-  <figcaption class="band-text">
-    <div class="k">The Øresund region</div>
-    <p class="q">Two countries, two sets of institutions and one labour market across the strait: the setting for much of my research.</p>
-    <a href="about.html#oresund">Read more</a> · <a href="research.html#topic=Øresund">Øresund papers</a>
-  </figcaption>
-  <span class="credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:%C3%96resundsbron_October_2017_02.jpg">Arild Vågen</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></span>
-</figure>
 <div class="sec reveal">
-<section id="conference-organising" class="level2 label">
-<h2 data-anchor-id="conference-organising">Conference organising</h2>
+<section id="publications" class="level2 label">
+<h2 data-anchor-id="publications">Publications</h2>
+<p><a href="./research.html#type=publication">With abstracts →</a></p>
 </section>
-<div class="service-list">
-<div>
-<p><span class="t">NOITS 2025, Copenhagen</span><br>
-<span class="n">Organiser of NOITS, the annual Nordic conference in international economics.</span></p>
+<div id="listing-home-pub" class="quarto-listing quarto-listing-container-custom">
+<div class="home-papers">
+<article class="home-paper">
+<div class="home-paper-main">
+<a class="home-paper-title" href="research.html#jie">Globalization and the Gender Gap in Mental Well-being</a>
+<div class="paper-authors">
+with <a href="https://researchprofiles.ku.dk/en/persons/asker-nygaard-christensen/">Asker Nygaard David</a>, <a href="https://users.ox.ac.uk/~econ0247/">Beata S. Javorcik</a> and <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a>
 </div>
-<div>
-<p><span class="t">NOITS 2021, Iceland</span><br>
-<span class="n">Organiser of the Iceland edition of the conference.</span></p>
+<div class="home-paper-links">
+<p><span class="home-venue">Journal of International Economics, 2026, 161: 104253</span> <a href="https://drive.google.com/file/d/1Rhq3FLU0QwxFyOqgCar04nUHoR96aZMY/view?usp=drive_link">PDF</a><a href="https://doi.org/10.1016/j.jinteco.2026.104253">Journal</a> <a class="media-link" href="https://jyllands-posten.dk/erhverv/ECE16447640/job-paa-tvaers-af-tidszoner-rammer-yngre-kvinders-mentale-helbred/">Jyllands-Posten</a></p>
 </div>
-<div>
-<p><span class="t">noits.org</span><br>
-<span class="n">Administrator of the network homepage, <a href="https://www.noits.org">www.noits.org</a>.</span></p>
 </div>
+<div class="home-paper-year">
+2026
+</div>
+</article>
+<article class="home-paper">
+<div class="home-paper-main">
+<a class="home-paper-title" href="research.html#sjoe">Linking Local Services to Global Manufactures</a>
+<div class="paper-authors">
+with <a href="https://sites.google.com/site/jagullstrand/home">Joakim Gullstrand</a>
+</div>
+<div class="home-paper-links">
+<p><span class="home-venue">The Scandinavian Journal of Economics, 2022, 124(1): 3–34</span> <a href="https://doi.org/10.1111/sjoe.12459">Journal</a></p>
+</div>
+</div>
+<div class="home-paper-year">
+2022
+</div>
+</article>
+<article class="home-paper">
+<div class="home-paper-main">
+<p><a class="home-paper-title" href="research.html#sr">How a School Holiday Led to Persistent COVID-19 Outbreaks in Europe</a></p>
+<div class="home-paper-links">
+<p><span class="home-venue">Scientific Reports, 2021, 11: 24390</span> <a href="https://doi.org/10.1038/s41598-021-03927-z">Journal (open access)</a> <a class="media-link" href="https://www.weekendavisen.dk/2021-8/ideer/rejsefeber">Weekendavisen</a><a class="media-link" href="https://alumni-my.sharepoint.com/:b:/g/personal/vpd239_ku_dk/EQxXGKzULJtLomv58txpdX8B7qsd5W8jMGzyoQS-icSPIw?e=jw1CFW">Weekendavisen (PDF)</a><a class="media-link" href="https://www.econ.ku.dk/Nyheder/Alle_nyheder/how-a-holiday-affected-the-spread-of-covid-19-in-europe/">University of Copenhagen news</a><a class="media-link" href="https://twitter.com/bjorci/status/1358696102929850369">Thread on X</a></p>
+</div>
+</div>
+<div class="home-paper-year">
+2021
+</div>
+</article>
+<article class="home-paper">
+<div class="home-paper-main">
+<p><a class="home-paper-title" href="research.html#jebo">The Superstar and the Followers: Intra-Firm Product Complementarity in International Trade</a></p>
+<div class="home-paper-links">
+<p><span class="home-venue">Journal of Economic Behavior &amp; Organization, 2020, 177: 277–304</span> <a href="https://doi.org/10.1016/j.jebo.2020.06.013">Journal</a></p>
+</div>
+</div>
+<div class="home-paper-year">
+2020
+</div>
+</article>
+<article class="home-paper">
+<div class="home-paper-main">
+<a class="home-paper-title" href="research.html#ael">The Paternity Leave Act in Iceland: Implications for Gender Equality in the Labour Market</a>
+<div class="paper-authors">
+with Aparna Mitra
+</div>
+<div class="home-paper-links">
+<p><span class="home-venue">Applied Economics Letters, 2010, 17(7): 677–680</span> <a href="https://doi.org/10.1080/13504850802297830">Journal</a></p>
+</div>
+</div>
+<div class="home-paper-year">
+2010
+</div>
+</article>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div class="sec reveal">
+<section id="the-øresund-region" class="level2 label">
+<h2 data-anchor-id="the-øresund-region">The Øresund region</h2>
+</section>
+<div>
+<a class="region-card" href="about.html#oresund">
+  <img src="images/oresund-bridge.jpg" alt="The Øresund Bridge between Malmö and Copenhagen at dusk" loading="lazy">
+  <span class="region-text">
+    <span class="t">One labour market across the strait</span>
+    <span class="n">Much of my research uses Danish and Swedish register data linked across the border, and the opening of the bridge as a natural experiment. Read more →</span>
+  </span>
+</a>
+<p class="region-credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:%C3%96resundsbron_October_2017_02.jpg">Arild Vågen</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></p>
 </div>
 </div>
 </div>
