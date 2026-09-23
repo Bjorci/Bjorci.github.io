@@ -1,28 +1,38 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/news.html",
     "items": [
+      "/news/2026-oecd-announced.html",
       "/news/2026-etsg.html",
+      "/news/2026-08-rfberlin.html",
       "/news/2026-lmu-visit.html",
-      "/news/2026-jie-published.html",
       "/news/2026-spring-talks.html",
+      "/news/2026-jie-published.html",
+      "/news/2026-scale-wp.html",
       "/news/jpe-revise-resubmit.html",
       "/news/2025-noits.html",
       "/news/2025-06-rff.html",
-      "/news/2025-05-visbending.html"
+      "/news/2025-05-visbending.html",
+      "/news/2024-10-commuters-wp.html",
+      "/news/2024-09-rd-wp.html"
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
+      "/news/2026-oecd-announced.html",
       "/news/2026-etsg.html",
+      "/news/2026-08-rfberlin.html",
       "/news/2026-lmu-visit.html",
-      "/news/2026-jie-published.html",
       "/news/2026-spring-talks.html",
+      "/news/2026-jie-published.html",
+      "/news/2026-scale-wp.html",
       "/news/jpe-revise-resubmit.html",
       "/news/2025-noits.html",
       "/news/2025-06-rff.html",
-      "/news/2025-05-visbending.html"
+      "/news/2025-05-visbending.html",
+      "/news/2024-10-commuters-wp.html",
+      "/news/2024-09-rd-wp.html"
     ]
   },
   {

@@ -7,10 +7,10 @@ listing:
     contents: news/*.qmd
     template: _templates/news.ejs
     sort: "date desc"
-    max-items: 4
+    max-items: 5
     date-format: "MMMM YYYY"
   - id: selected
-    contents: [data/working-papers.yml, data/publications.yml]
+    contents: data/papers.yml
     template: _templates/papers.ejs
     template-params:
       featured: true
@@ -19,7 +19,7 @@ listing:
     contents: data/talks.yml
     template: _templates/talks.ejs
     template-params:
-      mode: upcoming-rows
+      mode: home
     sort: false
 ---
 
@@ -29,20 +29,32 @@ listing:
 <section class="hero">
   <div class="hero-text">
     <h1 class="hero-name">Björn Thor<br>Arnarson</h1>
-    <p class="hero-lead">Economist at the ROCKWOOL Foundation Research Unit, Copenhagen. I study how globalization, knowledge spillovers and firm networks shape firms and workers.</p>
+    <p class="hero-lead">Economist at the <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation Research Unit</a>, Copenhagen. I study how globalization, knowledge spillovers and firm networks shape firms and workers, with a particular focus on the Øresund region.</p>
     <div class="hero-links">
       <a href="mailto:bth@rff.dk">bth@rff.dk</a>
-      <a href="#">Google Scholar</a>
-      <a href="#">RePEc</a>
-      <a href="#">LinkedIn</a>
-      <a href="about.html">More about me</a>
+      <a href="https://scholar.google.se/citations?user=RM3pq-gAAAAJ&hl=en">Google Scholar</a>
+      <a href="https://ideas.repec.org/f/par416.html">RePEc</a>
+      <a href="https://orcid.org/0000-0003-4981-8965">ORCID</a>
+      <a href="https://www.linkedin.com/in/bjornthor/">LinkedIn</a>
+      <a href="https://bsky.app/profile/bjorci.bsky.social">Bluesky</a>
+      <a href="cv.html">CV</a>
     </div>
   </div>
   <img class="hero-photo" src="images/bjorn.jpg" alt="Portrait of Björn Thor Arnarson">
 </section>
 ```
 
-::: {.sec}
+::: {.sec .reveal}
+::: {.label}
+## Upcoming talks
+
+[All talks →](talks.qmd)
+:::
+::: {#upcoming}
+:::
+:::
+
+::: {.sec .reveal}
 ::: {.label}
 ## Latest
 
@@ -52,23 +64,47 @@ listing:
 :::
 :::
 
-::: {.sec}
+::: {.sec .reveal}
 ::: {.label}
 ## Selected research
 
 [All research →](research.qmd)
+
+[Working papers](research.qmd#type=working-paper) · [Publications](research.qmd#type=publication)
 :::
 ::: {#selected}
 :::
 :::
 
-::: {.sec}
-::: {.label}
-## Upcoming talks
+```{=html}
+<figure class="photo-band reveal">
+  <img src="images/oresund-bridge.jpg" alt="The Øresund Bridge between Malmö and Copenhagen at dusk, seen from Västra Hamnen in Malmö" loading="lazy">
+  <figcaption class="band-text">
+    <div class="k">The Øresund region</div>
+    <p class="q">Two countries, two sets of institutions and one labour market across the strait: the setting for much of my research.</p>
+    <a href="about.html#oresund">Read more</a> · <a href="research.html#topic=Øresund">Øresund papers</a>
+  </figcaption>
+  <span class="credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:%C3%96resundsbron_October_2017_02.jpg">Arild Vågen</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></span>
+</figure>
+```
 
-[All talks →](talks.qmd)
+::: {.sec .reveal}
+::: {.label}
+## Conference organising
 :::
-::: {#upcoming}
+::: {.service-list}
+::: {}
+[NOITS 2025, Copenhagen]{.t}\
+[Organiser of NOITS, the annual Nordic conference in international economics.]{.n}
+:::
+::: {}
+[NOITS 2021, Iceland]{.t}\
+[Organiser of the Iceland edition of the conference.]{.n}
+:::
+::: {}
+[noits.org]{.t}\
+[Administrator of the network homepage, [www.noits.org](https://www.noits.org).]{.n}
+:::
 :::
 :::
 

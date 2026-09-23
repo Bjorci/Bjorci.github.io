@@ -10,11 +10,9 @@ All of these are plain text files. Edit, save, then build (next section).
 | To change… | Edit |
 |---|---|
 | A news item (submission, revision, talk, publication) | Add a file in `news/`: copy an existing one, change `title`, `date`, `datelabel`, `categories`, `description`. It appears on Home, News and in the RSS feed. |
-| A working paper or its status (e.g. R&R → accepted) | `data/working-papers.yml` |
-| A published article | `data/publications.yml` (move the paper here from working papers when it is accepted) |
-| What shows under "Selected research" on Home | Add or remove `featured: true` on a paper |
-| An abstract | The `abstract:` line of the paper in the `.yml` file |
-| Upcoming or past talks | `data/talks.yml` |
+| Any paper: title, status, abstract, coauthor links, PDFs, media, citation | `data/papers.yml`. `type:` decides the group (`publication`, `working-paper`, `wip`); when a paper is accepted, change its `type` and `venue`. |
+| Topic filters on the Research page | The `topics:` list of each paper (the buttons are in `research.qmd`) |
+| Talks | `data/talks.yml`. Give a talk an `iso:` date and it shows as upcoming, with a countdown, until that day passes; `paper:` links it to a paper id. |
 | A paper's own page (plain-language summary, slides, citation) | `papers/<name>.qmd`; copy `papers/growing-together.qmd` for a new one and set `page:` in the `.yml` |
 | About, Teaching, CV page text | `about.qmd`, `teaching.qmd`, `cv.qmd` |
 | Swedish / Icelandic pages | `sv/index.qmd`, `is/index.qmd` |
@@ -24,6 +22,7 @@ All of these are plain text files. Edit, save, then build (next section).
 | What AI tools read about you | `llms.txt` (and the profile block in `_includes/head.html`) |
 
 A status beginning with `R&R` gets the gold tag automatically; any other status gets a grey tag.
+Interactive parts (filters, search, abstract/cite toggles, countdowns) live in `_includes/site.html`.
 
 ## Build and preview
 

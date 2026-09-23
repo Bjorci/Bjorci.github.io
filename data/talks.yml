@@ -1,18 +1,55 @@
-# Talks. Upcoming talks (upcoming: true) show on Home and at the top of the Talks page.
-# When a talk has happened, remove "upcoming: true" and fold it into its year line below.
+# Talks.
+# A detailed talk has: iso (YYYY-MM-DD, for the countdown and sorting; use the 1st if only the month is known),
+#   when (what is shown), event, place, kind, paper (a paper id from papers.yml, or empty), note.
+# Upcoming talks are detected automatically from the date. Older years can be a single summary line.
 
-- upcoming: true
-  when: "[Date]"
-  title: "RFBerlin"
-  text: "Seminar, Berlin"
+- iso: 2026-11-20
+  when: "20 November 2026"
+  event: "OECD"
+  place: "Paris"
+  kind: "Invited seminar"
+  note: "LIFT initiative on firm-to-firm data"
+  paper: ""
 
-- upcoming: true
-  when: "[Date]"
-  title: "OECD"
-  text: "Invited seminar, Paris"
+- iso: 2026-08-01
+  when: "August 2026"
+  event: "RFBerlin"
+  place: "Berlin"
+  kind: "Seminar"
+  paper: ""
 
-- year: "2026"
-  text: "RMET (Banff); DIEW (Aarhus); DIW Berlin; ETSG (Exeter)."
+- iso: 2026-09-01   # TODO: exact ETSG date
+  when: "2026"
+  event: "European Trade Study Group (ETSG)"
+  place: "Exeter"
+  kind: "Conference"
+  paper: scale
+  paper_title: "Growing Together and Apart"
+
+- iso: 2026-06-01   # TODO: exact date
+  when: "2026"
+  event: "DIW Berlin, Economic Experts conference"
+  place: "Berlin"
+  kind: "Conference"
+  paper: rd
+  paper_title: "R&D Employment and Transmission in Trade and MNE Networks"
+
+- iso: 2026-05-01   # TODO: exact date
+  when: "2026"
+  event: "Danish International Economics Workshop (DIEW)"
+  place: "Aarhus"
+  kind: "Workshop"
+  paper: superstar
+  paper_title: "International Spillovers from Supplying Superstars"
+
+- iso: 2026-04-01   # TODO: exact date
+  when: "2026"
+  event: "Rocky Mountain Empirical Trade Conference (RMET), a FREIT conference"
+  place: "Banff"
+  kind: "Conference"
+  paper: rd
+  paper_title: "R&D Employment and Transmission in Trade and MNE Networks"
+
 - year: "2025"
   text: "Swedish Network for European Studies in Economics and Business (SNEE); invited seminar, ROCKWOOL Foundation Research Unit."
 - year: "2024"

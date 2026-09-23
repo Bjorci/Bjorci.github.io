@@ -1,40 +1,58 @@
 ---
 pagetitle: "Talks · Björn Thor Arnarson"
-description: "Upcoming and past talks, seminars and research visits."
+description: "Upcoming and past talks, seminars, conference presentations and research visits by Björn Thor Arnarson."
 listing:
-  - id: talks-upcoming
+  - id: talks-detailed
     contents: data/talks.yml
     template: _templates/talks.ejs
     template-params:
-      mode: upcoming-cards
+      mode: detailed
     sort: false
-  - id: talks-past
+  - id: talks-years
     contents: data/talks.yml
     template: _templates/talks.ejs
     template-params:
-      mode: past
+      mode: years
     sort: false
 ---
 
 ::: {.wrap}
 
 ::: {.page-head}
+::: {}
 # Talks
-:::
 
-::: {.sec}
-::: {.label}
-## Upcoming
-:::
-::: {#talks-upcoming}
+[Seminars, conferences and research visits. Upcoming talks are marked with a countdown.]{.intro}
+
 :::
 :::
 
 ::: {.sec}
 ::: {.label}
-## Past talks
+## 2026 and upcoming
+
+Filter by paper.
 :::
-::: {#talks-past}
+::: {}
+```{=html}
+<div class="chip-row" style="margin-bottom: 12px;">
+  <button type="button" class="chip is-on" data-paper-filter="all">All talks</button>
+  <button type="button" class="chip" data-paper-filter="scale">Growing Together and Apart</button>
+  <button type="button" class="chip" data-paper-filter="rd">R&amp;D in trade and MNE networks</button>
+  <button type="button" class="chip" data-paper-filter="superstar">Supplying Superstars</button>
+</div>
+```
+
+::: {#talks-detailed}
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Earlier talks
+:::
+::: {#talks-years}
 :::
 :::
 
@@ -53,6 +71,32 @@ listing:
 [July 2024]{.when}
 
 [CESifo, Munich]{.what}
+
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Conference organising
+:::
+::: {}
+::: {.row-line}
+[2025]{.when}
+
+[NOITS, Copenhagen: organiser]{.what}
+
+:::
+::: {.row-line}
+[2021]{.when}
+
+[NOITS, Iceland: organiser]{.what}
+
+:::
+::: {.row-line}
+[Ongoing]{.when}
+
+[Administrator of the network homepage, [www.noits.org](https://www.noits.org)]{.what}
 
 :::
 :::

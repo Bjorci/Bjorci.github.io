@@ -92,26 +92,39 @@ document.getElementById('copy-bio').addEventListener('click', function () {
 :::
 :::
 
+```{=html}
+<figure class="photo-band reveal" id="oresund">
+  <img src="images/oresund-bridge.jpg" alt="The Øresund Bridge between Malmö and Copenhagen at dusk, seen from Västra Hamnen in Malmö" loading="lazy">
+  <figcaption class="band-text">
+    <div class="k">The Øresund region</div>
+    <p class="q">What does a shared labour market across the strait mean for firms and workers on both sides?</p>
+  </figcaption>
+  <span class="credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:%C3%96resundsbron_October_2017_02.jpg">Arild Vågen</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></span>
+</figure>
+```
+
 ::: {.sec}
 ::: {.label}
-## The Øresund region
-:::
-::: {.dark-box}
-[What does a shared labour market across the strait mean for firms and workers on both sides?]{.q}
+## Research on the region
 
-::: {.items}
+[All Øresund papers →](research.qmd#topic=Øresund)
+:::
+::: {.service-list}
 ::: {}
-Affiliated researcher, Centre for Öresund Studies, Lund University, 2017–2025.
+[Knowledge Spillovers from Cross-Border Commuters](research.qmd#comm){.t}\
+[The opening of the bridge as a natural experiment: Swedish commuters raise productivity in Danish firms and the wages of their Danish coworkers. With Munch, Olsen and Simonsen; ROCKWOOL Foundation Study Paper 215.]{.n}
 :::
 ::: {}
-Marie Skłodowska-Curie project BRIDGE, *Labour Market Integration: Consequences of Cross-Border Commuting*, EU Horizon 2020.
+[R&D Employment and Transmission in Trade and MNE Networks](research.qmd#rd){.t}\
+[How a Swedish R&D tax reform spills over to Danish trade and multinational partners. With Buus, Munch and Schaur; ROCKWOOL Foundation Study Paper 217.]{.n}
 :::
 ::: {}
-EPRN project, *The Labour Market Effects of the Öresund Bridge*, 2017.
+[Bridging Trade Barriers](research.qmd#bridging){.t}\
+[The bridge as a fall in trade costs for Malmö firms, and what it did to their exporting. Lund University Working Paper 2015:6.]{.n}
 :::
 ::: {}
-Ongoing research on knowledge spillovers from cross-border commuters, with Jakob R. Munch, Morten G. Olsen and Emil A. L. Simonsen.
-:::
+[Affiliated researcher, Centre for Øresund Region Studies, Lund University, 2017–2025](https://www.cors.lu.se/en/collaboration/affiliated-researchers/previously-affiliated-researchers/bjorn-thor-arnarson){.t}\
+[Marie Skłodowska-Curie project BRIDGE, *Labour Market Integration: Consequences of Cross-Border Commuting* (EU Horizon 2020), and the EPRN project *The Labour Market Effects of the Öresund Bridge* (2017).]{.n}
 :::
 :::
 :::
@@ -207,12 +220,17 @@ Ongoing research on knowledge spillovers from cross-border commuters, with Jakob
 ::: {.paper}
 [Growing Together and Apart](papers/growing-together.qmd){.paper-title}
 
-[Two or three sentences a reporter can quote: the question, the finding, why it matters for Danish or Swedish workers.]
+As firms grow, they hand more tasks to their suppliers, and the workforces of firms and suppliers become more specialized. Using Danish data that link firms’ cross-border trade to their employees, we show that this outsourcing makes firms markedly more productive: without it, average labour productivity would be 25 percent lower.
 :::
 ::: {.paper}
-[Globalization and the Gender Gap in Mental Well-being]{.paper-title}
+[Knowledge Spillovers from Cross-Border Commuters](research.qmd#comm){.paper-title}
 
-[Plain-language summary.]
+The Øresund Bridge turned Copenhagen and Malmö into one labour market. Danish firms that took on more Swedish commuters became more productive, and the Danish colleagues working alongside the commuters earned more, consistent with knowledge travelling across the border.
+:::
+::: {.paper}
+[Globalization and the Gender Gap in Mental Well-being](research.qmd#jie){.paper-title}
+
+When a Danish firm trades with partners in distant time zones, work spills outside normal hours. In such firms, women become more likely than men to use antidepressants, with the largest effects among college-educated workers under 45 and single mothers.
 :::
 :::
 :::
@@ -223,27 +241,148 @@ Ongoing research on knowledge spillovers from cross-border commuters, with Jakob
 :::
 ::: {}
 ::: {.row-line}
-[May 2025]{.when}
+[2025 · op-ed]{.when}
 
-[*Vísbending* (op-ed, Icelandic): “Trump og tollar: Fórn á við margfalda íslenska verðmætasköpun – ár eftir ár?”]{.what}
+[*Vísbending* (in Icelandic): [“Trump og tollar: Fórn á við margfalda íslenska verðmætasköpun – ár eftir ár?”](https://visbending.is/greinar/trump-og-tollar-forn-a-vid-margfalda-islenska-verdmaetaskopun-ar-eftir-ar/)]{.what}
 
+:::
+::: {.row-line}
+[Press]{.when}
+
+[*Jyllands-Posten* on time-zone differences and women’s mental health: [“Job på tværs af tidszoner rammer yngre kvinders mentale helbred”](https://jyllands-posten.dk/erhverv/ECE16447640/job-paa-tvaers-af-tidszoner-rammer-yngre-kvinders-mentale-helbred/)]{.what}
+
+:::
+::: {.row-line}
+[2021 · press]{.when}
+
+[*Weekendavisen* on school holidays and COVID-19: [“Rejsefeber”](https://www.weekendavisen.dk/2021-8/ideer/rejsefeber)]{.what}
+
+:::
+::: {.row-line}
+[2021]{.when}
+
+[University of Copenhagen news: [How a holiday affected the spread of COVID-19 in Europe](https://www.econ.ku.dk/Nyheder/Alle_nyheder/how-a-holiday-affected-the-spread-of-covid-19-in-europe/)]{.what}
+
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Conference organising
+:::
+::: {.service-list}
+::: {}
+[NOITS 2025, Copenhagen, and NOITS 2021, Iceland]{.t}\
+[Organiser of NOITS, the annual Nordic conference in international economics.]{.n}
+:::
+::: {}
+[www.noits.org](https://www.noits.org){.t}\
+[Administrator of the network homepage.]{.n}
+:::
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Collaborators
+:::
+::: {.grid-2}
+::: {.topic}
+[[Magnus T. Buus](https://sites.google.com/view/magnusbuus)]{.t}
+
+[Growing Together and Apart; R&D in trade and MNE networks]{.n}
+:::
+::: {.topic}
+[[Asker Nygaard David](https://researchprofiles.ku.dk/en/persons/asker-nygaard-christensen/)]{.t}
+
+[Globalization and the Gender Gap in Mental Well-being]{.n}
+:::
+::: {.topic}
+[[Joakim Gullstrand](https://sites.google.com/site/jagullstrand/home)]{.t}
+
+[Linking Local Services to Global Manufactures]{.n}
+:::
+::: {.topic}
+[[Jonas Slaathaug Hansen](https://sites.google.com/view/jonashansen8)]{.t}
+
+[International Spillovers from Supplying Superstars]{.n}
+:::
+::: {.topic}
+[[Beata S. Javorcik](https://users.ox.ac.uk/~econ0247/)]{.t}
+
+[Globalization and the Gender Gap in Mental Well-being]{.n}
+:::
+::: {.topic}
+[[Martina Magli](https://martinamagli.wixsite.com/mysite/research)]{.t}
+
+[The Intangible Gains from Trade]{.n}
+:::
+::: {.topic}
+[Aparna Mitra]{.t}
+
+[The Paternity Leave Act in Iceland]{.n}
+:::
+::: {.topic}
+[[Andreas Moxnes](https://sites.google.com/site/moxnes/home)]{.t}
+
+[Growing Together and Apart; The Intangible Gains from Trade]{.n}
+:::
+::: {.topic}
+[[Jakob R. Munch](https://sites.google.com/view/jakob-roland-munch)]{.t}
+
+[Growing Together and Apart; Cross-Border Commuters; R&D in trade and MNE networks; Mental Well-being]{.n}
+:::
+::: {.topic}
+[[Morten G. Olsen](https://morten-olsen.com/)]{.t}
+
+[Knowledge Spillovers from Cross-Border Commuters]{.n}
+:::
+::: {.topic}
+[[Georg Schaur](https://sites.google.com/site/georgschaur/home)]{.t}
+
+[R&D in trade and MNE networks; The Road to Exporting]{.n}
+:::
+::: {.topic}
+[[Emil A. L. Simonsen](https://emilalsimonsen.github.io/index.html)]{.t}
+
+[Knowledge Spillovers from Cross-Border Commuters]{.n}
+:::
+::: {.topic}
+[[Chong Xiang](https://sites.google.com/view/chongxiang/home)]{.t}
+
+[Growing Together and Apart]{.n}
 :::
 :::
 :::
 
 ::: {.sec .sec-3}
 ::: {.label}
-## Contact
+## Contact and profiles
 :::
 ::: {}
 [Email]{.sub-h style="display:block;"}
 
 [bth@rff.dk](mailto:bth@rff.dk){.contact-mail}
-:::
-::: {}
-[Photo]{.sub-h style="display:block;"}
+
+[Photo]{.sub-h style="display:block; margin-top: 24px;"}
 
 [Download high resolution (JPG)](images/bjorn.jpg)
+:::
+::: {}
+[Profiles]{.sub-h style="display:block;"}
+
+::: {.profile-links}
+[ROCKWOOL Foundation](https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/){.pill-link}
+[Google Scholar](https://scholar.google.se/citations?user=RM3pq-gAAAAJ&hl=en){.pill-link}
+[RePEc/IDEAS](https://ideas.repec.org/f/par416.html){.pill-link}
+[ORCID](https://orcid.org/0000-0003-4981-8965){.pill-link}
+[LinkedIn](https://www.linkedin.com/in/bjornthor/){.pill-link}
+[Bluesky](https://bsky.app/profile/bjorci.bsky.social){.pill-link}
+[X](https://x.com/bjorci){.pill-link}
+[ResearchGate](https://www.researchgate.net/profile/Bjoern_Thor_Arnarson){.pill-link}
+[CESifo](https://www.ifo.de/en/cesifo/network-member/arnarson-bjorn-thor){.pill-link}
+:::
 :::
 :::
 

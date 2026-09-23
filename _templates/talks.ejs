@@ -1,22 +1,33 @@
 <%
-const mode = ((typeof templateParams !== 'undefined') && templateParams && templateParams.mode) || 'past';
+const mode = ((typeof templateParams !== 'undefined') && templateParams && templateParams.mode) || 'detailed';
+const detailed = items.filter(t => t.iso).sort((a, b) => String(b.iso).localeCompare(String(a.iso)));
+const years = items.filter(t => t.year);
 %>
-<% if (mode === 'upcoming-cards') { %>
-<div class="cards-2">
-<% for (const t of items.filter(t => t.upcoming)) { %>
-<div class="card"><div class="k"><%= t.when %></div><div class="t"><%= t.title %></div><div class="n"><%= t.text %></div></div>
-<% } %>
+<% if (mode === 'home') { %>
+<div class="talk-list" data-upcoming-only>
+<% for (const t of detailed) { %>
+<div class="row-line talk" data-iso="<%= t.iso %>">
+<div class="when"><%= t.when %></div>
+<div class="what"><strong><%= t.event %></strong>, <%= t.place %><% if (t.note) { %> · <%= t.note %><% } %> <span class="countdown"></span></div>
 </div>
-<% } else if (mode === 'upcoming-rows') { %>
-<div>
-<% for (const t of items.filter(t => t.upcoming)) { %>
-<div class="row-line"><div class="when"><%= t.when %></div><div class="what"><%= t.title %> · <%= t.text %></div></div>
+<% } %>
+<p class="empty-note" hidden>No talks scheduled right now. See <a href="talks.html">past talks</a>.</p>
+</div>
+<% } else if (mode === 'detailed') { %>
+<div class="talk-list">
+<% for (const t of detailed) { %>
+<div class="talk-card" data-iso="<%= t.iso %>" data-paper="<%= t.paper || '' %>">
+<div class="talk-when"><%= t.when %> <span class="countdown"></span></div>
+<div class="talk-event"><%= t.event %></div>
+<div class="talk-where"><%= t.kind %>, <%= t.place %><% if (t.note) { %> · <%= t.note %><% } %></div>
+<% if (t.paper_title) { %><div class="talk-paper">Paper: <a href="research.html#<%= t.paper %>"><%= t.paper_title %></a></div><% } %>
+</div>
 <% } %>
 </div>
 <% } else { %>
 <div>
-<% for (const t of items.filter(t => !t.upcoming)) { %>
-<div class="row-line"><div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;"><%= t.year %></div><div class="what"><%= t.text %></div></div>
+<% for (const t of years) { %>
+<div class="row-line year-line"><div class="when year"><%= t.year %></div><div class="what"><%= t.text %></div></div>
 <% } %>
 </div>
 <% } %>

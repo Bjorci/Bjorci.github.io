@@ -42,6 +42,17 @@ Björn Thor Arnarson är nationalekonom och forskare vid ROCKWOOL Foundation Res
 :::
 :::
 
+```{=html}
+<figure class="photo-band">
+  <img src="../images/oresund-bridge.jpg" alt="Öresundsbron mellan Malmö och Köpenhamn i skymningen, sedd från Västra Hamnen i Malmö" loading="lazy">
+  <figcaption class="band-text">
+    <div class="k">Öresundsregionen</div>
+    <p class="q">Två länder, två uppsättningar institutioner och en arbetsmarknad över sundet.</p>
+  </figcaption>
+  <span class="credit">Foto: <a href="https://commons.wikimedia.org/wiki/File:%C3%96resundsbron_October_2017_02.jpg">Arild Vågen</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></span>
+</figure>
+```
+
 ::: {.sec}
 ::: {.label}
 ## Öresundsregionen

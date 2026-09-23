@@ -1,11 +1,11 @@
 ---
-title: "Talks at RMET, DIEW and DIW Berlin"
-date: 2026-02-01   # TODO: real date (only the order matters; the page shows datelabel)
+title: "Talks at RMET, DIW Berlin and DIEW"
+date: 2026-06-01   # TODO: real date (only the order matters; the page shows datelabel)
 datelabel: "2026"
 categories: [Talk]
-description: "Presented at RMET (Banff), DIEW (Aarhus) and DIW Berlin."
+description: "Presented “R&D Employment and Transmission in Trade and MNE Networks” at the Rocky Mountain Empirical Trade Conference (RMET, Banff) and at the DIW Berlin Economic Experts conference, and “International Spillovers from Supplying Superstars” at DIEW in Aarhus."
 ---
 
-Presented at RMET (Banff), DIEW (Aarhus) and DIW Berlin.
+Presented “R&D Employment and Transmission in Trade and MNE Networks” at the Rocky Mountain Empirical Trade Conference (RMET, Banff) and at the DIW Berlin Economic Experts conference, and “International Spillovers from Supplying Superstars” at DIEW in Aarhus.
 
 [← All news](../news.qmd)

@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ce33566d9b8e31b66f33db6b87d70b2a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0a54df1e63b06e75de53c43ef3539102.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -98,9 +98,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-status','listing-venue','listing-page','listing-featured','listing-abstract','listing-links','listing-tagline',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-id','listing-type','listing-title','listing-year','listing-coauthors','listing-venue','listing-tagline','listing-featured','listing-topics','listing-abstract','listing-links','listing-media','listing-bibtex','listing-status','listing-page','listing-presented',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-status","listing-venue","listing-page","listing-featured","listing-abstract","listing-links","listing-tagline"],
+      searchColumns: ["listing-id","listing-type","listing-title","listing-year","listing-coauthors","listing-venue","listing-tagline","listing-featured","listing-topics","listing-abstract","listing-links","listing-media","listing-bibtex","listing-status","listing-page","listing-presented"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -126,9 +126,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-upcoming','listing-when','listing-title','listing-text','listing-year',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-iso','listing-when','listing-event','listing-place','listing-kind','listing-note','listing-paper','listing-paper_title','listing-year','listing-text',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-upcoming","listing-when","listing-title","listing-text","listing-year"],
+      searchColumns: ["listing-iso","listing-when","listing-event","listing-place","listing-kind","listing-note","listing-paper","listing-paper_title","listing-year","listing-text"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -174,7 +174,18 @@ ul.task-list li input[type="checkbox"] {
   ],
   "knowsLanguage": ["is", "en", "sv", "da"],
   "email": "mailto:bth@rff.dk",
-  "sameAs": []
+  "sameAs": [
+    "https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/",
+    "https://scholar.google.se/citations?user=RM3pq-gAAAAJ",
+    "https://ideas.repec.org/f/par416.html",
+    "https://orcid.org/0000-0003-4981-8965",
+    "https://www.linkedin.com/in/bjornthor/",
+    "https://bsky.app/profile/bjorci.bsky.social",
+    "https://x.com/bjorci",
+    "https://www.researchgate.net/profile/Bjoern_Thor_Arnarson",
+    "https://www.ifo.de/en/cesifo/network-member/arnarson-bjorn-thor"
+  ],
+  "identifier": { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0003-4981-8965" }
 }
 </script>
 
@@ -282,36 +293,122 @@ window.Quarto = {
 <section class="hero">
   <div class="hero-text">
     <h1 class="hero-name">Björn Thor<br>Arnarson</h1>
-    <p class="hero-lead">Economist at the ROCKWOOL Foundation Research Unit, Copenhagen. I study how globalization, knowledge spillovers and firm networks shape firms and workers.</p>
+    <p class="hero-lead">Economist at the <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation Research Unit</a>, Copenhagen. I study how globalization, knowledge spillovers and firm networks shape firms and workers, with a particular focus on the Øresund region.</p>
     <div class="hero-links">
       <a href="mailto:bth@rff.dk">bth@rff.dk</a>
-      <a href="#">Google Scholar</a>
-      <a href="#">RePEc</a>
-      <a href="#">LinkedIn</a>
-      <a href="about.html">More about me</a>
+      <a href="https://scholar.google.se/citations?user=RM3pq-gAAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://ideas.repec.org/f/par416.html">RePEc</a>
+      <a href="https://orcid.org/0000-0003-4981-8965">ORCID</a>
+      <a href="https://www.linkedin.com/in/bjornthor/">LinkedIn</a>
+      <a href="https://bsky.app/profile/bjorci.bsky.social">Bluesky</a>
+      <a href="cv.html">CV</a>
     </div>
   </div>
   <img class="hero-photo" src="images/bjorn.jpg" alt="Portrait of Björn Thor Arnarson">
 </section>
-<div class="sec">
+<div class="sec reveal">
+<section id="upcoming-talks" class="level2 label">
+<h2 data-anchor-id="upcoming-talks">Upcoming talks</h2>
+<p><a href="./talks.html">All talks →</a></p>
+</section>
+<div id="listing-upcoming" class="quarto-listing quarto-listing-container-custom">
+<div class="talk-list" data-upcoming-only="">
+<div class="row-line talk" data-iso="2026-11-20">
+<div class="when">
+20 November 2026
+</div>
+<div class="what">
+<strong>OECD</strong>, Paris · LIFT initiative on firm-to-firm data <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-09-01">
+<div class="when">
+2026
+</div>
+<div class="what">
+<strong>European Trade Study Group (ETSG)</strong>, Exeter <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-08-01">
+<div class="when">
+August 2026
+</div>
+<div class="what">
+<strong>RFBerlin</strong>, Berlin <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-06-01">
+<div class="when">
+2026
+</div>
+<div class="what">
+<strong>DIW Berlin, Economic Experts conference</strong>, Berlin <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-05-01">
+<div class="when">
+2026
+</div>
+<div class="what">
+<strong>Danish International Economics Workshop (DIEW)</strong>, Aarhus <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-04-01">
+<div class="when">
+2026
+</div>
+<div class="what">
+<strong>Rocky Mountain Empirical Trade Conference (RMET), a FREIT conference</strong>, Banff <span class="countdown"></span>
+</div>
+</div>
+<p class="empty-note" hidden="">
+No talks scheduled right now. See <a href="talks.html">past talks</a>.
+</p>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div class="sec reveal">
 <section id="latest" class="level2 label">
 <h2 data-anchor-id="latest">Latest</h2>
 <p><a href="./news.html">All news →</a></p>
 </section>
 <div id="listing-latest" class="quarto-listing quarto-listing-container-custom">
-<div>
-<div class="news-row" data-index="0" data-categories="VGFsaw==" data-listing-date-sort="1788213600000" data-listing-file-modified-sort="1790167505918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="news-list">
+<div class="news-row" data-kind="Talk">
 <div class="when">
-[Month] 2026
+Upcoming
 </div>
 <div class="kind">
 Talk
 </div>
 <div class="what">
-Presented [paper] at ETSG, Exeter.
+Invited to present at the OECD in Paris on 20 November 2026, as part of the LIFT initiative on firm-to-firm data.
 </div>
 </div>
-<div class="news-row" data-index="1" data-categories="VmlzaXQ=" data-listing-date-sort="1782856800000" data-listing-file-modified-sort="1790167505920" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="news-row" data-kind="Talk">
+<div class="when">
+2026
+</div>
+<div class="kind">
+Talk
+</div>
+<div class="what">
+Presented “Growing Together and Apart” at the European Trade Study Group (ETSG) in Exeter.
+</div>
+</div>
+<div class="news-row" data-kind="Talk">
+<div class="when">
+August 2026
+</div>
+<div class="kind">
+Talk
+</div>
+<div class="what">
+Seminar at RFBerlin, Berlin.
+</div>
+</div>
+<div class="news-row" data-kind="Visit">
 <div class="when">
 July 2026
 </div>
@@ -322,18 +419,7 @@ Visit
 Research visit to LMU Munich.
 </div>
 </div>
-<div class="news-row" data-index="2" data-categories="UHVibGlzaGVk" data-listing-date-sort="1772319600000" data-listing-file-modified-sort="1790167505919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
-<div class="when">
-2026
-</div>
-<div class="kind">
-Published
-</div>
-<div class="what">
-“Globalization and the Gender Gap in Mental Well-being” (with David, Javorcik and Munch) is out in the <em>Journal of International Economics</em>.
-</div>
-</div>
-<div class="news-row" data-index="3" data-categories="VGFsaw==" data-listing-date-sort="1769900400000" data-listing-file-modified-sort="1790167505921" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="news-row" data-kind="Talk">
 <div class="when">
 2026
 </div>
@@ -341,80 +427,75 @@ Published
 Talk
 </div>
 <div class="what">
-Presented at RMET (Banff), DIEW (Aarhus) and DIW Berlin.
+Presented “R&amp;D Employment and Transmission in Trade and MNE Networks” at the Rocky Mountain Empirical Trade Conference (RMET, Banff) and at the DIW Berlin Economic Experts conference, and “International Spillovers from Supplying Superstars” at DIEW in Aarhus.
 </div>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </div>
-<div class="sec">
+<div class="sec reveal">
 <section id="selected-research" class="level2 label">
 <h2 data-anchor-id="selected-research">Selected research</h2>
 <p><a href="./research.html">All research →</a></p>
+<p><a href="./research.html#type=working-paper">Working papers</a> · <a href="./research.html#type=publication">Publications</a></p>
 </section>
 <div id="listing-selected" class="quarto-listing quarto-listing-container-custom">
 <div class="papers">
+<article class="paper">
+<div class="tag">
+Journal of International Economics, 2026
+</div>
+<a class="paper-title" href="research.html#jie">Globalization and the Gender Gap in Mental Well-being</a>
+<div class="paper-authors">
+with <a href="https://researchprofiles.ku.dk/en/persons/asker-nygaard-christensen/">Asker Nygaard David</a>, <a href="https://users.ox.ac.uk/~econ0247/">Beata S. Javorcik</a> and <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a>
+</div>
+</article>
 <article class="paper">
 <div class="tag tag-rr">
 R&amp;R, Journal of Political Economy
 </div>
 <a class="paper-title" href="papers/growing-together.html">Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains</a>
 <div class="paper-authors">
-with Magnus T. Buus, Andreas Moxnes, Jakob R. Munch and Chong Xiang
+with <a href="https://sites.google.com/view/magnusbuus">Magnus T. Buus</a>, <a href="https://sites.google.com/site/moxnes/home">Andreas Moxnes</a>, <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a> and <a href="https://sites.google.com/view/chongxiang/home">Chong Xiang</a>
 </div>
 </article>
 <article class="paper">
-<div class="tag">
-Work in progress
-</div>
-<div class="paper-title">
-Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment
-</div>
+<a class="paper-title" href="research.html#comm">Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment</a>
 <div class="paper-authors">
-with Jakob R. Munch, Morten G. Olsen and Emil A. L. Simonsen
-</div>
-</article>
-<article class="paper">
-<div class="tag">
-Journal of International Economics, 2026
-</div>
-<div class="paper-title">
-Globalization and the Gender Gap in Mental Well-being
-</div>
-<div class="paper-authors">
-with A. N. David, B. S. Javorcik and J. R. Munch
+with <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a>, <a href="https://morten-olsen.com/">Morten G. Olsen</a> and <a href="https://emilalsimonsen.github.io/index.html">Emil A. L. Simonsen</a>
 </div>
 </article>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </div>
-<div class="sec">
-<section id="upcoming-talks" class="level2 label">
-<h2 data-anchor-id="upcoming-talks">Upcoming talks</h2>
-<p><a href="./talks.html">All talks →</a></p>
+<figure class="photo-band reveal figure">
+  <img src="images/oresund-bridge.jpg" alt="The Øresund Bridge between Malmö and Copenhagen at dusk, seen from Västra Hamnen in Malmö" loading="lazy" class="figure-img">
+  <figcaption class="band-text">
+    <div class="k">The Øresund region</div>
+    <p class="q">Two countries, two sets of institutions and one labour market across the strait: the setting for much of my research.</p>
+    <a href="about.html#oresund">Read more</a> · <a href="research.html#topic=Øresund">Øresund papers</a>
+  </figcaption>
+  <span class="credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:%C3%96resundsbron_October_2017_02.jpg">Arild Vågen</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></span>
+</figure>
+<div class="sec reveal">
+<section id="conference-organising" class="level2 label">
+<h2 data-anchor-id="conference-organising">Conference organising</h2>
 </section>
-<div id="listing-upcoming" class="quarto-listing quarto-listing-container-custom">
+<div class="service-list">
 <div>
-<div class="row-line">
-<div class="when">
-[Date]
+<p><span class="t">NOITS 2025, Copenhagen</span><br>
+<span class="n">Organiser of NOITS, the annual Nordic conference in international economics.</span></p>
 </div>
-<div class="what">
-RFBerlin · Seminar, Berlin
+<div>
+<p><span class="t">NOITS 2021, Iceland</span><br>
+<span class="n">Organiser of the Iceland edition of the conference.</span></p>
 </div>
+<div>
+<p><span class="t">noits.org</span><br>
+<span class="n">Administrator of the network homepage, <a href="https://www.noits.org">www.noits.org</a>.</span></p>
 </div>
-<div class="row-line">
-<div class="when">
-[Date]
-</div>
-<div class="what">
-OECD · Invited seminar, Paris
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
 </div>
 </div>
 </div>
@@ -423,6 +504,140 @@ OECD · Invited seminar, Paris
 
 
 
+<script>
+(function () {
+  "use strict";
+  var $ = function (sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); };
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+  var dayMs = 86400000;
+
+  // ---------- Abstract / Cite toggles ----------
+  $("[data-toggle]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var panel = document.getElementById(btn.getAttribute("data-toggle"));
+      if (!panel) return;
+      var open = panel.hasAttribute("hidden");
+      if (open) panel.removeAttribute("hidden"); else panel.setAttribute("hidden", "");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.classList.toggle("is-on", open);
+    });
+  });
+
+  // ---------- Copy BibTeX ----------
+  $(".copy-cite").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var pre = btn.parentNode.querySelector("pre");
+      if (!pre || !navigator.clipboard) return;
+      navigator.clipboard.writeText(pre.innerText.trim()).then(function () {
+        var old = btn.textContent; btn.textContent = "Copied";
+        setTimeout(function () { btn.textContent = old; }, 1800);
+      });
+    });
+  });
+
+  // ---------- Research filters: type tabs, topic chips, search ----------
+  var papers = $("article.paper[data-type]");
+  if (papers.length) {
+    var state = { type: "all", topic: "all", q: "" };
+    var search = document.getElementById("paper-search");
+    var empty = document.getElementById("paper-empty");
+    function apply() {
+      var shown = 0;
+      papers.forEach(function (p) {
+        var okType = state.type === "all" || p.getAttribute("data-type") === state.type;
+        var topics = (p.getAttribute("data-topics") || "").split("|");
+        var okTopic = state.topic === "all" || topics.indexOf(state.topic) >= 0;
+        var okQ = !state.q || (p.getAttribute("data-search") || "").indexOf(state.q) >= 0;
+        var ok = okType && okTopic && okQ;
+        p.hidden = !ok; if (ok) shown++;
+      });
+      $(".paper-group").forEach(function (g) {
+        var vis = $("article.paper", g).filter(function (p) { return !p.hidden; }).length;
+        g.hidden = vis === 0;
+        var c = g.querySelector("[data-count]"); if (c) c.textContent = vis;
+      });
+      if (empty) empty.hidden = shown !== 0;
+      $("[data-type-filter]").forEach(function (b) { b.classList.toggle("is-on", b.getAttribute("data-type-filter") === state.type); });
+      $("[data-topic-filter]").forEach(function (b) { b.classList.toggle("is-on", b.getAttribute("data-topic-filter") === state.topic); });
+    }
+    $("[data-type-filter]").forEach(function (b) {
+      b.addEventListener("click", function () { state.type = b.getAttribute("data-type-filter"); apply(); });
+    });
+    $("[data-topic-filter]").forEach(function (b) {
+      b.addEventListener("click", function () { var t = b.getAttribute("data-topic-filter"); state.topic = state.topic === t ? "all" : t; apply(); });
+    });
+    $("[data-topic-jump]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        state.topic = b.getAttribute("data-topic-jump"); state.type = "all"; apply();
+        var bar = document.getElementById("research-filters"); if (bar) bar.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+    if (search) search.addEventListener("input", function () { state.q = search.value.trim().toLowerCase(); apply(); });
+    // Deep link: research.html#topic=Øresund or #type=publication
+    var h = decodeURIComponent(location.hash || "");
+    var m = h.match(/^#topic=(.+)$/); if (m) state.topic = m[1];
+    var n = h.match(/^#type=(.+)$/); if (n) state.type = n[1];
+    apply();
+    // Paper anchors (#jie): open its abstract and highlight
+    var target = h.length > 1 && document.getElementById(h.slice(1));
+    if (target && target.classList.contains("paper")) {
+      target.classList.add("is-target");
+      var ab = target.querySelector('[data-toggle^="abs-"]'); if (ab) ab.click();
+    }
+  }
+
+  // ---------- Talks: upcoming detection, countdown, paper filter ----------
+  $("[data-iso]").forEach(function (el) {
+    var d = new Date(el.getAttribute("data-iso") + "T00:00:00");
+    var days = Math.round((d - today) / dayMs);
+    var cd = el.querySelector(".countdown");
+    if (days >= 0) {
+      el.classList.add("is-upcoming");
+      if (cd) cd.textContent = days === 0 ? "Today" : days === 1 ? "Tomorrow" : "In " + days + " days";
+    } else {
+      el.classList.add("is-past");
+    }
+  });
+  $("[data-upcoming-only]").forEach(function (list) {
+    var any = false;
+    $("[data-iso]", list).forEach(function (el) { if (el.classList.contains("is-past")) el.hidden = true; else any = true; });
+    var e = list.querySelector(".empty-note"); if (e) e.hidden = any;
+  });
+  var talkCards = $(".talk-card");
+  if (talkCards.length) {
+    $("[data-paper-filter]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var p = b.getAttribute("data-paper-filter");
+        talkCards.forEach(function (c) { c.hidden = !(p === "all" || c.getAttribute("data-paper") === p); });
+        $("[data-paper-filter]").forEach(function (x) { x.classList.toggle("is-on", x === b); });
+      });
+    });
+  }
+
+  // ---------- News: category filter ----------
+  var newsRows = $(".news-row[data-kind]");
+  $("[data-kind-filter]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var k = b.getAttribute("data-kind-filter");
+      newsRows.forEach(function (r) {
+        var kinds = (b.getAttribute("data-kinds") || k).split("|");
+        r.hidden = !(k === "all" || kinds.indexOf(r.getAttribute("data-kind")) >= 0);
+      });
+      $("[data-kind-filter]").forEach(function (x) { x.classList.toggle("is-on", x === b); });
+    });
+  });
+
+  // ---------- Gentle reveal on scroll ----------
+  if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in-view"); io.unobserve(e.target); } });
+    }, { rootMargin: "0px 0px -8% 0px" });
+    $(".reveal").forEach(function (el) { io.observe(el); });
+  } else {
+    $(".reveal").forEach(function (el) { el.classList.add("in-view"); });
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {

@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "**/*.qmd"
   resources:
     - llms.txt
     - robots.txt
@@ -57,3 +59,5 @@ format:
     lang: en
     include-in-header:
       - _includes/head.html
+    include-after-body:
+      - _includes/site.html

@@ -1,0 +1,11 @@
+---
+title: "Knowledge Spillovers from Cross-Border Commuters released"
+date: 2024-10-01
+datelabel: "October 2024"
+categories: [Paper]
+description: "“Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment” (with Munch, Olsen and Simonsen) is out as ROCKWOOL Foundation Study Paper 215."
+---
+
+“Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment” (with Munch, Olsen and Simonsen) is out as ROCKWOOL Foundation Study Paper 215.
+
+[← All news](../news.qmd)

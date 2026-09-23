@@ -23,6 +23,15 @@ listing:
 :::
 :::
 
+```{=html}
+<div class="chip-row" style="margin: 24px 0 8px;">
+  <button type="button" class="chip is-on" data-kind-filter="all">All</button>
+  <button type="button" class="chip" data-kind-filter="papers" data-kinds="Published|Revision|Paper">Papers</button>
+  <button type="button" class="chip" data-kind-filter="talks" data-kinds="Talk|Visit">Talks and visits</button>
+  <button type="button" class="chip" data-kind-filter="other" data-kinds="Media|Position|Service">Media and other</button>
+</div>
+```
+
 ::: {#news-all}
 :::
 

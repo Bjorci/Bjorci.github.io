@@ -70,18 +70,11 @@
     "text": "Around the paper"
   },
   {
-    "objectID": "MEMORY.html#learnsetup-quarto-site-replacing-weebly-date-2026-09-23-what-quarto-1.10-website-output-in-docs-for-github-pages-branch-main-folder-docs.-design-is-c-refined-from-the-mockup-canvas-httpsclaude.aiartifact3dkhtgkyqqxkt7zwjxke3a-instrument-serif-public-sans-eef0ec-ground-teal-accent-gold-rr-tag.-content-in-data.yml-and-news.qmd-rendered-through-ejs-templates-in-_templates.-paper-pages-use-google-scholar-true-citation-for-scholar-meta-tags-and-bibtex-author-names-must-be-givenfamily-pairs-or-bibtex-splits-björn-thor-wrongly.-photo-taken-from-the-old-weebly-site.-open-github-repo-pages-setup-custom-domain-bjornthorarnarson.com-currently-on-weebly-placeholders-listed-in-readme.",
-    "href": "MEMORY.html#learnsetup-quarto-site-replacing-weebly-date-2026-09-23-what-quarto-1.10-website-output-in-docs-for-github-pages-branch-main-folder-docs.-design-is-c-refined-from-the-mockup-canvas-httpsclaude.aiartifact3dkhtgkyqqxkt7zwjxke3a-instrument-serif-public-sans-eef0ec-ground-teal-accent-gold-rr-tag.-content-in-data.yml-and-news.qmd-rendered-through-ejs-templates-in-_templates.-paper-pages-use-google-scholar-true-citation-for-scholar-meta-tags-and-bibtex-author-names-must-be-givenfamily-pairs-or-bibtex-splits-björn-thor-wrongly.-photo-taken-from-the-old-weebly-site.-open-github-repo-pages-setup-custom-domain-bjornthorarnarson.com-currently-on-weebly-placeholders-listed-in-readme.",
+    "objectID": "index.html#upcoming-talks",
+    "href": "index.html#upcoming-talks",
     "title": "Björn Thor Arnarson",
-    "section": "[LEARN:setup] Quarto site replacing Weebly | Date: 2026-09-23 | What: Quarto 1.10 website, output in docs/ for GitHub Pages (branch main, folder /docs). Design is “C refined” from the mockup canvas https://claude.ai/artifact/3DKHtGKYqqXkt7ZwJXke3A (Instrument Serif + Public Sans, #eef0ec ground, teal accent, gold R&R tag). Content in data/*.yml and news/*.qmd, rendered through EJS templates in _templates/. Paper pages use google-scholar: true + citation: for Scholar meta tags and BibTeX; author names must be given/family pairs or BibTeX splits “Björn Thor” wrongly. Photo taken from the old Weebly site. | Open: GitHub repo + Pages setup, custom domain (bjornthorarnarson.com currently on Weebly), placeholders listed in README.",
-    "text": "[LEARN:setup] Quarto site replacing Weebly | Date: 2026-09-23 | What: Quarto 1.10 website, output in docs/ for GitHub Pages (branch main, folder /docs). Design is “C refined” from the mockup canvas https://claude.ai/artifact/3DKHtGKYqqXkt7ZwJXke3A (Instrument Serif + Public Sans, #eef0ec ground, teal accent, gold R&R tag). Content in data/*.yml and news/*.qmd, rendered through EJS templates in _templates/. Paper pages use google-scholar: true + citation: for Scholar meta tags and BibTeX; author names must be given/family pairs or BibTeX splits “Björn Thor” wrongly. Photo taken from the old Weebly site. | Open: GitHub repo + Pages setup, custom domain (bjornthorarnarson.com currently on Weebly), placeholders listed in README."
-  },
-  {
-    "objectID": "MEMORY.html#learngotchas-build-pitfalls-date-2026-09-23-what-1-in-ejs-templates-never-indent-html-by-4-spaces-quarto-passes-template-output-through-markdown-and-indented-lines-become-code-blocks.-2-two-...class-spans-on-consecutive-lines-merge-into-one-paragraph-and-break-the-two-column-rows-keep-a-blank-line-between-them.-a-fenced-div-also-needs-a-blank-line-before-it.-3-a-local-python--m-http.server-started-inside-docs-locks-the-folder-and-makes-quarto-render-fail-used-by-another-process-serve-from-the-project-root-instead.-4-headless-chrome-lays-pages-out-at-a-minimum-500px-width-so-a-390px-screenshot-looks-clipped-when-the-site-is-fine.-open",
-    "href": "MEMORY.html#learngotchas-build-pitfalls-date-2026-09-23-what-1-in-ejs-templates-never-indent-html-by-4-spaces-quarto-passes-template-output-through-markdown-and-indented-lines-become-code-blocks.-2-two-...class-spans-on-consecutive-lines-merge-into-one-paragraph-and-break-the-two-column-rows-keep-a-blank-line-between-them.-a-fenced-div-also-needs-a-blank-line-before-it.-3-a-local-python--m-http.server-started-inside-docs-locks-the-folder-and-makes-quarto-render-fail-used-by-another-process-serve-from-the-project-root-instead.-4-headless-chrome-lays-pages-out-at-a-minimum-500px-width-so-a-390px-screenshot-looks-clipped-when-the-site-is-fine.-open",
-    "title": "Björn Thor Arnarson",
-    "section": "[LEARN:gotchas] Build pitfalls | Date: 2026-09-23 | What: (1) In EJS templates, never indent HTML by 4+ spaces: Quarto passes template output through Markdown and indented lines become code blocks. (2) Two [..]{.class} spans on consecutive lines merge into one paragraph and break the two-column rows; keep a blank line between them. A fenced div also needs a blank line before it. (3) A local python -m http.server started inside docs/ locks the folder and makes quarto render fail (“used by another process”); serve from the project root instead. (4) Headless Chrome lays pages out at a minimum 500px width, so a 390px screenshot looks clipped when the site is fine. | Open: —",
-    "text": "[LEARN:gotchas] Build pitfalls | Date: 2026-09-23 | What: (1) In EJS templates, never indent HTML by 4+ spaces: Quarto passes template output through Markdown and indented lines become code blocks. (2) Two [..]{.class} spans on consecutive lines merge into one paragraph and break the two-column rows; keep a blank line between them. A fenced div also needs a blank line before it. (3) A local python -m http.server started inside docs/ locks the folder and makes quarto render fail (“used by another process”); serve from the project root instead. (4) Headless Chrome lays pages out at a minimum 500px width, so a 390px screenshot looks clipped when the site is fine. | Open: —"
+    "section": "Upcoming talks",
+    "text": "Upcoming talks\nAll talks →"
   },
   {
     "objectID": "index.html#latest",
@@ -95,14 +88,14 @@
     "href": "index.html#selected-research",
     "title": "Björn Thor Arnarson",
     "section": "Selected research",
-    "text": "Selected research\nAll research →"
+    "text": "Selected research\nAll research →\nWorking papers · Publications"
   },
   {
-    "objectID": "index.html#upcoming-talks",
-    "href": "index.html#upcoming-talks",
+    "objectID": "index.html#conference-organising",
+    "href": "index.html#conference-organising",
     "title": "Björn Thor Arnarson",
-    "section": "Upcoming talks",
-    "text": "Upcoming talks\nAll talks →"
+    "section": "Conference organising",
+    "text": "Conference organising"
   },
   {
     "objectID": "about.html#background",
@@ -119,11 +112,11 @@
     "text": "Biography\nIn three lengths, free to reuse."
   },
   {
-    "objectID": "about.html#the-øresund-region",
-    "href": "about.html#the-øresund-region",
+    "objectID": "about.html#research-on-the-region",
+    "href": "about.html#research-on-the-region",
     "title": "Björn Thor Arnarson",
-    "section": "The Øresund region",
-    "text": "The Øresund region"
+    "section": "Research on the region",
+    "text": "Research on the region\nAll Øresund papers →"
   },
   {
     "objectID": "about.html#areas-of-expertise",
@@ -147,11 +140,25 @@
     "text": "In the media"
   },
   {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
+    "objectID": "about.html#conference-organising",
+    "href": "about.html#conference-organising",
     "title": "Björn Thor Arnarson",
-    "section": "Contact",
-    "text": "Contact"
+    "section": "Conference organising",
+    "text": "Conference organising"
+  },
+  {
+    "objectID": "about.html#collaborators",
+    "href": "about.html#collaborators",
+    "title": "Björn Thor Arnarson",
+    "section": "Collaborators",
+    "text": "Collaborators"
+  },
+  {
+    "objectID": "about.html#contact-and-profiles",
+    "href": "about.html#contact-and-profiles",
+    "title": "Björn Thor Arnarson",
+    "section": "Contact and profiles",
+    "text": "Contact and profiles"
   },
   {
     "objectID": "cv.html#positions",
@@ -224,20 +231,6 @@
     "text": "Samband"
   },
   {
-    "objectID": "research.html#working-papers",
-    "href": "research.html#working-papers",
-    "title": "Björn Thor Arnarson",
-    "section": "Working papers",
-    "text": "Working papers"
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Björn Thor Arnarson",
-    "section": "Publications",
-    "text": "Publications"
-  },
-  {
     "objectID": "research.html#books-thesis-and-other-writing",
     "href": "research.html#books-thesis-and-other-writing",
     "title": "Björn Thor Arnarson",
@@ -245,18 +238,18 @@
     "text": "Books, thesis and other writing"
   },
   {
-    "objectID": "talks.html#upcoming",
-    "href": "talks.html#upcoming",
+    "objectID": "talks.html#and-upcoming",
+    "href": "talks.html#and-upcoming",
     "title": "Björn Thor Arnarson",
-    "section": "Upcoming",
-    "text": "Upcoming"
+    "section": "2026 and upcoming",
+    "text": "2026 and upcoming\nFilter by paper."
   },
   {
-    "objectID": "talks.html#past-talks",
-    "href": "talks.html#past-talks",
+    "objectID": "talks.html#earlier-talks",
+    "href": "talks.html#earlier-talks",
     "title": "Björn Thor Arnarson",
-    "section": "Past talks",
-    "text": "Past talks"
+    "section": "Earlier talks",
+    "text": "Earlier talks"
   },
   {
     "objectID": "talks.html#research-visits",
@@ -264,5 +257,12 @@
     "title": "Björn Thor Arnarson",
     "section": "Research visits",
     "text": "Research visits"
+  },
+  {
+    "objectID": "talks.html#conference-organising",
+    "href": "talks.html#conference-organising",
+    "title": "Björn Thor Arnarson",
+    "section": "Conference organising",
+    "text": "Conference organising"
   }
 ]

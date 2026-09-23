@@ -2,7 +2,7 @@
 title: "Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains"
 pagetitle: "Growing Together and Apart · Björn Thor Arnarson"
 description: "Working paper by Björn Thor Arnarson, Magnus T. Buus, Andreas Moxnes, Jakob R. Munch and Chong Xiang. Revise and resubmit at the Journal of Political Economy."
-# TODO: confirm author order (alphabetical assumed)
+# Author order confirmed against the CESifo and CEPR listings.
 body-classes: paper-page
 google-scholar: true
 author:
@@ -28,7 +28,7 @@ citation:
   publisher: CESifo
   doi: 10.65864/rekivjv2z7
   url: https://bjorci.github.io/papers/growing-together.html
-  # TODO: add issued: YYYY once confirmed
+  issued: 2026
 ---
 
 ::: {.wrap}
@@ -45,14 +45,14 @@ citation:
 <h1 style="font-family: 'Instrument Serif', serif; font-size: 3.25rem; line-height: 1.05; margin: 0 0 18px;">Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains</h1>
 ```
 
-[Björn Thor Arnarson, Magnus T. Buus, Andreas Moxnes, Jakob R. Munch and Chong Xiang]{style="font-size: 1.05rem; color: #33403a; display: block;"}
+[Björn Thor Arnarson, [Magnus T. Buus](https://sites.google.com/view/magnusbuus), [Andreas Moxnes](https://sites.google.com/site/moxnes/home), [Jakob R. Munch](https://sites.google.com/view/jakob-roland-munch) and [Chong Xiang](https://sites.google.com/view/chongxiang/home)]{style="font-size: 1.05rem; color: #33403a; display: block;"}
 
-[CESifo Working Paper 12710 · CEPR Discussion Paper 21543]{style="font-size: 0.95rem; color: #56615c; display: block; margin-top: 6px;"}
+[CESifo Working Paper 12710 · CEPR Discussion Paper 21543 · 2026]{style="font-size: 0.95rem; color: #56615c; display: block; margin-top: 6px;"}
 
 ::: {.btn-row style="margin-top: 18px;"}
-[PDF](https://doi.org/10.65864/rekivjv2z7){.btn-pill}
-[Slides]{.btn-ghost style="opacity: 0.5;" title="Slides to be added"}
-
+[PDF](https://www.ifo.de/DocDL/cesifo1_wp12710.pdf){.btn-pill}
+[CESifo](https://doi.org/10.65864/rekivjv2z7){.btn-ghost}
+[CEPR](https://cepr.org/publications/dp21543){.btn-ghost}
 [Cite](#quarto-appendix){.btn-ghost}
 :::
 :::
@@ -63,7 +63,7 @@ citation:
 ## In short
 :::
 ::: {.big-serif}
-[Two or three sentences in plain language: the question, what you find, and why it matters. This is the text reporters quote and AI tools summarise.]
+As firms grow, they hand more tasks to their suppliers, and the workforces of firms and suppliers become more specialized. Using Danish data that link firms’ cross-border trade to their employees, we show that this outsourcing makes firms markedly more productive: without it, average labour productivity would be 25 percent lower.
 :::
 :::
 
@@ -72,7 +72,7 @@ citation:
 ## Abstract
 :::
 ::: {style="font-size: 1.05rem; line-height: 1.7; color: #33403a; max-width: 760px;"}
-[Abstract, pasted from the paper.]
+We study how firm growth reorganizes the division of labor across firms in global value chains. Using a novel dataset linking cross-border firm-to-firm transactions to matched employer–employee data, we show that demand shocks increase trade between firms while reducing occupational similarity, implying greater specialization. We develop and estimate a model of task outsourcing in which firms expand by reallocating tasks to suppliers. The model matches the data and implies endogenous scale economies. Eliminating outsourcing reduces average labor productivity by 25 percent and increases input costs by 10 percent, highlighting the central role of specialization in shaping firm performance.
 :::
 :::
 
@@ -83,12 +83,12 @@ citation:
 ::: {}
 [Presented at]{.sub-h style="display:block;"}
 
-[Seminars and conferences]
+European Trade Study Group (ETSG), Exeter, 2026
 :::
 ::: {}
-[Coverage]{.sub-h style="display:block;"}
+[Related]{.sub-h style="display:block;"}
 
-[VoxEU column, press, podcast]
+[All research](../research.qmd) · [Talks](../talks.qmd)
 :::
 :::
 

@@ -1,0 +1,11 @@
+---
+title: "R&D in trade and MNE networks released"
+date: 2024-09-01
+datelabel: "September 2024"
+categories: [Paper]
+description: "“R&D Employment and Transmission in Trade and MNE Networks” (with Buus, Munch and Schaur) is out as ROCKWOOL Foundation Study Paper 217."
+---
+
+“R&D Employment and Transmission in Trade and MNE Networks” (with Buus, Munch and Schaur) is out as ROCKWOOL Foundation Study Paper 217.
+
+[← All news](../news.qmd)

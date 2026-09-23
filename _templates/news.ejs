@@ -1,12 +1,12 @@
 <%
 const big = (typeof templateParams !== 'undefined') && templateParams && templateParams.big;
 %>
-<div class="<%= big ? 'news-big' : '' %>">
+<div class="news-list <%= big ? 'news-big' : '' %>">
 <% for (const n of items) {
 const kind = (n.categories && n.categories.length) ? n.categories[0] : '';
 const when = n.datelabel || n.date;
 %>
-<div class="news-row" <%= metadataAttrs(n) %>>
+<div class="news-row" data-kind="<%= kind %>">
 <div class="when"><%= when %></div>
 <div class="kind"><%= kind %></div>
 <div class="what"><%- n.description %></div>

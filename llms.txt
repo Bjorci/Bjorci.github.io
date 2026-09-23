@@ -1,19 +1,18 @@
 # Björn Thor Arnarson
 
-> Economist at the ROCKWOOL Foundation Research Unit, Copenhagen, and affiliated researcher at the Department of Economics, Lund University. Research on international trade, globalization, knowledge spillovers and labour markets, using linked Danish and Swedish administrative register data, with a particular focus on the Øresund region. Fluent in Icelandic, English and Swedish; working knowledge of Danish. Contact: bth@rff.dk.
+> Economist at the ROCKWOOL Foundation Research Unit, Copenhagen, and affiliated researcher at the Department of Economics, Lund University. Research on international trade, globalization, firm networks, knowledge spillovers and labour markets, using linked Danish and Swedish administrative register data with cross-border links, with a particular focus on the Øresund region. Born in Iceland; BS University of Iceland, MA Boston University, PhD Lund University (2016). Fluent in Icelandic, English and Swedish; working knowledge of Danish. Contact: bth@rff.dk. ORCID 0000-0003-4981-8965.
 
 ## About
-- [About](https://bjorci.github.io/about.html): background, areas of expertise, languages, biography in three lengths
+- [About](https://bjorci.github.io/about.html): background, research on the Øresund region, areas of expertise, languages, biography in three lengths, collaborators
+- [CV](https://bjorci.github.io/cv.html) ([PDF](https://bjorci.github.io/files/Arnarson_CV.pdf))
 - [Om mig (svenska)](https://bjorci.github.io/sv/)
 - [Um mig (íslenska)](https://bjorci.github.io/is/)
-- [CV](https://bjorci.github.io/cv.html) ([PDF](https://bjorci.github.io/files/Arnarson_CV.pdf))
 
 ## Working papers
-- [Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains](https://bjorci.github.io/papers/growing-together.html): with Buus, Moxnes, Munch and Xiang; revise and resubmit, Journal of Political Economy; CESifo Working Paper 12710
-- R&D Employment and Transmission in Trade and MNE Networks: Evidence from an R&D Tax Reform: with Buus, Munch and Schaur; ROCKWOOL Foundation Study Paper 217
-- Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment: with Munch, Olsen and Simonsen; work in progress
-- International Spillovers from Supplying Superstars: Evidence from Firm-to-Firm Linkages: with Hansen; work in progress
-- The Intangible Gains from Trade: with Magli and Moxnes; work in progress
+- [Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains](https://bjorci.github.io/papers/growing-together.html) (2026), with Buus, Moxnes, Munch and Xiang. Revise and resubmit, Journal of Political Economy. CESifo WP 12710, CEPR DP 21543. Firm growth reorganizes the division of labour across firms in global value chains; outsourcing implies endogenous scale economies.
+- Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment (2024), with Munch, Olsen and Simonsen. ROCKWOOL Foundation Study Paper 215. Uses the opening of the Øresund Bridge: Swedish commuters raise productivity in Danish firms and wages of Danish coworkers.
+- R&D Employment and Transmission in Trade and MNE Networks: Evidence from an R&D Tax Reform (2024), with Buus, Munch and Schaur. ROCKWOOL Foundation Study Paper 217.
+- Bridging Trade Barriers: Evaluating Multi-Product Models of Exporting (2015). Lund University WP 2015:6. The Øresund Bridge as a fall in trade costs for Malmö exporters.
 
 ## Publications
 - Globalization and the Gender Gap in Mental Well-being (with David, Javorcik and Munch). Journal of International Economics, 2026. https://doi.org/10.1016/j.jinteco.2026.104253
@@ -22,7 +21,12 @@
 - The Superstar and the Followers: Intra-Firm Product Complementarity in International Trade. Journal of Economic Behavior & Organization, 2020. https://doi.org/10.1016/j.jebo.2020.06.013
 - The Paternity Leave Act in Iceland: Implications for Gender Equality in the Labour Market (with Mitra). Applied Economics Letters, 2010. https://doi.org/10.1080/13504850802297830
 
+## Work in progress
+- International Spillovers from Supplying Superstars: Evidence from Firm-to-Firm Linkages (with Hansen)
+- The Intangible Gains from Trade (with Magli and Moxnes)
+
 ## Optional
-- [Research](https://bjorci.github.io/research.html)
+- [Research, with abstracts](https://bjorci.github.io/research.html)
 - [News](https://bjorci.github.io/news.html) ([RSS](https://bjorci.github.io/news.xml))
 - [Talks](https://bjorci.github.io/talks.html)
+- Profiles: [Google Scholar](https://scholar.google.se/citations?user=RM3pq-gAAAAJ), [RePEc](https://ideas.repec.org/f/par416.html), [ROCKWOOL Foundation](https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/), [LinkedIn](https://www.linkedin.com/in/bjornthor/)

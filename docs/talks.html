@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Upcoming and past talks, seminars and research visits.">
+<meta name="description" content="Upcoming and past talks, seminars, conference presentations and research visits by Björn Thor Arnarson.">
 
 <title>Talks · Björn Thor Arnarson – Björn Thor Arnarson</title>
 <style>
@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ce33566d9b8e31b66f33db6b87d70b2a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0a54df1e63b06e75de53c43ef3539102.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -63,20 +63,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-talks-upcoming .list');
+    const listingTargetEl = window.document.querySelector('#listing-talks-detailed .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-upcoming','listing-when','listing-title','listing-text','listing-year',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-iso','listing-when','listing-event','listing-place','listing-kind','listing-note','listing-paper','listing-paper_title','listing-year','listing-text',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-upcoming","listing-when","listing-title","listing-text","listing-year"],
+      searchColumns: ["listing-iso","listing-when","listing-event","listing-place","listing-kind","listing-note","listing-paper","listing-paper_title","listing-year","listing-text"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-talks-upcoming'] = new List('listing-talks-upcoming', options);
+    window['quarto-listings']['listing-talks-detailed'] = new List('listing-talks-detailed', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -91,20 +91,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-talks-past .list');
+    const listingTargetEl = window.document.querySelector('#listing-talks-years .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-upcoming','listing-when','listing-title','listing-text','listing-year',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-iso','listing-when','listing-event','listing-place','listing-kind','listing-note','listing-paper','listing-paper_title','listing-year','listing-text',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-upcoming","listing-when","listing-title","listing-text","listing-year"],
+      searchColumns: ["listing-iso","listing-when","listing-event","listing-place","listing-kind","listing-note","listing-paper","listing-paper_title","listing-year","listing-text"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-talks-past'] = new List('listing-talks-past', options);
+    window['quarto-listings']['listing-talks-years'] = new List('listing-talks-years', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -146,7 +146,18 @@ ul.task-list li input[type="checkbox"] {
   ],
   "knowsLanguage": ["is", "en", "sv", "da"],
   "email": "mailto:bth@rff.dk",
-  "sameAs": []
+  "sameAs": [
+    "https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/",
+    "https://scholar.google.se/citations?user=RM3pq-gAAAAJ",
+    "https://ideas.repec.org/f/par416.html",
+    "https://orcid.org/0000-0003-4981-8965",
+    "https://www.linkedin.com/in/bjornthor/",
+    "https://bsky.app/profile/bjorci.bsky.social",
+    "https://x.com/bjorci",
+    "https://www.researchgate.net/profile/Bjoern_Thor_Arnarson",
+    "https://www.ifo.de/en/cesifo/network-member/arnarson-bjorn-thor"
+  ],
+  "identifier": { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0003-4981-8965" }
 }
 </script>
 
@@ -181,7 +192,7 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="Talks · Björn Thor Arnarson">
-<meta property="og:description" content="Upcoming and past talks, seminars and research visits.">
+<meta property="og:description" content="Upcoming and past talks, seminars, conference presentations and research visits by Björn Thor Arnarson.">
 <meta property="og:site_name" content="Björn Thor Arnarson">
 </head>
 
@@ -250,129 +261,189 @@ window.Quarto = {
 
 
 <div class="wrap">
-<section id="talks" class="level1 page-head">
+<div class="page-head">
+<section id="talks" class="level1">
 <h1>Talks</h1>
+<p><span class="intro">Seminars, conferences and research visits. Upcoming talks are marked with a countdown.</span></p>
 </section>
-<div class="sec">
-<section id="upcoming" class="level2 label">
-<h2 data-anchor-id="upcoming">Upcoming</h2>
-</section>
-<div id="listing-talks-upcoming" class="quarto-listing quarto-listing-container-custom">
-<div class="cards-2">
-<div class="card">
-<div class="k">
-[Date]
 </div>
-<div class="t">
+<div class="sec">
+<section id="and-upcoming" class="level2 label">
+<h2 data-anchor-id="and-upcoming">2026 and upcoming</h2>
+<p>Filter by paper.</p>
+</section>
+<div>
+<div class="chip-row" style="margin-bottom: 12px;">
+  <button type="button" class="chip is-on" data-paper-filter="all">All talks</button>
+  <button type="button" class="chip" data-paper-filter="scale">Growing Together and Apart</button>
+  <button type="button" class="chip" data-paper-filter="rd">R&amp;D in trade and MNE networks</button>
+  <button type="button" class="chip" data-paper-filter="superstar">Supplying Superstars</button>
+</div>
+<div id="listing-talks-detailed" class="quarto-listing quarto-listing-container-custom">
+<div class="talk-list">
+<div class="talk-card" data-iso="2026-11-20" data-paper="">
+<div class="talk-when">
+20 November 2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
+OECD
+</div>
+<div class="talk-where">
+Invited seminar, Paris · LIFT initiative on firm-to-firm data
+</div>
+</div>
+<div class="talk-card" data-iso="2026-09-01" data-paper="scale">
+<div class="talk-when">
+2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
+European Trade Study Group (ETSG)
+</div>
+<div class="talk-where">
+Conference, Exeter
+</div>
+<div class="talk-paper">
+Paper: <a href="research.html#scale">Growing Together and Apart</a>
+</div>
+</div>
+<div class="talk-card" data-iso="2026-08-01" data-paper="">
+<div class="talk-when">
+August 2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
 RFBerlin
 </div>
-<div class="n">
+<div class="talk-where">
 Seminar, Berlin
 </div>
 </div>
-<div class="card">
-<div class="k">
-[Date]
+<div class="talk-card" data-iso="2026-06-01" data-paper="rd">
+<div class="talk-when">
+2026 <span class="countdown"></span>
 </div>
-<div class="t">
-OECD
+<div class="talk-event">
+DIW Berlin, Economic Experts conference
 </div>
-<div class="n">
-Invited seminar, Paris
+<div class="talk-where">
+Conference, Berlin
+</div>
+<div class="talk-paper">
+Paper: <a href="research.html#rd">R&amp;D Employment and Transmission in Trade and MNE Networks</a>
+</div>
+</div>
+<div class="talk-card" data-iso="2026-05-01" data-paper="superstar">
+<div class="talk-when">
+2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
+Danish International Economics Workshop (DIEW)
+</div>
+<div class="talk-where">
+Workshop, Aarhus
+</div>
+<div class="talk-paper">
+Paper: <a href="research.html#superstar">International Spillovers from Supplying Superstars</a>
+</div>
+</div>
+<div class="talk-card" data-iso="2026-04-01" data-paper="rd">
+<div class="talk-when">
+2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
+Rocky Mountain Empirical Trade Conference (RMET), a FREIT conference
+</div>
+<div class="talk-where">
+Conference, Banff
+</div>
+<div class="talk-paper">
+Paper: <a href="research.html#rd">R&amp;D Employment and Transmission in Trade and MNE Networks</a>
 </div>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </div>
+</div>
 <div class="sec">
-<section id="past-talks" class="level2 label">
-<h2 data-anchor-id="past-talks">Past talks</h2>
+<section id="earlier-talks" class="level2 label">
+<h2 data-anchor-id="earlier-talks">Earlier talks</h2>
 </section>
-<div id="listing-talks-past" class="quarto-listing quarto-listing-container-custom">
+<div id="listing-talks-years" class="quarto-listing quarto-listing-container-custom">
 <div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
-2026
-</div>
-<div class="what">
-RMET (Banff); DIEW (Aarhus); DIW Berlin; ETSG (Exeter).
-</div>
-</div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
+<div class="row-line year-line">
+<div class="when year">
 2025
 </div>
 <div class="what">
 Swedish Network for European Studies in Economics and Business (SNEE); invited seminar, ROCKWOOL Foundation Research Unit.
 </div>
 </div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
+<div class="row-line year-line">
+<div class="when year">
 2024
 </div>
 <div class="what">
 NOITS (Oslo); SNEE (Lund); CESifo Area Conference on the Global Economy.
 </div>
 </div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
+<div class="row-line year-line">
+<div class="when year">
 2023
 </div>
 <div class="what">
 Invited seminar, Icelandic Economists Abroad conference (University of Iceland); EPRN Copenhagen; SNEE (Lund).
 </div>
 </div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
+<div class="row-line year-line">
+<div class="when year">
 2021
 </div>
 <div class="what">
 Invited seminar for Business Sweden.
 </div>
 </div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
+<div class="row-line year-line">
+<div class="when year">
 2019
 </div>
 <div class="what">
 Road to Exporting, Copenhagen.
 </div>
 </div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
+<div class="row-line year-line">
+<div class="when year">
 2018
 </div>
 <div class="what">
 Moscow International Economics Conference (Moscow); ADI Conference (Copenhagen); SNEE (Lund).
 </div>
 </div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
+<div class="row-line year-line">
+<div class="when year">
 2017
 </div>
 <div class="what">
 Empirical Investigations in Trade and Investment, Yogyakarta (FREIT); invited seminar, Örebro University; NOITS (Helsinki); LETC (Slovenia, FREIT); ADI Conference (Copenhagen); SNEE (Lund).
 </div>
 </div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
+<div class="row-line year-line">
+<div class="when year">
 2016
 </div>
 <div class="what">
 Invited seminars at the University of Copenhagen and IFN Stockholm; NOITS (Oslo); ADI Conference (Copenhagen); Lund University; ETSG (Helsinki).
 </div>
 </div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
+<div class="row-line year-line">
+<div class="when year">
 2015
 </div>
 <div class="what">
 ETSG (Paris); NOITS (Copenhagen); GEP Postgraduate Conference (University of Nottingham); Lund University; Danish International Economics Workshop (Aarhus); invited seminar, Sydsvenska Handelskammaren (Malmö).
 </div>
 </div>
-<div class="row-line">
-<div class="when" style="font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: #33403a;">
+<div class="row-line year-line">
+<div class="when year">
 2014
 </div>
 <div class="what">
@@ -398,12 +469,165 @@ NOITS; Nordic Summer Symposium in Macroeconomics; Lund University; ETSG.
 </div>
 </div>
 </div>
+<div class="sec">
+<section id="conference-organising" class="level2 label">
+<h2 data-anchor-id="conference-organising">Conference organising</h2>
+</section>
+<div>
+<div class="row-line">
+<p><span class="when">2025</span></p>
+<p><span class="what">NOITS, Copenhagen: organiser</span></p>
+</div>
+<div class="row-line">
+<p><span class="when">2021</span></p>
+<p><span class="what">NOITS, Iceland: organiser</span></p>
+</div>
+<div class="row-line">
+<p><span class="when">Ongoing</span></p>
+<p><span class="what">Administrator of the network homepage, <a href="https://www.noits.org">www.noits.org</a></span></p>
+</div>
+</div>
+</div>
 </div>
 
 
 
 
 
+<script>
+(function () {
+  "use strict";
+  var $ = function (sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); };
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+  var dayMs = 86400000;
+
+  // ---------- Abstract / Cite toggles ----------
+  $("[data-toggle]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var panel = document.getElementById(btn.getAttribute("data-toggle"));
+      if (!panel) return;
+      var open = panel.hasAttribute("hidden");
+      if (open) panel.removeAttribute("hidden"); else panel.setAttribute("hidden", "");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.classList.toggle("is-on", open);
+    });
+  });
+
+  // ---------- Copy BibTeX ----------
+  $(".copy-cite").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var pre = btn.parentNode.querySelector("pre");
+      if (!pre || !navigator.clipboard) return;
+      navigator.clipboard.writeText(pre.innerText.trim()).then(function () {
+        var old = btn.textContent; btn.textContent = "Copied";
+        setTimeout(function () { btn.textContent = old; }, 1800);
+      });
+    });
+  });
+
+  // ---------- Research filters: type tabs, topic chips, search ----------
+  var papers = $("article.paper[data-type]");
+  if (papers.length) {
+    var state = { type: "all", topic: "all", q: "" };
+    var search = document.getElementById("paper-search");
+    var empty = document.getElementById("paper-empty");
+    function apply() {
+      var shown = 0;
+      papers.forEach(function (p) {
+        var okType = state.type === "all" || p.getAttribute("data-type") === state.type;
+        var topics = (p.getAttribute("data-topics") || "").split("|");
+        var okTopic = state.topic === "all" || topics.indexOf(state.topic) >= 0;
+        var okQ = !state.q || (p.getAttribute("data-search") || "").indexOf(state.q) >= 0;
+        var ok = okType && okTopic && okQ;
+        p.hidden = !ok; if (ok) shown++;
+      });
+      $(".paper-group").forEach(function (g) {
+        var vis = $("article.paper", g).filter(function (p) { return !p.hidden; }).length;
+        g.hidden = vis === 0;
+        var c = g.querySelector("[data-count]"); if (c) c.textContent = vis;
+      });
+      if (empty) empty.hidden = shown !== 0;
+      $("[data-type-filter]").forEach(function (b) { b.classList.toggle("is-on", b.getAttribute("data-type-filter") === state.type); });
+      $("[data-topic-filter]").forEach(function (b) { b.classList.toggle("is-on", b.getAttribute("data-topic-filter") === state.topic); });
+    }
+    $("[data-type-filter]").forEach(function (b) {
+      b.addEventListener("click", function () { state.type = b.getAttribute("data-type-filter"); apply(); });
+    });
+    $("[data-topic-filter]").forEach(function (b) {
+      b.addEventListener("click", function () { var t = b.getAttribute("data-topic-filter"); state.topic = state.topic === t ? "all" : t; apply(); });
+    });
+    $("[data-topic-jump]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        state.topic = b.getAttribute("data-topic-jump"); state.type = "all"; apply();
+        var bar = document.getElementById("research-filters"); if (bar) bar.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+    if (search) search.addEventListener("input", function () { state.q = search.value.trim().toLowerCase(); apply(); });
+    // Deep link: research.html#topic=Øresund or #type=publication
+    var h = decodeURIComponent(location.hash || "");
+    var m = h.match(/^#topic=(.+)$/); if (m) state.topic = m[1];
+    var n = h.match(/^#type=(.+)$/); if (n) state.type = n[1];
+    apply();
+    // Paper anchors (#jie): open its abstract and highlight
+    var target = h.length > 1 && document.getElementById(h.slice(1));
+    if (target && target.classList.contains("paper")) {
+      target.classList.add("is-target");
+      var ab = target.querySelector('[data-toggle^="abs-"]'); if (ab) ab.click();
+    }
+  }
+
+  // ---------- Talks: upcoming detection, countdown, paper filter ----------
+  $("[data-iso]").forEach(function (el) {
+    var d = new Date(el.getAttribute("data-iso") + "T00:00:00");
+    var days = Math.round((d - today) / dayMs);
+    var cd = el.querySelector(".countdown");
+    if (days >= 0) {
+      el.classList.add("is-upcoming");
+      if (cd) cd.textContent = days === 0 ? "Today" : days === 1 ? "Tomorrow" : "In " + days + " days";
+    } else {
+      el.classList.add("is-past");
+    }
+  });
+  $("[data-upcoming-only]").forEach(function (list) {
+    var any = false;
+    $("[data-iso]", list).forEach(function (el) { if (el.classList.contains("is-past")) el.hidden = true; else any = true; });
+    var e = list.querySelector(".empty-note"); if (e) e.hidden = any;
+  });
+  var talkCards = $(".talk-card");
+  if (talkCards.length) {
+    $("[data-paper-filter]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var p = b.getAttribute("data-paper-filter");
+        talkCards.forEach(function (c) { c.hidden = !(p === "all" || c.getAttribute("data-paper") === p); });
+        $("[data-paper-filter]").forEach(function (x) { x.classList.toggle("is-on", x === b); });
+      });
+    });
+  }
+
+  // ---------- News: category filter ----------
+  var newsRows = $(".news-row[data-kind]");
+  $("[data-kind-filter]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var k = b.getAttribute("data-kind-filter");
+      newsRows.forEach(function (r) {
+        var kinds = (b.getAttribute("data-kinds") || k).split("|");
+        r.hidden = !(k === "all" || kinds.indexOf(r.getAttribute("data-kind")) >= 0);
+      });
+      $("[data-kind-filter]").forEach(function (x) { x.classList.toggle("is-on", x === b); });
+    });
+  });
+
+  // ---------- Gentle reveal on scroll ----------
+  if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in-view"); io.unobserve(e.target); } });
+    }, { rootMargin: "0px 0px -8% 0px" });
+    $(".reveal").forEach(function (el) { io.observe(el); });
+  } else {
+    $(".reveal").forEach(function (el) { el.classList.add("in-view"); });
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {

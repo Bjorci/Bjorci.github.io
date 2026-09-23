@@ -196,3 +196,85 @@ div.csl-entry, .quarto-appendix-bibtex pre { font-size: 0.85rem; }
 .hero-text, .page-head > div { min-width: 0; max-width: 100%; }
 #title-block-header { max-width: 1088px; margin: 32px auto 0; padding: 0 24px; }
 #title-block-header h1.title { font-family: "Instrument Serif", Georgia, serif; font-size: 2.75rem; }
+
+// ---------- Interactive research list ----------
+.filter-bar { position: sticky; top: 0; z-index: 5; background: $ground; padding: 16px 0; margin-top: 24px; border-bottom: 1px solid $rule; display: flex; flex-direction: column; gap: 12px; }
+.filter-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.filter-row .filter-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: $muted; width: 64px; }
+.chip { border-radius: 999px; padding: 6px 14px; font: inherit; font-size: 0.85rem; font-weight: 500; cursor: pointer; background: none; border: 1px solid $rule-strong; color: $ink-soft; transition: background .15s, color .15s, border-color .15s; }
+.chip:hover { border-color: $ink; color: $ink; }
+.chip.is-on { background: $ink; border-color: $ink; color: $ground; }
+.search-box { flex: 1; min-width: 200px; max-width: 360px; border: 1px solid $rule-strong; border-radius: 999px; padding: 7px 16px; font: inherit; font-size: 0.9rem; background: #ffffff; color: $ink; }
+.search-box:focus { outline: 2px solid $accent-soft; border-color: $accent; }
+.group-count { font-size: 0.8rem; color: $muted; }
+#paper-empty { color: $muted; font-size: 1rem; margin: 40px 0; }
+
+.paper-top { display: flex; gap: 12px; align-items: center; min-height: 0; }
+.paper-top:empty { display: none; }
+.paper-year { font-size: 0.8rem; color: $muted; font-variant-numeric: tabular-nums; }
+.paper-venue { font-size: 0.9rem; color: $muted; font-style: italic; }
+.paper-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.pill-btn, .pill-link { display: inline-block; border-radius: 999px; padding: 5px 14px; font: inherit; font-size: 0.85rem; font-weight: 500; line-height: 1.5; cursor: pointer; text-decoration: none; border: 1px solid $accent-soft; color: $accent; background: none; transition: background .15s, color .15s; }
+.pill-btn:hover, .pill-link:hover { border-color: $accent; color: $accent-dark; }
+.pill-btn.is-on { background: $ink; border-color: $ink; color: $ground; }
+.paper-panel { margin-top: 12px; max-width: 760px; animation: panel-in .2s ease-out; }
+.paper-panel p { font-size: 1rem; line-height: 1.7; color: $ink-soft; margin: 0; }
+.bibtex { background: $ink; color: #dfe6e1; padding: 16px 18px; font-size: 0.78rem; line-height: 1.6; white-space: pre-wrap; margin: 0 0 8px; border: 0; border-radius: 0; }
+.copy-cite { background: none; border: 1px solid $accent-soft; border-radius: 999px; padding: 4px 12px; font-size: 0.8rem; color: $accent; cursor: pointer; }
+.paper-meta { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin-top: 8px; font-size: 0.82rem; color: $muted; }
+.paper-meta a { color: $muted; }
+.topics { display: inline-flex; flex-wrap: wrap; gap: 6px; }
+.topic-chip { background: #e3e8e3; border: 0; border-radius: 4px; padding: 2px 8px; font-size: 0.75rem; color: $ink-soft; cursor: pointer; }
+.topic-chip:hover { background: $accent-soft; color: $ink; }
+.paper.is-target { background: #e6ece6; box-shadow: -16px 0 0 #e6ece6, 16px 0 0 #e6ece6; }
+@keyframes panel-in { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+// ---------- Talks ----------
+.talk-list { display: flex; flex-direction: column; }
+.talk-card { display: grid; grid-template-columns: 170px minmax(0, 1fr); column-gap: 24px; padding: 18px 0; border-top: 1px solid $rule; }
+.talk-card .talk-when { grid-row: span 3; font-size: 0.9rem; color: $muted; }
+.talk-card .talk-event { font-family: $serif; font-size: 1.5rem; line-height: 1.2; }
+.talk-card .talk-where { font-size: 0.95rem; color: $ink-soft; }
+.talk-card .talk-paper { font-size: 0.9rem; color: $muted; margin-top: 2px; }
+.talk-card.is-upcoming { background: #ffffff; border: 1px solid $rule; padding: 18px 20px; margin-bottom: 8px; }
+.countdown { display: inline-block; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: $gold-ink; background: $gold-bg; border: 1px solid $gold-line; padding: 1px 7px; margin-left: 6px; }
+.countdown:empty { display: none; }
+.talk-card .countdown { display: block; width: max-content; margin: 6px 0 0; }
+.talk-card .countdown:empty { display: none; }
+.year-line .year { font-family: $serif; font-size: 1.5rem; color: $ink-soft; }
+
+// ---------- Photo band (Øresund) ----------
+.photo-band { position: relative; margin: 64px 0; overflow: hidden; background: $ink; }
+.photo-band img { display: block; width: 100%; height: 420px; object-fit: cover; opacity: 0.88; }
+.photo-band .band-text { position: absolute; left: 0; right: 0; bottom: 0; padding: 32px 36px; background: linear-gradient(to top, rgba(27,36,32,.85), rgba(27,36,32,0)); color: $ground; }
+.photo-band .band-text .k { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #cfe3df; }
+.photo-band .band-text .q { font-family: $serif; font-size: 2rem; line-height: 1.25; max-width: 760px; margin: 6px 0 10px; }
+.photo-band .band-text a { color: #ffffff; }
+.photo-credit { font-size: 0.72rem; color: $muted; margin-top: -56px; margin-bottom: 56px; text-align: right; }
+.photo-credit a { color: $muted; }
+
+// ---------- Service strip ----------
+.service-list > div { padding: 14px 0; border-top: 1px solid $rule; }
+.service-list .t { font-family: $serif; font-size: 1.375rem; }
+.service-list .n { font-size: 0.9rem; color: $muted; }
+
+.profile-links { display: flex; flex-wrap: wrap; gap: 8px; }
+
+// ---------- Reveal ----------
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+.reveal.in-view { opacity: 1; transform: none; }
+
+@media (max-width: 860px) {
+  .filter-bar { position: static; }
+  .filter-row .filter-label { width: 100%; }
+  .talk-card { grid-template-columns: minmax(0, 1fr); }
+  .talk-card .talk-when { grid-row: auto; }
+  .photo-band img { height: 260px; }
+  .photo-band .band-text .q { font-size: 1.375rem; }
+  .photo-credit { margin-top: -48px; }
+}
+.photo-band .credit { position: absolute; top: 10px; right: 12px; font-size: 0.68rem; color: rgba(255,255,255,.8); background: rgba(27,36,32,.45); padding: 2px 8px; }
+.photo-band .credit a { color: rgba(255,255,255,.9); }
+.paper-actions { align-items: center; }
+.pill-btn, .pill-link { display: inline-flex; align-items: center; height: 32px; padding: 0 14px; line-height: 1; margin: 0; white-space: nowrap; }
+.paper-actions > p, .paper-meta > p { display: contents; }

@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ce33566d9b8e31b66f33db6b87d70b2a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-0a54df1e63b06e75de53c43ef3539102.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Inget resultat",
@@ -87,7 +87,18 @@ ul.task-list li input[type="checkbox"] {
   ],
   "knowsLanguage": ["is", "en", "sv", "da"],
   "email": "mailto:bth@rff.dk",
-  "sameAs": []
+  "sameAs": [
+    "https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/",
+    "https://scholar.google.se/citations?user=RM3pq-gAAAAJ",
+    "https://ideas.repec.org/f/par416.html",
+    "https://orcid.org/0000-0003-4981-8965",
+    "https://www.linkedin.com/in/bjornthor/",
+    "https://bsky.app/profile/bjorci.bsky.social",
+    "https://x.com/bjorci",
+    "https://www.researchgate.net/profile/Bjoern_Thor_Arnarson",
+    "https://www.ifo.de/en/cesifo/network-member/arnarson-bjorn-thor"
+  ],
+  "identifier": { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0003-4981-8965" }
 }
 </script>
 
@@ -190,6 +201,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Björn Thor Arnarson är nationalekonom och forskare vid ROCKWOOL Foundation Research Unit i Köpenhamn samt affilierad forskare vid Nationalekonomiska institutionen, Lunds universitet. Han använder danska och svenska registerdata för att studera hur globalisering, handel och kunskapsspridning påverkar företag och anställda, med särskilt fokus på Öresundsregionens gemensamma arbetsmarknad. Han disputerade vid Lunds universitet 2016 och var tidigare biträdande universitetslektor vid Köpenhamns universitet. Hans forskning har publicerats i bland annat Journal of International Economics och Scandinavian Journal of Economics.</p>
 </div>
 </div>
+<figure class="photo-band figure">
+  <img src="../images/oresund-bridge.jpg" alt="Öresundsbron mellan Malmö och Köpenhamn i skymningen, sedd från Västra Hamnen i Malmö" loading="lazy" class="figure-img">
+  <figcaption class="band-text">
+    <div class="k">Öresundsregionen</div>
+    <p class="q">Två länder, två uppsättningar institutioner och en arbetsmarknad över sundet.</p>
+  </figcaption>
+  <span class="credit">Foto: <a href="https://commons.wikimedia.org/wiki/File:%C3%96resundsbron_October_2017_02.jpg">Arild Vågen</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></span>
+</figure>
 <div class="sec">
 <section id="öresundsregionen" class="level2 label">
 <h2 data-anchor-id="öresundsregionen">Öresundsregionen</h2>
@@ -282,6 +301,140 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<script>
+(function () {
+  "use strict";
+  var $ = function (sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); };
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+  var dayMs = 86400000;
+
+  // ---------- Abstract / Cite toggles ----------
+  $("[data-toggle]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var panel = document.getElementById(btn.getAttribute("data-toggle"));
+      if (!panel) return;
+      var open = panel.hasAttribute("hidden");
+      if (open) panel.removeAttribute("hidden"); else panel.setAttribute("hidden", "");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.classList.toggle("is-on", open);
+    });
+  });
+
+  // ---------- Copy BibTeX ----------
+  $(".copy-cite").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var pre = btn.parentNode.querySelector("pre");
+      if (!pre || !navigator.clipboard) return;
+      navigator.clipboard.writeText(pre.innerText.trim()).then(function () {
+        var old = btn.textContent; btn.textContent = "Copied";
+        setTimeout(function () { btn.textContent = old; }, 1800);
+      });
+    });
+  });
+
+  // ---------- Research filters: type tabs, topic chips, search ----------
+  var papers = $("article.paper[data-type]");
+  if (papers.length) {
+    var state = { type: "all", topic: "all", q: "" };
+    var search = document.getElementById("paper-search");
+    var empty = document.getElementById("paper-empty");
+    function apply() {
+      var shown = 0;
+      papers.forEach(function (p) {
+        var okType = state.type === "all" || p.getAttribute("data-type") === state.type;
+        var topics = (p.getAttribute("data-topics") || "").split("|");
+        var okTopic = state.topic === "all" || topics.indexOf(state.topic) >= 0;
+        var okQ = !state.q || (p.getAttribute("data-search") || "").indexOf(state.q) >= 0;
+        var ok = okType && okTopic && okQ;
+        p.hidden = !ok; if (ok) shown++;
+      });
+      $(".paper-group").forEach(function (g) {
+        var vis = $("article.paper", g).filter(function (p) { return !p.hidden; }).length;
+        g.hidden = vis === 0;
+        var c = g.querySelector("[data-count]"); if (c) c.textContent = vis;
+      });
+      if (empty) empty.hidden = shown !== 0;
+      $("[data-type-filter]").forEach(function (b) { b.classList.toggle("is-on", b.getAttribute("data-type-filter") === state.type); });
+      $("[data-topic-filter]").forEach(function (b) { b.classList.toggle("is-on", b.getAttribute("data-topic-filter") === state.topic); });
+    }
+    $("[data-type-filter]").forEach(function (b) {
+      b.addEventListener("click", function () { state.type = b.getAttribute("data-type-filter"); apply(); });
+    });
+    $("[data-topic-filter]").forEach(function (b) {
+      b.addEventListener("click", function () { var t = b.getAttribute("data-topic-filter"); state.topic = state.topic === t ? "all" : t; apply(); });
+    });
+    $("[data-topic-jump]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        state.topic = b.getAttribute("data-topic-jump"); state.type = "all"; apply();
+        var bar = document.getElementById("research-filters"); if (bar) bar.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+    if (search) search.addEventListener("input", function () { state.q = search.value.trim().toLowerCase(); apply(); });
+    // Deep link: research.html#topic=Øresund or #type=publication
+    var h = decodeURIComponent(location.hash || "");
+    var m = h.match(/^#topic=(.+)$/); if (m) state.topic = m[1];
+    var n = h.match(/^#type=(.+)$/); if (n) state.type = n[1];
+    apply();
+    // Paper anchors (#jie): open its abstract and highlight
+    var target = h.length > 1 && document.getElementById(h.slice(1));
+    if (target && target.classList.contains("paper")) {
+      target.classList.add("is-target");
+      var ab = target.querySelector('[data-toggle^="abs-"]'); if (ab) ab.click();
+    }
+  }
+
+  // ---------- Talks: upcoming detection, countdown, paper filter ----------
+  $("[data-iso]").forEach(function (el) {
+    var d = new Date(el.getAttribute("data-iso") + "T00:00:00");
+    var days = Math.round((d - today) / dayMs);
+    var cd = el.querySelector(".countdown");
+    if (days >= 0) {
+      el.classList.add("is-upcoming");
+      if (cd) cd.textContent = days === 0 ? "Today" : days === 1 ? "Tomorrow" : "In " + days + " days";
+    } else {
+      el.classList.add("is-past");
+    }
+  });
+  $("[data-upcoming-only]").forEach(function (list) {
+    var any = false;
+    $("[data-iso]", list).forEach(function (el) { if (el.classList.contains("is-past")) el.hidden = true; else any = true; });
+    var e = list.querySelector(".empty-note"); if (e) e.hidden = any;
+  });
+  var talkCards = $(".talk-card");
+  if (talkCards.length) {
+    $("[data-paper-filter]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var p = b.getAttribute("data-paper-filter");
+        talkCards.forEach(function (c) { c.hidden = !(p === "all" || c.getAttribute("data-paper") === p); });
+        $("[data-paper-filter]").forEach(function (x) { x.classList.toggle("is-on", x === b); });
+      });
+    });
+  }
+
+  // ---------- News: category filter ----------
+  var newsRows = $(".news-row[data-kind]");
+  $("[data-kind-filter]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var k = b.getAttribute("data-kind-filter");
+      newsRows.forEach(function (r) {
+        var kinds = (b.getAttribute("data-kinds") || k).split("|");
+        r.hidden = !(k === "all" || kinds.indexOf(r.getAttribute("data-kind")) >= 0);
+      });
+      $("[data-kind-filter]").forEach(function (x) { x.classList.toggle("is-on", x === b); });
+    });
+  });
+
+  // ---------- Gentle reveal on scroll ----------
+  if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in-view"); io.unobserve(e.target); } });
+    }, { rootMargin: "0px 0px -8% 0px" });
+    $(".reveal").forEach(function (el) { io.observe(el); });
+  } else {
+    $(".reveal").forEach(function (el) { el.classList.add("in-view"); });
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
