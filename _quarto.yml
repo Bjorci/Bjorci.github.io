@@ -10,7 +10,7 @@ project:
 
 website:
   title: "Björn Thor Arnarson"
-  site-url: "https://www.bjornthorarnarson.com"
+  site-url: "https://bjorci.github.io"
   description: "Economist at the ROCKWOOL Foundation Research Unit, Copenhagen. Trade, globalization, knowledge spillovers and labour markets in Scandinavia and the Øresund region."
   favicon: images/favicon.svg
   search: false

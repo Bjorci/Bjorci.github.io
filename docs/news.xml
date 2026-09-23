@@ -6,73 +6,73 @@
       version="2.0">
 <channel>
 <title>Björn Thor Arnarson</title>
-<link>https://www.bjornthorarnarson.com/news.html</link>
-<atom:link href="https://www.bjornthorarnarson.com/news.xml" rel="self" type="application/rss+xml"/>
+<link>https://bjorci.github.io/news.html</link>
+<atom:link href="https://bjorci.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description>Submissions, revisions, publications and talks.</description>
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Mon, 31 Aug 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Presented at ETSG</title>
-  <link>https://www.bjornthorarnarson.com/news/2026-etsg.html</link>
+  <link>https://bjorci.github.io/news/2026-etsg.html</link>
   <description><![CDATA[ undefined ]]></description>
   <category>Talk</category>
-  <guid>https://www.bjornthorarnarson.com/news/2026-etsg.html</guid>
+  <guid>https://bjorci.github.io/news/2026-etsg.html</guid>
   <pubDate>Mon, 31 Aug 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Research visit to LMU Munich</title>
-  <link>https://www.bjornthorarnarson.com/news/2026-lmu-visit.html</link>
+  <link>https://bjorci.github.io/news/2026-lmu-visit.html</link>
   <description><![CDATA[ undefined ]]></description>
   <category>Visit</category>
-  <guid>https://www.bjornthorarnarson.com/news/2026-lmu-visit.html</guid>
+  <guid>https://bjorci.github.io/news/2026-lmu-visit.html</guid>
   <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Out in the Journal of International Economics</title>
-  <link>https://www.bjornthorarnarson.com/news/2026-jie-published.html</link>
+  <link>https://bjorci.github.io/news/2026-jie-published.html</link>
   <description><![CDATA[ undefined ]]></description>
   <category>Published</category>
-  <guid>https://www.bjornthorarnarson.com/news/2026-jie-published.html</guid>
+  <guid>https://bjorci.github.io/news/2026-jie-published.html</guid>
   <pubDate>Sat, 28 Feb 2026 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Talks at RMET, DIEW and DIW Berlin</title>
-  <link>https://www.bjornthorarnarson.com/news/2026-spring-talks.html</link>
+  <link>https://bjorci.github.io/news/2026-spring-talks.html</link>
   <description><![CDATA[ undefined ]]></description>
   <category>Talk</category>
-  <guid>https://www.bjornthorarnarson.com/news/2026-spring-talks.html</guid>
+  <guid>https://bjorci.github.io/news/2026-spring-talks.html</guid>
   <pubDate>Sat, 31 Jan 2026 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Revise and resubmit at the JPE</title>
-  <link>https://www.bjornthorarnarson.com/news/jpe-revise-resubmit.html</link>
+  <link>https://bjorci.github.io/news/jpe-revise-resubmit.html</link>
   <description><![CDATA[ undefined ]]></description>
   <category>Revision</category>
-  <guid>https://www.bjornthorarnarson.com/news/jpe-revise-resubmit.html</guid>
+  <guid>https://bjorci.github.io/news/jpe-revise-resubmit.html</guid>
   <pubDate>Sun, 30 Nov 2025 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Organised NOITS in Copenhagen</title>
-  <link>https://www.bjornthorarnarson.com/news/2025-noits.html</link>
+  <link>https://bjorci.github.io/news/2025-noits.html</link>
   <description><![CDATA[ undefined ]]></description>
   <category>Service</category>
-  <guid>https://www.bjornthorarnarson.com/news/2025-noits.html</guid>
+  <guid>https://bjorci.github.io/news/2025-noits.html</guid>
   <pubDate>Thu, 31 Jul 2025 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Joined the ROCKWOOL Foundation Research Unit</title>
-  <link>https://www.bjornthorarnarson.com/news/2025-06-rff.html</link>
+  <link>https://bjorci.github.io/news/2025-06-rff.html</link>
   <description><![CDATA[ undefined ]]></description>
   <category>Position</category>
-  <guid>https://www.bjornthorarnarson.com/news/2025-06-rff.html</guid>
+  <guid>https://bjorci.github.io/news/2025-06-rff.html</guid>
   <pubDate>Sat, 31 May 2025 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Op-ed in Vísbending</title>
-  <link>https://www.bjornthorarnarson.com/news/2025-05-visbending.html</link>
+  <link>https://bjorci.github.io/news/2025-05-visbending.html</link>
   <description><![CDATA[ undefined ]]></description>
   <category>Media</category>
-  <guid>https://www.bjornthorarnarson.com/news/2025-05-visbending.html</guid>
+  <guid>https://bjorci.github.io/news/2025-05-visbending.html</guid>
   <pubDate>Wed, 30 Apr 2025 22:00:00 GMT</pubDate>
 </item>
 </channel>

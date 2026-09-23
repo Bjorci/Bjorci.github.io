@@ -3,13 +3,13 @@
 > Economist at the ROCKWOOL Foundation Research Unit, Copenhagen, and affiliated researcher at the Department of Economics, Lund University. Research on international trade, globalization, knowledge spillovers and labour markets, using linked Danish and Swedish administrative register data, with a particular focus on the Øresund region. Fluent in Icelandic, English and Swedish; working knowledge of Danish. Contact: bth@rff.dk.
 
 ## About
-- [About](https://www.bjornthorarnarson.com/about.html): background, areas of expertise, languages, biography in three lengths
-- [Om mig (svenska)](https://www.bjornthorarnarson.com/sv/)
-- [Um mig (íslenska)](https://www.bjornthorarnarson.com/is/)
-- [CV](https://www.bjornthorarnarson.com/cv.html) ([PDF](https://www.bjornthorarnarson.com/files/Arnarson_CV.pdf))
+- [About](https://bjorci.github.io/about.html): background, areas of expertise, languages, biography in three lengths
+- [Om mig (svenska)](https://bjorci.github.io/sv/)
+- [Um mig (íslenska)](https://bjorci.github.io/is/)
+- [CV](https://bjorci.github.io/cv.html) ([PDF](https://bjorci.github.io/files/Arnarson_CV.pdf))
 
 ## Working papers
-- [Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains](https://www.bjornthorarnarson.com/papers/growing-together.html): with Buus, Moxnes, Munch and Xiang; revise and resubmit, Journal of Political Economy; CESifo Working Paper 12710
+- [Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains](https://bjorci.github.io/papers/growing-together.html): with Buus, Moxnes, Munch and Xiang; revise and resubmit, Journal of Political Economy; CESifo Working Paper 12710
 - R&D Employment and Transmission in Trade and MNE Networks: Evidence from an R&D Tax Reform: with Buus, Munch and Schaur; ROCKWOOL Foundation Study Paper 217
 - Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment: with Munch, Olsen and Simonsen; work in progress
 - International Spillovers from Supplying Superstars: Evidence from Firm-to-Firm Linkages: with Hansen; work in progress
@@ -23,6 +23,6 @@
 - The Paternity Leave Act in Iceland: Implications for Gender Equality in the Labour Market (with Mitra). Applied Economics Letters, 2010. https://doi.org/10.1080/13504850802297830
 
 ## Optional
-- [Research](https://www.bjornthorarnarson.com/research.html)
-- [News](https://www.bjornthorarnarson.com/news.html) ([RSS](https://www.bjornthorarnarson.com/news.xml))
-- [Talks](https://www.bjornthorarnarson.com/talks.html)
+- [Research](https://bjorci.github.io/research.html)
+- [News](https://bjorci.github.io/news.html) ([RSS](https://bjorci.github.io/news.xml))
+- [Talks](https://bjorci.github.io/talks.html)

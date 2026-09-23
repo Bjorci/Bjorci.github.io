@@ -70,74 +70,39 @@
     "text": "Around the paper"
   },
   {
-    "objectID": "is/index.html#bakgrunnur",
-    "href": "is/index.html#bakgrunnur",
+    "objectID": "MEMORY.html#learnsetup-quarto-site-replacing-weebly-date-2026-09-23-what-quarto-1.10-website-output-in-docs-for-github-pages-branch-main-folder-docs.-design-is-c-refined-from-the-mockup-canvas-httpsclaude.aiartifact3dkhtgkyqqxkt7zwjxke3a-instrument-serif-public-sans-eef0ec-ground-teal-accent-gold-rr-tag.-content-in-data.yml-and-news.qmd-rendered-through-ejs-templates-in-_templates.-paper-pages-use-google-scholar-true-citation-for-scholar-meta-tags-and-bibtex-author-names-must-be-givenfamily-pairs-or-bibtex-splits-björn-thor-wrongly.-photo-taken-from-the-old-weebly-site.-open-github-repo-pages-setup-custom-domain-bjornthorarnarson.com-currently-on-weebly-placeholders-listed-in-readme.",
+    "href": "MEMORY.html#learnsetup-quarto-site-replacing-weebly-date-2026-09-23-what-quarto-1.10-website-output-in-docs-for-github-pages-branch-main-folder-docs.-design-is-c-refined-from-the-mockup-canvas-httpsclaude.aiartifact3dkhtgkyqqxkt7zwjxke3a-instrument-serif-public-sans-eef0ec-ground-teal-accent-gold-rr-tag.-content-in-data.yml-and-news.qmd-rendered-through-ejs-templates-in-_templates.-paper-pages-use-google-scholar-true-citation-for-scholar-meta-tags-and-bibtex-author-names-must-be-givenfamily-pairs-or-bibtex-splits-björn-thor-wrongly.-photo-taken-from-the-old-weebly-site.-open-github-repo-pages-setup-custom-domain-bjornthorarnarson.com-currently-on-weebly-placeholders-listed-in-readme.",
     "title": "Björn Thor Arnarson",
-    "section": "Bakgrunnur",
-    "text": "Bakgrunnur"
+    "section": "[LEARN:setup] Quarto site replacing Weebly | Date: 2026-09-23 | What: Quarto 1.10 website, output in docs/ for GitHub Pages (branch main, folder /docs). Design is “C refined” from the mockup canvas https://claude.ai/artifact/3DKHtGKYqqXkt7ZwJXke3A (Instrument Serif + Public Sans, #eef0ec ground, teal accent, gold R&R tag). Content in data/*.yml and news/*.qmd, rendered through EJS templates in _templates/. Paper pages use google-scholar: true + citation: for Scholar meta tags and BibTeX; author names must be given/family pairs or BibTeX splits “Björn Thor” wrongly. Photo taken from the old Weebly site. | Open: GitHub repo + Pages setup, custom domain (bjornthorarnarson.com currently on Weebly), placeholders listed in README.",
+    "text": "[LEARN:setup] Quarto site replacing Weebly | Date: 2026-09-23 | What: Quarto 1.10 website, output in docs/ for GitHub Pages (branch main, folder /docs). Design is “C refined” from the mockup canvas https://claude.ai/artifact/3DKHtGKYqqXkt7ZwJXke3A (Instrument Serif + Public Sans, #eef0ec ground, teal accent, gold R&R tag). Content in data/*.yml and news/*.qmd, rendered through EJS templates in _templates/. Paper pages use google-scholar: true + citation: for Scholar meta tags and BibTeX; author names must be given/family pairs or BibTeX splits “Björn Thor” wrongly. Photo taken from the old Weebly site. | Open: GitHub repo + Pages setup, custom domain (bjornthorarnarson.com currently on Weebly), placeholders listed in README."
   },
   {
-    "objectID": "is/index.html#sérsvið",
-    "href": "is/index.html#sérsvið",
+    "objectID": "MEMORY.html#learngotchas-build-pitfalls-date-2026-09-23-what-1-in-ejs-templates-never-indent-html-by-4-spaces-quarto-passes-template-output-through-markdown-and-indented-lines-become-code-blocks.-2-two-...class-spans-on-consecutive-lines-merge-into-one-paragraph-and-break-the-two-column-rows-keep-a-blank-line-between-them.-a-fenced-div-also-needs-a-blank-line-before-it.-3-a-local-python--m-http.server-started-inside-docs-locks-the-folder-and-makes-quarto-render-fail-used-by-another-process-serve-from-the-project-root-instead.-4-headless-chrome-lays-pages-out-at-a-minimum-500px-width-so-a-390px-screenshot-looks-clipped-when-the-site-is-fine.-open",
+    "href": "MEMORY.html#learngotchas-build-pitfalls-date-2026-09-23-what-1-in-ejs-templates-never-indent-html-by-4-spaces-quarto-passes-template-output-through-markdown-and-indented-lines-become-code-blocks.-2-two-...class-spans-on-consecutive-lines-merge-into-one-paragraph-and-break-the-two-column-rows-keep-a-blank-line-between-them.-a-fenced-div-also-needs-a-blank-line-before-it.-3-a-local-python--m-http.server-started-inside-docs-locks-the-folder-and-makes-quarto-render-fail-used-by-another-process-serve-from-the-project-root-instead.-4-headless-chrome-lays-pages-out-at-a-minimum-500px-width-so-a-390px-screenshot-looks-clipped-when-the-site-is-fine.-open",
     "title": "Björn Thor Arnarson",
-    "section": "Sérsvið",
-    "text": "Sérsvið"
+    "section": "[LEARN:gotchas] Build pitfalls | Date: 2026-09-23 | What: (1) In EJS templates, never indent HTML by 4+ spaces: Quarto passes template output through Markdown and indented lines become code blocks. (2) Two [..]{.class} spans on consecutive lines merge into one paragraph and break the two-column rows; keep a blank line between them. A fenced div also needs a blank line before it. (3) A local python -m http.server started inside docs/ locks the folder and makes quarto render fail (“used by another process”); serve from the project root instead. (4) Headless Chrome lays pages out at a minimum 500px width, so a 390px screenshot looks clipped when the site is fine. | Open: —",
+    "text": "[LEARN:gotchas] Build pitfalls | Date: 2026-09-23 | What: (1) In EJS templates, never indent HTML by 4+ spaces: Quarto passes template output through Markdown and indented lines become code blocks. (2) Two [..]{.class} spans on consecutive lines merge into one paragraph and break the two-column rows; keep a blank line between them. A fenced div also needs a blank line before it. (3) A local python -m http.server started inside docs/ locks the folder and makes quarto render fail (“used by another process”); serve from the project root instead. (4) Headless Chrome lays pages out at a minimum 500px width, so a 390px screenshot looks clipped when the site is fine. | Open: —"
   },
   {
-    "objectID": "is/index.html#á-íslensku",
-    "href": "is/index.html#á-íslensku",
+    "objectID": "index.html#latest",
+    "href": "index.html#latest",
     "title": "Björn Thor Arnarson",
-    "section": "Á íslensku",
-    "text": "Á íslensku"
+    "section": "Latest",
+    "text": "Latest\nAll news →"
   },
   {
-    "objectID": "is/index.html#samband",
-    "href": "is/index.html#samband",
+    "objectID": "index.html#selected-research",
+    "href": "index.html#selected-research",
     "title": "Björn Thor Arnarson",
-    "section": "Samband",
-    "text": "Samband"
+    "section": "Selected research",
+    "text": "Selected research\nAll research →"
   },
   {
-    "objectID": "cv.html#positions",
-    "href": "cv.html#positions",
+    "objectID": "index.html#upcoming-talks",
+    "href": "index.html#upcoming-talks",
     "title": "Björn Thor Arnarson",
-    "section": "Positions",
-    "text": "Positions"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Björn Thor Arnarson",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "cv.html#selected-grants",
-    "href": "cv.html#selected-grants",
-    "title": "Björn Thor Arnarson",
-    "section": "Selected grants",
-    "text": "Selected grants\nFull list in the PDF."
-  },
-  {
-    "objectID": "cv.html#service",
-    "href": "cv.html#service",
-    "title": "Björn Thor Arnarson",
-    "section": "Service",
-    "text": "Service"
-  },
-  {
-    "objectID": "cv.html#languages",
-    "href": "cv.html#languages",
-    "title": "Björn Thor Arnarson",
-    "section": "Languages",
-    "text": "Languages"
-  },
-  {
-    "objectID": "cv.html#also",
-    "href": "cv.html#also",
-    "title": "Björn Thor Arnarson",
-    "section": "Also",
-    "text": "Also"
+    "section": "Upcoming talks",
+    "text": "Upcoming talks\nAll talks →"
   },
   {
     "objectID": "about.html#background",
@@ -189,25 +154,74 @@
     "text": "Contact"
   },
   {
-    "objectID": "index.html#latest",
-    "href": "index.html#latest",
+    "objectID": "cv.html#positions",
+    "href": "cv.html#positions",
     "title": "Björn Thor Arnarson",
-    "section": "Latest",
-    "text": "Latest\nAll news →"
+    "section": "Positions",
+    "text": "Positions"
   },
   {
-    "objectID": "index.html#selected-research",
-    "href": "index.html#selected-research",
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
     "title": "Björn Thor Arnarson",
-    "section": "Selected research",
-    "text": "Selected research\nAll research →"
+    "section": "Education",
+    "text": "Education"
   },
   {
-    "objectID": "index.html#upcoming-talks",
-    "href": "index.html#upcoming-talks",
+    "objectID": "cv.html#selected-grants",
+    "href": "cv.html#selected-grants",
     "title": "Björn Thor Arnarson",
-    "section": "Upcoming talks",
-    "text": "Upcoming talks\nAll talks →"
+    "section": "Selected grants",
+    "text": "Selected grants\nFull list in the PDF."
+  },
+  {
+    "objectID": "cv.html#service",
+    "href": "cv.html#service",
+    "title": "Björn Thor Arnarson",
+    "section": "Service",
+    "text": "Service"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "Björn Thor Arnarson",
+    "section": "Languages",
+    "text": "Languages"
+  },
+  {
+    "objectID": "cv.html#also",
+    "href": "cv.html#also",
+    "title": "Björn Thor Arnarson",
+    "section": "Also",
+    "text": "Also"
+  },
+  {
+    "objectID": "is/index.html#bakgrunnur",
+    "href": "is/index.html#bakgrunnur",
+    "title": "Björn Thor Arnarson",
+    "section": "Bakgrunnur",
+    "text": "Bakgrunnur"
+  },
+  {
+    "objectID": "is/index.html#sérsvið",
+    "href": "is/index.html#sérsvið",
+    "title": "Björn Thor Arnarson",
+    "section": "Sérsvið",
+    "text": "Sérsvið"
+  },
+  {
+    "objectID": "is/index.html#á-íslensku",
+    "href": "is/index.html#á-íslensku",
+    "title": "Björn Thor Arnarson",
+    "section": "Á íslensku",
+    "text": "Á íslensku"
+  },
+  {
+    "objectID": "is/index.html#samband",
+    "href": "is/index.html#samband",
+    "title": "Björn Thor Arnarson",
+    "section": "Samband",
+    "text": "Samband"
   },
   {
     "objectID": "research.html#working-papers",

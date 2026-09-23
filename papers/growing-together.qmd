@@ -27,7 +27,7 @@ citation:
   number: "12710"
   publisher: CESifo
   doi: 10.65864/rekivjv2z7
-  url: https://www.bjornthorarnarson.com/papers/growing-together.html
+  url: https://bjorci.github.io/papers/growing-together.html
   # TODO: add issued: YYYY once confirmed
 ---
 

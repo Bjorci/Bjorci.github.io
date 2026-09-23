@@ -40,6 +40,14 @@ After `quarto render`, open the Source Control panel in VS Code, write a one-lin
 (e.g. "Add JPE news item"), click **Commit**, then **Sync Changes**. GitHub Pages rebuilds the
 live site within a minute or two. Nothing else is needed.
 
+## Moving bjornthorarnarson.com here
+
+The site is live at https://bjorci.github.io (repository `Bjorci/Bjorci.github.io`, GitHub Pages
+serving `main` / `docs`). To move the domain from Weebly: add the domain under the repository's
+Settings → Pages → Custom domain, point the domain's DNS at GitHub Pages as GitHub instructs, then
+replace `https://bjorci.github.io` with `https://www.bjornthorarnarson.com` in `_quarto.yml`,
+`_includes/head.html`, `llms.txt`, `robots.txt` and `papers/*.qmd`, and render again.
+
 ## Things still to fill in
 
 Search the source for `[` placeholders and `TODO` comments: abstracts, plain-language summaries,
