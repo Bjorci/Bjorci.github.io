@@ -69,9 +69,9 @@ listing:
 
 :::
 ::: {.row-line}
-[Policy website]{.when}
+[Until 2026]{.when}
 
-[*The Road to Exporting* (RoadtoExporting.dk, now closed): lead designer of the research-based policy website on exporting, with Jakob Munch and Georg Schaur, financed by the Innovation Fund. [Example of the website](https://www.dropbox.com/scl/fi/bti8y184yhoicbuqvjs60/ku_website.dk.pdf?rlkey=67a9k93wrc6inrq7crrunf8p0&st=64y782rw&dl=0) · [Presentation](https://www.dropbox.com/scl/fi/n4n3z394i2kcu6wrjam2j/Road_To_Exporting.pdf?rlkey=zdw4n2qnjjsqpaz2qrllp5vnq&st=ory2one7&dl=0) · [Methods appendix](https://www.dropbox.com/scl/fi/05mgshlos3ztjqlts9w9t/Road_to_Exporting_methodology_appendix.pdf?rlkey=f6xno6yxeeh8nul4krom5pn93&dl=0)]{.what}
+[*The Road to Exporting* (RoadtoExporting.dk, sunset in 2026): lead designer of the research-based policy website on exporting, with Jakob Munch and Georg Schaur, financed by the Innovation Fund. [Example of the website](https://www.dropbox.com/scl/fi/bti8y184yhoicbuqvjs60/ku_website.dk.pdf?rlkey=67a9k93wrc6inrq7crrunf8p0&st=64y782rw&dl=0) · [Presentation](https://www.dropbox.com/scl/fi/n4n3z394i2kcu6wrjam2j/Road_To_Exporting.pdf?rlkey=zdw4n2qnjjsqpaz2qrllp5vnq&st=ory2one7&dl=0) · [Methods appendix](https://www.dropbox.com/scl/fi/05mgshlos3ztjqlts9w9t/Road_to_Exporting_methodology_appendix.pdf?rlkey=f6xno6yxeeh8nul4krom5pn93&dl=0)]{.what}
 
 :::
 ::: {.row-line}
