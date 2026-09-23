@@ -23,7 +23,7 @@ image: ../images/bjorn.jpg
 ## Bakgrund
 :::
 ::: {.prose}
-Jag är född och uppvuxen på Island, studerade nationalekonomi vid Islands universitet och Boston University och arbetade som ekonom i Reykjavik innan jag flyttade till Lund för doktorandstudier 2011.
+Jag är född och uppvuxen på Island, studerade nationalekonomi vid Islands universitet, med ett utbytesår vid University of Oklahoma, och vid Boston University, och arbetade som ekonom i Reykjavik innan jag flyttade till Lund för doktorandstudier 2011.
 
 I Lund, med Köpenhamn en kort tågresa bort över bron, blev jag tidigt intresserad av Öresundsregionen: två länder, två uppsättningar institutioner och en arbetsmarknad som i allt högre grad spänner över båda. Det intresset har format min forskning i mer än ett decennium.
 

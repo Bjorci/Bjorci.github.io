@@ -23,7 +23,7 @@ image: ../images/bjorn.jpg
 ## Bakgrunnur
 :::
 ::: {.prose}
-Ég er fæddur og uppalinn á Íslandi, lauk BS-prófi í hagfræði frá Háskóla Íslands og MA-prófi frá Boston University, og starfaði sem hagfræðingur í Reykjavík áður en ég flutti til Lundar í doktorsnám árið 2011.
+Ég er fæddur og uppalinn á Íslandi, lauk BS-prófi í hagfræði frá Háskóla Íslands, með skiptinámi við University of Oklahoma, og MA-prófi frá Boston University, og starfaði sem hagfræðingur í Reykjavík áður en ég flutti til Lundar í doktorsnám árið 2011.
 
 Í Lundi, steinsnar frá Kaupmannahöfn hinum megin við Eyrarsundsbrúna, vaknaði snemma áhugi minn á Eyrarsundssvæðinu. Sá áhugi hefur mótað rannsóknir mínar í meira en áratug.
 

@@ -22,7 +22,7 @@ image: images/bjorn.jpg
 :::
 ::: {}
 ::: {.prose}
-I was born and raised in Iceland, studied economics at the University of Iceland and Boston University, and worked as an economist in Reykjavik before moving to Lund for my doctoral studies in 2011.
+I was born and raised in Iceland, studied economics at the University of Iceland, with an exchange year at the University of Oklahoma, and at Boston University, and worked as an economist in Reykjavik before moving to Lund for my doctoral studies in 2011.
 
 In Lund, with Copenhagen a short train ride across the bridge, I became interested early in the Øresund region: two countries, two sets of institutions and a labour market that increasingly spans both. That interest has shaped my research for well over a decade.
 
@@ -37,7 +37,7 @@ Most of my work builds on Danish and Swedish administrative microdata. Over the 
 :::
 ::: {}
 [United States]{.place}\
-[MA, Boston University, 2009]{.what}
+[Exchange year, University of Oklahoma, 2006–07; MA, Boston University, 2009]{.what}
 
 :::
 ::: {}
