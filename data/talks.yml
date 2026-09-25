@@ -8,7 +8,8 @@
   event: "OECD"
   place: "Paris"
   kind: "Invited seminar"
-  note: "LIFT initiative on firm-to-firm data"
+  note: "LIFT (Leveraging Inter-Firm Transactions) initiative on firm-to-firm data"
+  url: "https://www.oecd.org/en/about/projects/leveraging-inter-firm-transactions.html"
   paper: ""
 
 - iso: 2026-09-29
@@ -18,33 +19,37 @@
   kind: "Workshop"
   paper: ""
 
-- iso: 2026-08-01
-  when: "August 2026"
-  event: "DIW Berlin, Economic Experts conference"
+- iso: 2026-08-24
+  when: "24–25 August 2026"
+  event: "Scientific Workshop on Productivity, DIW Berlin and the German Council of Economic Experts"
+  url: "https://www.diw.de/en/diw_01.c.1003942.en/events/scientific_workshop_on_productivity.html"
   place: "Berlin"
   kind: "Conference"
   paper: rd
   paper_title: "R&D Employment and Transmission in Trade and MNE Networks"
 
-- iso: 2026-09-01   # TODO: exact ETSG date
-  when: "2026"
+- iso: 2026-09-10
+  when: "10–12 September 2026"
   event: "European Trade Study Group (ETSG)"
+  url: "https://etsg.org/conferences/etsg-2026-exeter/"
   place: "Exeter"
   kind: "Conference"
   paper: scale
   paper_title: "Growing Together and Apart"
 
-- iso: 2026-05-01   # TODO: exact date
-  when: "2026"
+- iso: 2026-06-25
+  when: "25–26 June 2026"
   event: "Danish International Economics Workshop (DIEW)"
+  url: "https://econ.au.dk/research-centre-for-firms-and-industry-dynamics-find/diew-workshops/diew-2026"
   place: "Aarhus"
   kind: "Workshop"
   paper: superstar
   paper_title: "International Spillovers from Supplying Superstars"
 
-- iso: 2026-04-01   # TODO: exact date
-  when: "2026"
+- iso: 2026-05-15
+  when: "15–17 May 2026"
   event: "Rocky Mountain Empirical Trade Conference (RMET), a FREIT conference"
+  url: "https://freit.org/RMET/"
   place: "Banff"
   kind: "Conference"
   paper: rd

@@ -4,12 +4,13 @@
     "items": []
   },
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
       "/news/2026-etsg.html",
       "/news/2026-08-diw.html",
       "/news/2026-lmu-visit.html",
-      "/news/2026-spring-talks.html",
+      "/news/2026-06-diew.html",
+      "/news/2026-05-rmet.html",
       "/news/2026-jie-published.html",
       "/news/2026-scale-wp.html",
       "/news/jpe-revise-resubmit.html",
@@ -21,12 +22,13 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/news.html",
     "items": [
       "/news/2026-etsg.html",
       "/news/2026-08-diw.html",
       "/news/2026-lmu-visit.html",
-      "/news/2026-spring-talks.html",
+      "/news/2026-06-diew.html",
+      "/news/2026-05-rmet.html",
       "/news/2026-jie-published.html",
       "/news/2026-scale-wp.html",
       "/news/jpe-revise-resubmit.html",

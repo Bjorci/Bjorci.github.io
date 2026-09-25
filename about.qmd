@@ -346,7 +346,7 @@ The Øresund Bridge turned Copenhagen and Malmö into one labour market. Danish 
 :::
 ::: {.service-list}
 ::: {}
-[NOITS 2025, Copenhagen, and NOITS 2021, Iceland]{.t}\
+[[NOITS 2025, Copenhagen](http://www.noits.org/noits-2025/), and NOITS 2021, Iceland]{.t}\
 [Organiser of NOITS, the annual Nordic conference in international economics.]{.n}
 :::
 ::: {}

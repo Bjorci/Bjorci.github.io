@@ -8,7 +8,7 @@ const years = items.filter(t => t.year);
 <% for (const t of detailed) { %>
 <div class="row-line talk" data-iso="<%= t.iso %>">
 <div class="when"><%= t.when %></div>
-<div class="what"><strong><%= t.event %></strong>, <%= t.place %><% if (t.note) { %> · <%= t.note %><% } %> <span class="countdown"></span></div>
+<div class="what"><strong><% if (t.url) { %><a href="<%- t.url %>"><%= t.event %></a><% } else { %><%= t.event %><% } %></strong>, <%= t.place %><% if (t.note) { %> · <%= t.note %><% } %> <span class="countdown"></span></div>
 </div>
 <% } %>
 <p class="empty-note" hidden>No talks scheduled right now. See the <a href="news.html#talks">talk archive</a>.</p>
@@ -18,7 +18,7 @@ const years = items.filter(t => t.year);
 <% for (const t of detailed) { %>
 <div class="talk-card" data-iso="<%= t.iso %>" data-paper="<%= t.paper || '' %>">
 <div class="talk-when"><%= t.when %> <span class="countdown"></span></div>
-<div class="talk-event"><%= t.event %></div>
+<div class="talk-event"><% if (t.url) { %><a href="<%- t.url %>"><%= t.event %></a><% } else { %><%= t.event %><% } %></div>
 <div class="talk-where"><%= t.kind %>, <%= t.place %><% if (t.note) { %> · <%= t.note %><% } %></div>
 <% if (t.paper_title) { %><div class="talk-paper">Paper: <a href="research.html#<%= t.paper %>"><%= t.paper_title %></a></div><% } %>
 </div>

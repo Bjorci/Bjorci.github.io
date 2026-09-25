@@ -1,0 +1,11 @@
+---
+title: "R&D and MNE networks at RMET in Banff"
+date: 2026-05-15
+datelabel: "May 2026"
+categories: ["Talk"]
+description: "Presented “R&D Employment and Transmission in Trade and MNE Networks” at the [Rocky Mountain Empirical Trade Conference (RMET)](https://freit.org/RMET/) in Banff, a FREIT conference."
+---
+
+Presented “R&D Employment and Transmission in Trade and MNE Networks” at the [Rocky Mountain Empirical Trade Conference (RMET)](https://freit.org/RMET/) in Banff, a FREIT conference.
+
+[← News & talks](../news.qmd)

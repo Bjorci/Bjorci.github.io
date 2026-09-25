@@ -1,11 +1,11 @@
 ---
 title: "Growing Together and Apart at ETSG"
-date: 2026-09-01   # TODO: real date (only the order matters; the page shows datelabel)
-datelabel: "2026"
+date: 2026-09-10
+datelabel: "September 2026"
 categories: ["Talk"]
-description: "Presented “Growing Together and Apart” at the European Trade Study Group (ETSG) in Exeter."
+description: "Presented “Growing Together and Apart” at the [European Trade Study Group (ETSG)](https://etsg.org/conferences/etsg-2026-exeter/) in Exeter."
 ---
 
-Presented “Growing Together and Apart” at the European Trade Study Group (ETSG) in Exeter.
+Presented “Growing Together and Apart” at the [European Trade Study Group (ETSG)](https://etsg.org/conferences/etsg-2026-exeter/) in Exeter.
 
 [← News & talks](../news.qmd)

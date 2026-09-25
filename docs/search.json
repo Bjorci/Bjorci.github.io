@@ -21,67 +21,74 @@
     "text": "Books, thesis and other writing"
   },
   {
-    "objectID": "news.html#upcoming-talks",
-    "href": "news.html#upcoming-talks",
+    "objectID": "is/index.html#bakgrunnur",
+    "href": "is/index.html#bakgrunnur",
     "title": "Björn Thor Arnarson",
-    "section": "Upcoming talks",
-    "text": "Upcoming talks"
+    "section": "Bakgrunnur",
+    "text": "Bakgrunnur"
   },
   {
-    "objectID": "news.html#news",
-    "href": "news.html#news",
+    "objectID": "is/index.html#sérsvið",
+    "href": "is/index.html#sérsvið",
     "title": "Björn Thor Arnarson",
-    "section": "News",
-    "text": "News"
+    "section": "Sérsvið",
+    "text": "Sérsvið"
   },
   {
-    "objectID": "news.html#talk-archive",
-    "href": "news.html#talk-archive",
+    "objectID": "is/index.html#á-íslensku",
+    "href": "is/index.html#á-íslensku",
     "title": "Björn Thor Arnarson",
-    "section": "Talk archive",
-    "text": "Talk archive"
+    "section": "Á íslensku",
+    "text": "Á íslensku"
   },
   {
-    "objectID": "news.html#visits-and-organising",
-    "href": "news.html#visits-and-organising",
+    "objectID": "is/index.html#samband",
+    "href": "is/index.html#samband",
     "title": "Björn Thor Arnarson",
-    "section": "Visits and organising",
-    "text": "Visits and organising"
+    "section": "Samband",
+    "text": "Samband"
   },
   {
-    "objectID": "index.html#news-talks",
-    "href": "index.html#news-talks",
+    "objectID": "cv.html#positions",
+    "href": "cv.html#positions",
     "title": "Björn Thor Arnarson",
-    "section": "News & talks",
-    "text": "News & talks\nAll news and talks →"
+    "section": "Positions",
+    "text": "Positions"
   },
   {
-    "objectID": "index.html#working-papers",
-    "href": "index.html#working-papers",
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
     "title": "Björn Thor Arnarson",
-    "section": "Working papers",
-    "text": "Working papers\nWith abstracts →"
+    "section": "Education",
+    "text": "Education"
   },
   {
-    "objectID": "index.html#publications",
-    "href": "index.html#publications",
+    "objectID": "cv.html#selected-grants",
+    "href": "cv.html#selected-grants",
     "title": "Björn Thor Arnarson",
-    "section": "Publications",
-    "text": "Publications\nWith abstracts →"
+    "section": "Selected grants",
+    "text": "Selected grants\nFull list in the PDF."
   },
   {
-    "objectID": "index.html#work-in-progress",
-    "href": "index.html#work-in-progress",
+    "objectID": "cv.html#service",
+    "href": "cv.html#service",
     "title": "Björn Thor Arnarson",
-    "section": "Work in progress",
-    "text": "Work in progress"
+    "section": "Service",
+    "text": "Service"
   },
   {
-    "objectID": "index.html#the-øresund-region",
-    "href": "index.html#the-øresund-region",
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
     "title": "Björn Thor Arnarson",
-    "section": "The Øresund region",
-    "text": "The Øresund region"
+    "section": "Languages",
+    "text": "Languages"
+  },
+  {
+    "objectID": "cv.html#also",
+    "href": "cv.html#also",
+    "title": "Björn Thor Arnarson",
+    "section": "Also",
+    "text": "Also"
   },
   {
     "objectID": "about.html#background",
@@ -147,74 +154,67 @@
     "text": "Contact and profiles"
   },
   {
-    "objectID": "cv.html#positions",
-    "href": "cv.html#positions",
+    "objectID": "index.html#news-talks",
+    "href": "index.html#news-talks",
     "title": "Björn Thor Arnarson",
-    "section": "Positions",
-    "text": "Positions"
+    "section": "News & talks",
+    "text": "News & talks\nAll news and talks →"
   },
   {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
+    "objectID": "index.html#working-papers",
+    "href": "index.html#working-papers",
     "title": "Björn Thor Arnarson",
-    "section": "Education",
-    "text": "Education"
+    "section": "Working papers",
+    "text": "Working papers\nWith abstracts →"
   },
   {
-    "objectID": "cv.html#selected-grants",
-    "href": "cv.html#selected-grants",
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
     "title": "Björn Thor Arnarson",
-    "section": "Selected grants",
-    "text": "Selected grants\nFull list in the PDF."
+    "section": "Publications",
+    "text": "Publications\nWith abstracts →"
   },
   {
-    "objectID": "cv.html#service",
-    "href": "cv.html#service",
+    "objectID": "index.html#work-in-progress",
+    "href": "index.html#work-in-progress",
     "title": "Björn Thor Arnarson",
-    "section": "Service",
-    "text": "Service"
+    "section": "Work in progress",
+    "text": "Work in progress"
   },
   {
-    "objectID": "cv.html#languages",
-    "href": "cv.html#languages",
+    "objectID": "index.html#the-øresund-region",
+    "href": "index.html#the-øresund-region",
     "title": "Björn Thor Arnarson",
-    "section": "Languages",
-    "text": "Languages"
+    "section": "The Øresund region",
+    "text": "The Øresund region"
   },
   {
-    "objectID": "cv.html#also",
-    "href": "cv.html#also",
+    "objectID": "news.html#upcoming-talks",
+    "href": "news.html#upcoming-talks",
     "title": "Björn Thor Arnarson",
-    "section": "Also",
-    "text": "Also"
+    "section": "Upcoming talks",
+    "text": "Upcoming talks"
   },
   {
-    "objectID": "is/index.html#bakgrunnur",
-    "href": "is/index.html#bakgrunnur",
+    "objectID": "news.html#news",
+    "href": "news.html#news",
     "title": "Björn Thor Arnarson",
-    "section": "Bakgrunnur",
-    "text": "Bakgrunnur"
+    "section": "News",
+    "text": "News"
   },
   {
-    "objectID": "is/index.html#sérsvið",
-    "href": "is/index.html#sérsvið",
+    "objectID": "news.html#talk-archive",
+    "href": "news.html#talk-archive",
     "title": "Björn Thor Arnarson",
-    "section": "Sérsvið",
-    "text": "Sérsvið"
+    "section": "Talk archive",
+    "text": "Talk archive"
   },
   {
-    "objectID": "is/index.html#á-íslensku",
-    "href": "is/index.html#á-íslensku",
+    "objectID": "news.html#visits-and-organising",
+    "href": "news.html#visits-and-organising",
     "title": "Björn Thor Arnarson",
-    "section": "Á íslensku",
-    "text": "Á íslensku"
-  },
-  {
-    "objectID": "is/index.html#samband",
-    "href": "is/index.html#samband",
-    "title": "Björn Thor Arnarson",
-    "section": "Samband",
-    "text": "Samband"
+    "section": "Visits and organising",
+    "text": "Visits and organising"
   },
   {
     "objectID": "papers/growing-together.html#in-short",

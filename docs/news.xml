@@ -10,14 +10,14 @@
 <atom:link href="https://bjorci.github.io/news.xml" rel="self" type="application/rss+xml"/>
 <description>Upcoming talks, new papers, publications, revisions and other news from Björn Thor Arnarson.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 31 Aug 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 09 Sep 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Growing Together and Apart at ETSG</title>
   <link>https://bjorci.github.io/news/2026-etsg.html</link>
   <description><![CDATA[ undefined ]]></description>
   <category>Talk</category>
   <guid>https://bjorci.github.io/news/2026-etsg.html</guid>
-  <pubDate>Mon, 31 Aug 2026 22:00:00 GMT</pubDate>
+  <pubDate>Wed, 09 Sep 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>R&amp;D and MNE networks at DIW Berlin</title>
@@ -25,7 +25,7 @@
   <description><![CDATA[ undefined ]]></description>
   <category>Talk</category>
   <guid>https://bjorci.github.io/news/2026-08-diw.html</guid>
-  <pubDate>Fri, 31 Jul 2026 22:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Aug 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Research visit to LMU Munich</title>
@@ -36,12 +36,20 @@
   <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Talks at RMET and DIEW</title>
-  <link>https://bjorci.github.io/news/2026-spring-talks.html</link>
+  <title>Supplying Superstars at DIEW</title>
+  <link>https://bjorci.github.io/news/2026-06-diew.html</link>
   <description><![CDATA[ undefined ]]></description>
   <category>Talk</category>
-  <guid>https://bjorci.github.io/news/2026-spring-talks.html</guid>
-  <pubDate>Thu, 30 Apr 2026 22:00:00 GMT</pubDate>
+  <guid>https://bjorci.github.io/news/2026-06-diew.html</guid>
+  <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>R&amp;D and MNE networks at RMET in Banff</title>
+  <link>https://bjorci.github.io/news/2026-05-rmet.html</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Talk</category>
+  <guid>https://bjorci.github.io/news/2026-05-rmet.html</guid>
+  <pubDate>Thu, 14 May 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Out in the Journal of International Economics</title>
@@ -73,7 +81,7 @@
   <description><![CDATA[ undefined ]]></description>
   <category>Organising</category>
   <guid>https://bjorci.github.io/news/2025-noits.html</guid>
-  <pubDate>Thu, 31 Jul 2025 22:00:00 GMT</pubDate>
+  <pubDate>Wed, 22 Oct 2025 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Joined the ROCKWOOL Foundation Research Unit</title>

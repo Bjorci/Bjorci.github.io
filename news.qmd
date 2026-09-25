@@ -110,7 +110,7 @@ listing:
 ::: {.row-line}
 [Organising]{.when}
 
-[NOITS, Copenhagen 2025 and Iceland 2021; administrator of [www.noits.org](https://www.noits.org).]{.what}
+[NOITS, [Copenhagen 2025](http://www.noits.org/noits-2025/) and Iceland 2021 ([previous conferences](http://www.noits.org/previous-conferences/)); administrator of [www.noits.org](https://www.noits.org).]{.what}
 
 :::
 :::

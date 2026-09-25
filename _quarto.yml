@@ -40,6 +40,8 @@ website:
   page-footer:
     left: "ROCKWOOL Foundation Research Unit · Ny Kongensgade 6 · DK-1472 Copenhagen K"
     right:
+      - text: "ROCKWOOL Foundation profile"
+        href: "https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/"
       - text: "RSS"
         href: news.xml
       - text: "bth@rff.dk"

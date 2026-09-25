@@ -44,6 +44,7 @@ listing:
     <p class="hero-lead">Icelandic economist living in Sweden and working at the <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation Research Unit</a> in Copenhagen, focusing on innovation, knowledge spillovers, R&amp;D tax policy and international trade.</p>
     <div class="hero-links">
       <a href="mailto:bth@rff.dk">bth@rff.dk</a>
+      <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation profile</a>
       <a href="https://scholar.google.se/citations?user=RM3pq-gAAAAJ&hl=en">Google Scholar</a>
       <a href="https://ideas.repec.org/f/par416.html">RePEc</a>
       <a href="https://orcid.org/0000-0003-4981-8965">ORCID</a>

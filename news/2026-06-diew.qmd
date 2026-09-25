@@ -1,0 +1,11 @@
+---
+title: "Supplying Superstars at DIEW"
+date: 2026-06-25
+datelabel: "June 2026"
+categories: ["Talk"]
+description: "Presented “International Spillovers from Supplying Superstars” at the [Danish International Economics Workshop (DIEW)](https://econ.au.dk/research-centre-for-firms-and-industry-dynamics-find/diew-workshops/diew-2026) in Aarhus."
+---
+
+Presented “International Spillovers from Supplying Superstars” at the [Danish International Economics Workshop (DIEW)](https://econ.au.dk/research-centre-for-firms-and-industry-dynamics-find/diew-workshops/diew-2026) in Aarhus.
+
+[← News & talks](../news.qmd)
