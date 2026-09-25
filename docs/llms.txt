@@ -4,7 +4,7 @@
 
 ## About
 - [About](https://bjorci.github.io/about.html): background, research on the Øresund region, areas of expertise, languages, biography in three lengths, collaborators
-- [CV](https://bjorci.github.io/cv.html) ([PDF](https://bjorci.github.io/files/Arnarson_CV.pdf))
+- [CV (PDF)](https://bjorci.github.io/files/Arnarson_CV.pdf)
 - [Om mig (svenska)](https://bjorci.github.io/sv/)
 - [Um mig (íslenska)](https://bjorci.github.io/is/)
 

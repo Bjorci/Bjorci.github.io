@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6dca013aa5922457ac98e803b5676a7f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-666ba204f4f0f273c355ac53f5c5bfa1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -91,20 +91,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-home-wp .list');
+    const listingTargetEl = window.document.querySelector('#listing-home-current .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-id','listing-type','listing-title','listing-year','listing-coauthors','listing-venue','listing-tagline','listing-featured','listing-topics','listing-abstract','listing-links','listing-media','listing-bibtex','listing-note','listing-status','listing-page','listing-presented',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-id','listing-type','listing-title','listing-year','listing-coauthors','listing-status','listing-venue','listing-page','listing-featured','listing-topics','listing-presented','listing-abstract','listing-links','listing-bibtex','listing-tagline','listing-media','listing-note',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-id","listing-type","listing-title","listing-year","listing-coauthors","listing-venue","listing-tagline","listing-featured","listing-topics","listing-abstract","listing-links","listing-media","listing-bibtex","listing-note","listing-status","listing-page","listing-presented"],
+      searchColumns: ["listing-id","listing-type","listing-title","listing-year","listing-coauthors","listing-status","listing-venue","listing-page","listing-featured","listing-topics","listing-presented","listing-abstract","listing-links","listing-bibtex","listing-tagline","listing-media","listing-note"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-home-wp'] = new List('listing-home-wp', options);
+    window['quarto-listings']['listing-home-current'] = new List('listing-home-current', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -126,41 +126,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-id','listing-type','listing-title','listing-year','listing-coauthors','listing-venue','listing-tagline','listing-featured','listing-topics','listing-abstract','listing-links','listing-media','listing-bibtex','listing-note','listing-status','listing-page','listing-presented',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-id','listing-type','listing-title','listing-year','listing-coauthors','listing-status','listing-venue','listing-page','listing-featured','listing-topics','listing-presented','listing-abstract','listing-links','listing-bibtex','listing-tagline','listing-media','listing-note',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-id","listing-type","listing-title","listing-year","listing-coauthors","listing-venue","listing-tagline","listing-featured","listing-topics","listing-abstract","listing-links","listing-media","listing-bibtex","listing-note","listing-status","listing-page","listing-presented"],
+      searchColumns: ["listing-id","listing-type","listing-title","listing-year","listing-coauthors","listing-status","listing-venue","listing-page","listing-featured","listing-topics","listing-presented","listing-abstract","listing-links","listing-bibtex","listing-tagline","listing-media","listing-note"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-home-pub'] = new List('listing-home-pub', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-home-wip .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-id','listing-type','listing-title','listing-year','listing-coauthors','listing-venue','listing-tagline','listing-featured','listing-topics','listing-abstract','listing-links','listing-media','listing-bibtex','listing-note','listing-status','listing-page','listing-presented',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-id","listing-type","listing-title","listing-year","listing-coauthors","listing-venue","listing-tagline","listing-featured","listing-topics","listing-abstract","listing-links","listing-media","listing-bibtex","listing-note","listing-status","listing-page","listing-presented"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-home-wip'] = new List('listing-home-wip', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -314,7 +286,7 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="./files/Arnarson_CV.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -355,132 +327,17 @@ window.Quarto = {
       <a href="https://www.linkedin.com/in/bjornthor/">LinkedIn</a>
       <a href="https://x.com/bjorci">X</a>
       <a href="https://bsky.app/profile/bjorci.bsky.social">Bluesky</a>
-      <a href="cv.html">CV</a>
+      <a href="files/Arnarson_CV.pdf">CV (PDF)</a>
     </div>
   </div>
   <img class="hero-photo" src="images/bjorn.jpg" alt="Portrait of Björn Thor Arnarson">
 </section>
 <div class="sec reveal">
-<section id="news-talks" class="level2 label">
-<h2 data-anchor-id="news-talks">News &amp; talks</h2>
-<p><a href="./news.html">All news and talks →</a></p>
+<section id="current-research" class="level2 label">
+<h2 data-anchor-id="current-research">Current research</h2>
+<p><a href="./research.html#type=current">Working papers and work in progress. With abstracts →</a></p>
 </section>
-<div>
-<p><span class="sub-h" style="display:block;">Upcoming</span></p>
-<div id="listing-upcoming" class="quarto-listing quarto-listing-container-custom">
-<div class="talk-list" data-upcoming-only="">
-<div class="row-line talk" data-iso="2026-11-20">
-<div class="when">
-20 November 2026
-</div>
-<div class="what">
-<strong><a href="https://www.oecd.org/en/about/projects/leveraging-inter-firm-transactions.html">OECD</a></strong>, Paris · LIFT (Leveraging Inter-Firm Transactions) initiative on firm-to-firm data <span class="countdown"></span>
-</div>
-</div>
-<div class="row-line talk" data-iso="2026-09-29">
-<div class="when">
-29 September 2026
-</div>
-<div class="what">
-<strong>ROCKWOOL Foundation Annual Internal Workshop</strong>, Berlin <span class="countdown"></span>
-</div>
-</div>
-<div class="row-line talk" data-iso="2026-09-10">
-<div class="when">
-10–12 September 2026
-</div>
-<div class="what">
-<strong><a href="https://etsg.org/conferences/etsg-2026-exeter/">European Trade Study Group (ETSG)</a></strong>, Exeter <span class="countdown"></span>
-</div>
-</div>
-<div class="row-line talk" data-iso="2026-08-24">
-<div class="when">
-24–25 August 2026
-</div>
-<div class="what">
-<strong><a href="https://www.diw.de/en/diw_01.c.1003942.en/events/scientific_workshop_on_productivity.html">Scientific Workshop on Productivity, DIW Berlin and the German Council of Economic Experts</a></strong>, Berlin <span class="countdown"></span>
-</div>
-</div>
-<div class="row-line talk" data-iso="2026-06-25">
-<div class="when">
-25–26 June 2026
-</div>
-<div class="what">
-<strong><a href="https://econ.au.dk/research-centre-for-firms-and-industry-dynamics-find/diew-workshops/diew-2026">Danish International Economics Workshop (DIEW)</a></strong>, Aarhus <span class="countdown"></span>
-</div>
-</div>
-<div class="row-line talk" data-iso="2026-05-15">
-<div class="when">
-15–17 May 2026
-</div>
-<div class="what">
-<strong><a href="https://freit.org/RMET/">Rocky Mountain Empirical Trade Conference (RMET), a FREIT conference</a></strong>, Banff <span class="countdown"></span>
-</div>
-</div>
-<p class="empty-note" hidden="">
-No talks scheduled right now. See the <a href="news.html#talks">talk archive</a>.
-</p>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p><span class="sub-h" style="display:block; margin-top: 28px;">Recent</span></p>
-<div id="listing-latest" class="quarto-listing quarto-listing-container-custom">
-<div class="news-list">
-<div class="news-row" data-kind="Talk">
-<div class="when">
-September 2026
-</div>
-<div class="kind">
-Talk
-</div>
-<div class="what">
-Presented “Growing Together and Apart” at the <a href="https://etsg.org/conferences/etsg-2026-exeter/">European Trade Study Group (ETSG)</a> in Exeter.
-</div>
-</div>
-<div class="news-row" data-kind="Talk">
-<div class="when">
-August 2026
-</div>
-<div class="kind">
-Talk
-</div>
-<div class="what">
-Presented “R&amp;D Employment and Transmission in Trade and MNE Networks” at the <a href="https://www.diw.de/en/diw_01.c.1003942.en/events/scientific_workshop_on_productivity.html">Scientific Workshop on Productivity</a>, organised by DIW Berlin and the German Council of Economic Experts.
-</div>
-</div>
-<div class="news-row" data-kind="Visit">
-<div class="when">
-July 2026
-</div>
-<div class="kind">
-Visit
-</div>
-<div class="what">
-Research visit to LMU Munich.
-</div>
-</div>
-<div class="news-row" data-kind="Talk">
-<div class="when">
-June 2026
-</div>
-<div class="kind">
-Talk
-</div>
-<div class="what">
-Presented “International Spillovers from Supplying Superstars” at the <a href="https://econ.au.dk/research-centre-for-firms-and-industry-dynamics-find/diew-workshops/diew-2026">Danish International Economics Workshop (DIEW)</a> in Aarhus.
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</div>
-<div class="sec reveal">
-<section id="working-papers" class="level2 label">
-<h2 data-anchor-id="working-papers">Working papers</h2>
-<p><a href="./research.html#type=working-paper">With abstracts →</a></p>
-</section>
-<div id="listing-home-wp" class="quarto-listing quarto-listing-container-custom">
+<div id="listing-home-current" class="quarto-listing quarto-listing-container-custom">
 <div class="home-papers">
 <article class="home-paper">
 <div class="home-paper-main">
@@ -489,7 +346,7 @@ Presented “International Spillovers from Supplying Superstars” at the <a hre
 with <a href="https://sites.google.com/view/magnusbuus">Magnus T. Buus</a>, <a href="https://sites.google.com/site/moxnes/home">Andreas Moxnes</a>, <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a> and <a href="https://sites.google.com/view/chongxiang/home">Chong Xiang</a>
 </div>
 <div class="home-paper-links">
-<p><span class="tag tag-rr">R&amp;R, Journal of Political Economy</span> <a href="https://www.ifo.de/DocDL/cesifo1_wp12710.pdf">PDF</a><a href="https://doi.org/10.65864/rekivjv2z7">CESifo WP 12710</a></p>
+<p><span class="tag tag-rr">R&amp;R, Journal of Political Economy</span><span class="home-venue">Presented at ETSG 2026 (Exeter)</span> <a href="https://www.ifo.de/DocDL/cesifo1_wp12710.pdf">PDF</a><a href="https://doi.org/10.65864/rekivjv2z7">CESifo WP 12710</a></p>
 </div>
 </div>
 <div class="home-paper-year">
@@ -503,11 +360,39 @@ with <a href="https://sites.google.com/view/magnusbuus">Magnus T. Buus</a>, <a h
 with <a href="https://sites.google.com/view/magnusbuus">Magnus T. Buus</a>, <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a> and <a href="https://sites.google.com/site/georgschaur/home">Georg Schaur</a>
 </div>
 <div class="home-paper-links">
-<p><span class="home-venue">ROCKWOOL Foundation Study Paper 217, 2024</span> <a href="https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/06/RFF-Studypaper217-RD-reform-spillovers-RFF_September2024.pdf">PDF</a><a href="https://en.rockwoolfonden.dk/publications/rd-employment-and-transmission-in-trade-and-mne-networks-evidence-from-a-rd-tax-reform/">ROCKWOOL page</a></p>
+<p><span class="home-venue">ROCKWOOL Foundation Study Paper 217, 2024</span><span class="home-venue">Presented at RMET 2026 (Banff); DIW Berlin 2026</span> <a href="https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/06/RFF-Studypaper217-RD-reform-spillovers-RFF_September2024.pdf">PDF</a><a href="https://en.rockwoolfonden.dk/publications/rd-employment-and-transmission-in-trade-and-mne-networks-evidence-from-a-rd-tax-reform/">ROCKWOOL page</a></p>
 </div>
 </div>
 <div class="home-paper-year">
 2024
+</div>
+</article>
+<article class="home-paper is-wip">
+<div class="home-paper-main">
+<a class="home-paper-title" href="research.html#superstar">International Spillovers from Supplying Superstars: Evidence from Firm-to-Firm Linkages</a>
+<div class="paper-authors">
+with <a href="https://sites.google.com/view/jonashansen8">Jonas Slaathaug Hansen</a>
+</div>
+<div class="home-paper-links">
+<p><span class="tag tag-wip">In progress</span><span class="home-venue">Presented at DIEW 2026 (Aarhus)</span></p>
+</div>
+</div>
+<div class="home-paper-year">
+
+</div>
+</article>
+<article class="home-paper is-wip">
+<div class="home-paper-main">
+<a class="home-paper-title" href="research.html#intangible">The Intangible Gains from Trade</a>
+<div class="paper-authors">
+with <a href="https://martinamagli.wixsite.com/mysite/research">Martina Magli</a> and <a href="https://sites.google.com/site/moxnes/home">Andreas Moxnes</a>
+</div>
+<div class="home-paper-links">
+<p><span class="tag tag-wip">In progress</span></p>
+</div>
+</div>
+<div class="home-paper-year">
+
 </div>
 </article>
 <article class="home-paper">
@@ -614,42 +499,106 @@ with Aparna Mitra
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </div>
-<div class="sec reveal">
-<section id="work-in-progress" class="level2 label">
-<h2 data-anchor-id="work-in-progress">Work in progress</h2>
+<div class="sec reveal home-quiet">
+<section id="news-talks" class="level2 label">
+<h2 data-anchor-id="news-talks">News &amp; talks</h2>
+<p><a href="./news.html">All news and talks →</a></p>
 </section>
-<div id="listing-home-wip" class="quarto-listing quarto-listing-container-custom">
-<div class="home-papers">
-<article class="home-paper">
-<div class="home-paper-main">
-<a class="home-paper-title" href="research.html#superstar">International Spillovers from Supplying Superstars: Evidence from Firm-to-Firm Linkages</a>
-<div class="paper-authors">
-with <a href="https://sites.google.com/view/jonashansen8">Jonas Slaathaug Hansen</a>
+<div>
+<div id="listing-upcoming" class="quarto-listing quarto-listing-container-custom">
+<div class="talk-list" data-upcoming-only="">
+<div class="row-line talk" data-iso="2026-11-20">
+<div class="when">
+20 November 2026
 </div>
-<div class="home-paper-links">
-
-</div>
-</div>
-<div class="home-paper-year">
-
-</div>
-</article>
-<article class="home-paper">
-<div class="home-paper-main">
-<a class="home-paper-title" href="research.html#intangible">The Intangible Gains from Trade</a>
-<div class="paper-authors">
-with <a href="https://martinamagli.wixsite.com/mysite/research">Martina Magli</a> and <a href="https://sites.google.com/site/moxnes/home">Andreas Moxnes</a>
-</div>
-<div class="home-paper-links">
-
+<div class="what">
+<strong><a href="https://www.oecd.org/en/about/projects/leveraging-inter-firm-transactions.html">OECD</a></strong>, Paris · LIFT (Leveraging Inter-Firm Transactions) initiative on firm-to-firm data <span class="countdown"></span>
 </div>
 </div>
-<div class="home-paper-year">
-
+<div class="row-line talk" data-iso="2026-09-29">
+<div class="when">
+29 September 2026
 </div>
-</article>
+<div class="what">
+<strong>ROCKWOOL Foundation Annual Internal Workshop</strong>, Berlin <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-09-10">
+<div class="when">
+10–12 September 2026
+</div>
+<div class="what">
+<strong><a href="https://etsg.org/conferences/etsg-2026-exeter/">European Trade Study Group (ETSG)</a></strong>, Exeter <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-08-24">
+<div class="when">
+24–25 August 2026
+</div>
+<div class="what">
+<strong><a href="https://www.diw.de/en/diw_01.c.1003942.en/events/scientific_workshop_on_productivity.html">Scientific Workshop on Productivity, DIW Berlin and the German Council of Economic Experts</a></strong>, Berlin <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-06-25">
+<div class="when">
+25–26 June 2026
+</div>
+<div class="what">
+<strong><a href="https://econ.au.dk/research-centre-for-firms-and-industry-dynamics-find/diew-workshops/diew-2026">Danish International Economics Workshop (DIEW)</a></strong>, Aarhus <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-05-15">
+<div class="when">
+15–17 May 2026
+</div>
+<div class="what">
+<strong><a href="https://freit.org/RMET/">Rocky Mountain Empirical Trade Conference (RMET), a FREIT conference</a></strong>, Banff <span class="countdown"></span>
+</div>
+</div>
+<p class="empty-note" hidden="">
+No talks scheduled right now. See the <a href="news.html#talks">talk archive</a>.
+</p>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div id="listing-latest" class="quarto-listing quarto-listing-container-custom">
+<div class="news-list">
+<div class="news-row" data-kind="Talk">
+<div class="when">
+September 2026
+</div>
+<div class="kind">
+Talk
+</div>
+<div class="what">
+Presented “Growing Together and Apart” at the <a href="https://etsg.org/conferences/etsg-2026-exeter/">European Trade Study Group (ETSG)</a> in Exeter.
+</div>
+</div>
+<div class="news-row" data-kind="Talk">
+<div class="when">
+August 2026
+</div>
+<div class="kind">
+Talk
+</div>
+<div class="what">
+Presented “R&amp;D Employment and Transmission in Trade and MNE Networks” at the <a href="https://www.diw.de/en/diw_01.c.1003942.en/events/scientific_workshop_on_productivity.html">Scientific Workshop on Productivity</a>, organised by DIW Berlin and the German Council of Economic Experts.
+</div>
+</div>
+<div class="news-row" data-kind="Visit">
+<div class="when">
+July 2026
+</div>
+<div class="kind">
+Visit
+</div>
+<div class="what">
+Research visit to LMU Munich.
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </div>
 </div>
 <div class="sec reveal">
@@ -713,7 +662,7 @@ with <a href="https://martinamagli.wixsite.com/mysite/research">Martina Magli</a
     function apply() {
       var shown = 0;
       papers.forEach(function (p) {
-        var okType = state.type === "all" || p.getAttribute("data-type") === state.type;
+        var okType = state.type === "all" || p.getAttribute("data-group") === state.type;
         var topics = (p.getAttribute("data-topics") || "").split("|");
         var okTopic = state.topic === "all" || topics.indexOf(state.topic) >= 0;
         var okQ = !state.q || (p.getAttribute("data-search") || "").indexOf(state.q) >= 0;
@@ -745,7 +694,7 @@ with <a href="https://martinamagli.wixsite.com/mysite/research">Martina Magli</a
     // Deep link: research.html#topic=Øresund or #type=publication
     var h = decodeURIComponent(location.hash || "");
     var m = h.match(/^#topic=(.+)$/); if (m) state.topic = m[1];
-    var n = h.match(/^#type=(.+)$/); if (n) state.type = n[1];
+    var n = h.match(/^#type=(.+)$/); if (n) state.type = (n[1] === "working-paper" || n[1] === "wip") ? "current" : n[1];
     apply();
     // Paper anchors (#jie): open its abstract and highlight
     var target = h.length > 1 && document.getElementById(h.slice(1));

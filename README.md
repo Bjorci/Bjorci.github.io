@@ -14,7 +14,7 @@ All of these are plain text files. Edit, save, then build (next section).
 | Topic filters on the Research page | The `topics:` list of each paper (the buttons are in `research.qmd`) |
 | Talks | `data/talks.yml`. Give a talk an `iso:` date and it shows as upcoming, with a countdown, until that day passes; `paper:` links it to a paper id. |
 | A paper's own page (plain-language summary, slides, citation) | `papers/<name>.qmd`; copy `papers/growing-together.qmd` for a new one and set `page:` in the `.yml` |
-| About, Teaching, CV page text | `about.qmd`, `teaching.qmd`, `cv.qmd` |
+| About and Teaching page text | `about.qmd`, `teaching.qmd` (the CV is only the PDF, see below) |
 | Swedish / Icelandic pages | `sv/index.qmd`, `is/index.qmd` |
 | CV PDF | Replace `files/Arnarson_CV.pdf` |
 | Photo | Replace `images/bjorn.jpg` |

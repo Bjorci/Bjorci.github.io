@@ -38,7 +38,7 @@
     function apply() {
       var shown = 0;
       papers.forEach(function (p) {
-        var okType = state.type === "all" || p.getAttribute("data-type") === state.type;
+        var okType = state.type === "all" || p.getAttribute("data-group") === state.type;
         var topics = (p.getAttribute("data-topics") || "").split("|");
         var okTopic = state.topic === "all" || topics.indexOf(state.topic) >= 0;
         var okQ = !state.q || (p.getAttribute("data-search") || "").indexOf(state.q) >= 0;
@@ -70,7 +70,7 @@
     // Deep link: research.html#topic=Øresund or #type=publication
     var h = decodeURIComponent(location.hash || "");
     var m = h.match(/^#topic=(.+)$/); if (m) state.topic = m[1];
-    var n = h.match(/^#type=(.+)$/); if (n) state.type = n[1];
+    var n = h.match(/^#type=(.+)$/); if (n) state.type = (n[1] === "working-paper" || n[1] === "wip") ? "current" : n[1];
     apply();
     // Paper anchors (#jie): open its abstract and highlight
     var target = h.length > 1 && document.getElementById(h.slice(1));

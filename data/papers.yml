@@ -1,11 +1,133 @@
 # All papers, in the order they appear within each group on the Research page.
-# type: publication | working-paper | wip   (decides the group and the filter tab)
+# type: publication | working-paper | wip. Working papers and wip are shown together as "Current research", in file order.
 # status: "R&R, ..." gets the gold tag; anything else a grey tag; leave empty for none.
 # featured: true  -> also shown under "Selected research" on Home.
 # topics: used by the topic filter on the Research page (keep the spelling consistent).
 # coauthors: name + homepage (url may be empty).
 # links: buttons under the paper. media: press coverage. presented: where it was presented.
 # bibtex: shown/copied by the "Cite" button.
+
+# ---------------- Current research (working papers and work in progress) ----------------
+
+- id: scale
+  type: working-paper
+  title: "Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains"
+  year: 2026
+  coauthors:
+    - {name: "Magnus T. Buus", url: "https://sites.google.com/view/magnusbuus"}
+    - {name: "Andreas Moxnes", url: "https://sites.google.com/site/moxnes/home"}
+    - {name: "Jakob R. Munch", url: "https://sites.google.com/view/jakob-roland-munch"}
+    - {name: "Chong Xiang", url: "https://sites.google.com/view/chongxiang/home"}
+  status: "R&R, Journal of Political Economy"
+  venue: "CESifo Working Paper 12710 · CEPR Discussion Paper 21543"
+  page: papers/growing-together.html
+  featured: true
+  topics: [Trade, Firm networks, Labour markets]
+  presented: "ETSG 2026 (Exeter)"
+  abstract: "We study how firm growth reorganizes the division of labor across firms in global value chains. Using a novel dataset linking cross-border firm-to-firm transactions to matched employer–employee data, we show that demand shocks increase trade between firms while reducing occupational similarity, implying greater specialization. We develop and estimate a model of task outsourcing in which firms expand by reallocating tasks to suppliers. The model matches the data and implies endogenous scale economies. Eliminating outsourcing reduces average labor productivity by 25 percent and increases input costs by 10 percent, highlighting the central role of specialization in shaping firm performance."
+  links:
+    - {label: "PDF", href: "https://www.ifo.de/DocDL/cesifo1_wp12710.pdf"}
+    - {label: "CESifo WP 12710", href: "https://doi.org/10.65864/rekivjv2z7"}
+    - {label: "CEPR DP21543", href: "https://cepr.org/publications/dp21543"}
+  bibtex: |
+    @techreport{ArnarsonBuusMoxnesMunchXiang2026,
+      author      = {Arnarson, Bj{\"o}rn Thor and Buus, Magnus Tolum and Moxnes, Andreas and Munch, Jakob Roland and Xiang, Chong},
+      title       = {Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains},
+      institution = {CESifo},
+      type        = {CESifo Working Paper},
+      number      = {12710},
+      year        = {2026},
+      doi         = {10.65864/rekivjv2z7}
+    }
+
+- id: rd
+  type: working-paper
+  title: "R&D Employment and Transmission in Trade and MNE Networks: Evidence from an R&D Tax Reform"
+  year: 2024
+  coauthors:
+    - {name: "Magnus T. Buus", url: "https://sites.google.com/view/magnusbuus"}
+    - {name: "Jakob R. Munch", url: "https://sites.google.com/view/jakob-roland-munch"}
+    - {name: "Georg Schaur", url: "https://sites.google.com/site/georgschaur/home"}
+  venue: "ROCKWOOL Foundation Study Paper 217, 2024"
+  featured: true
+  topics: [Øresund, Firm networks, Knowledge spillovers]
+  presented: "RMET 2026 (Banff); DIW Berlin 2026"
+  abstract: "We combine R&D survey data, Swedish and Danish register data, MNE group information, firm-to-firm trade linkages, and a plausibly exogenous policy shock that reduces firms’ employment related R&D expenditures to provide evidence for the allocation of R&D activities among Swedish-Danish trade and MNE partners. We first show that Swedish firms increased their R&D employment in response to the introduction of an R&D related tax deduction. We then show that the R&D tax reform leads to a fall in R&D employment among Danish MNE partners, but an increase among Danish trade partners. We conclude that R&D policies increase global research activities within trade networks, but substitution across affiliates dampens the reform’s effect on research activity within MNE networks."
+  links:
+    - {label: "PDF", href: "https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/06/RFF-Studypaper217-RD-reform-spillovers-RFF_September2024.pdf"}
+    - {label: "ROCKWOOL page", href: "https://en.rockwoolfonden.dk/publications/rd-employment-and-transmission-in-trade-and-mne-networks-evidence-from-a-rd-tax-reform/"}
+  bibtex: |
+    @techreport{ArnarsonBuusMunchSchaur2024,
+      author      = {Arnarson, Bj{\"o}rn Thor and Buus, Magnus Tolum and Munch, Jakob R. and Schaur, Georg},
+      title       = {{R\&D} Employment and Transmission in Trade and {MNE} Networks: Evidence from an {R\&D} Tax Reform},
+      institution = {ROCKWOOL Foundation Research Unit},
+      type        = {Study Paper},
+      number      = {217},
+      year        = {2024}
+    }
+
+- id: superstar
+  type: wip
+  title: "International Spillovers from Supplying Superstars: Evidence from Firm-to-Firm Linkages"
+  coauthors:
+    - {name: "Jonas Slaathaug Hansen", url: "https://sites.google.com/view/jonashansen8"}
+  status: "Work in progress"
+  topics: [Trade, Firm networks, Knowledge spillovers]
+  presented: "DIEW 2026 (Aarhus)"
+
+- id: intangible
+  type: wip
+  title: "The Intangible Gains from Trade"
+  coauthors:
+    - {name: "Martina Magli", url: "https://martinamagli.wixsite.com/mysite/research"}
+    - {name: "Andreas Moxnes", url: "https://sites.google.com/site/moxnes/home"}
+  status: "Work in progress"
+  topics: [Trade, Firm networks]
+
+- id: comm
+  type: working-paper
+  title: "Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment"
+  year: 2024
+  coauthors:
+    - {name: "Jakob R. Munch", url: "https://sites.google.com/view/jakob-roland-munch"}
+    - {name: "Morten G. Olsen", url: "https://morten-olsen.com/"}
+    - {name: "Emil A. L. Simonsen", url: "https://emilalsimonsen.github.io/index.html"}
+  venue: "ROCKWOOL Foundation Study Paper 215, 2024"
+  topics: [Øresund, Knowledge spillovers, Labour markets]
+  abstract: "How is knowledge transmitted across borders? We exploit the construction of the Øresund bridge which joined the capital region of Denmark with Malmö in Sweden, creating an integrated labor market. The bridge led to a steep increase in cross-border commuting, predominantly one-way from Sweden to Denmark. We examine the consequences of Swedish cross-border workers on the productivity of Danish firms and the wages of their close coworkers. We find substantial positive effects in Danish firms that (exogenously) increase the share of Swedish commuters, as cross-border commuters carry a productivity premium that likely reflects knowledge spillovers. To examine the extent of knowledge spillovers further, we estimate the impact of cross border commuters on wages of incumbent coworkers in occupations of the commuters and find a positive effect. We also find that high-skilled commuters and commuters with experience in high-tech occupations in the Swedish labor market have the strongest spillover effects on the wages of Danish coworkers."
+  links:
+    - {label: "PDF", href: "https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/10/RFF-Studypaper215-Knowledge-Spillovers-from-Cross-Border-Commuters_Oktober2024.pdf"}
+    - {label: "ROCKWOOL page", href: "https://en.rockwoolfonden.dk/publications/knowledge-spillovers-from-cross-border-commuters-evidence-from-a-natural-experiment/"}
+  bibtex: |
+    @techreport{ArnarsonMunchOlsenSimonsen2024,
+      author      = {Arnarson, Bj{\"o}rn Thor and Munch, Jakob Roland and Olsen, Morten and Simonsen, Emil A. L.},
+      title       = {Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment},
+      institution = {ROCKWOOL Foundation Research Unit},
+      type        = {Study Paper},
+      number      = {215},
+      year        = {2024}
+    }
+
+- id: bridging
+  type: working-paper
+  title: "Bridging Trade Barriers: Evaluating Multi-Product Models of Exporting"
+  year: 2015
+  coauthors: []
+  status: "Dormant"
+  venue: "Lund University Working Paper 2015:6 (revised 2016)"
+  topics: [Øresund, Trade]
+  abstract: "In this paper I investigate the impact of a decrease in trade costs on firms’ decisions to export. The main contribution of this paper is to evaluate empirically the theoretical predictions of several models of multi-product exporters. The focus is on the firm export entry decision and the within firm adjustment regarding product scope and intensity. For identification I use a quasi-natural experiment, the introduction of the Öresund Bridge between southern Sweden and Denmark, to analyse the impact on firm behaviour. Using a difference-in-difference methodology, firms in the ‘treated’ municipality, Malmö, are compared to firms in more geographically distant Gothenburg and Stockholm (‘controls’). For the ‘treated’ manufacturing firms a theoretically consistent positive effect is found for firm entry into exporting, aggregate firm trade flow and the number of products exported. The models of multi-product exporters evaluated do not provide a clear theoretical prediction regarding the impact on average trade value per product. In this paper, however, I find that around 70-80% of the increase in aggregate firm trade value is due to increases in the average trade value per product (the product intensive margin), while only 20-30% is due to increases in the number of products exported (the product extensive margin)."
+  links:
+    - {label: "Working paper", href: "https://swopec.hhs.se/lunewp/abs/lunewp2015_006.htm"}
+  bibtex: |
+    @techreport{Arnarson2015,
+      author      = {Arnarson, Bj{\"o}rn Thor},
+      title       = {Bridging Trade Barriers: Evaluating Multi-Product Models of Exporting},
+      institution = {Lund University, Department of Economics},
+      type        = {Working Paper},
+      number      = {2015:6},
+      year        = {2015}
+    }
 
 # ---------------- Publications ----------------
 
@@ -133,127 +255,3 @@
       pages   = {677--680},
       doi     = {10.1080/13504850802297830}
     }
-
-# ---------------- Working papers ----------------
-
-- id: scale
-  type: working-paper
-  title: "Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains"
-  year: 2026
-  coauthors:
-    - {name: "Magnus T. Buus", url: "https://sites.google.com/view/magnusbuus"}
-    - {name: "Andreas Moxnes", url: "https://sites.google.com/site/moxnes/home"}
-    - {name: "Jakob R. Munch", url: "https://sites.google.com/view/jakob-roland-munch"}
-    - {name: "Chong Xiang", url: "https://sites.google.com/view/chongxiang/home"}
-  status: "R&R, Journal of Political Economy"
-  venue: "CESifo Working Paper 12710 · CEPR Discussion Paper 21543"
-  page: papers/growing-together.html
-  featured: true
-  topics: [Trade, Firm networks, Labour markets]
-  presented: "ETSG 2026 (Exeter)"
-  abstract: "We study how firm growth reorganizes the division of labor across firms in global value chains. Using a novel dataset linking cross-border firm-to-firm transactions to matched employer–employee data, we show that demand shocks increase trade between firms while reducing occupational similarity, implying greater specialization. We develop and estimate a model of task outsourcing in which firms expand by reallocating tasks to suppliers. The model matches the data and implies endogenous scale economies. Eliminating outsourcing reduces average labor productivity by 25 percent and increases input costs by 10 percent, highlighting the central role of specialization in shaping firm performance."
-  links:
-    - {label: "PDF", href: "https://www.ifo.de/DocDL/cesifo1_wp12710.pdf"}
-    - {label: "CESifo WP 12710", href: "https://doi.org/10.65864/rekivjv2z7"}
-    - {label: "CEPR DP21543", href: "https://cepr.org/publications/dp21543"}
-  bibtex: |
-    @techreport{ArnarsonBuusMoxnesMunchXiang2026,
-      author      = {Arnarson, Bj{\"o}rn Thor and Buus, Magnus Tolum and Moxnes, Andreas and Munch, Jakob Roland and Xiang, Chong},
-      title       = {Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains},
-      institution = {CESifo},
-      type        = {CESifo Working Paper},
-      number      = {12710},
-      year        = {2026},
-      doi         = {10.65864/rekivjv2z7}
-    }
-
-- id: rd
-  type: working-paper
-  title: "R&D Employment and Transmission in Trade and MNE Networks: Evidence from an R&D Tax Reform"
-  year: 2024
-  coauthors:
-    - {name: "Magnus T. Buus", url: "https://sites.google.com/view/magnusbuus"}
-    - {name: "Jakob R. Munch", url: "https://sites.google.com/view/jakob-roland-munch"}
-    - {name: "Georg Schaur", url: "https://sites.google.com/site/georgschaur/home"}
-  venue: "ROCKWOOL Foundation Study Paper 217, 2024"
-  featured: true
-  topics: [Øresund, Firm networks, Knowledge spillovers]
-  presented: "RMET 2026 (Banff); DIW Berlin 2026"
-  abstract: "We combine R&D survey data, Swedish and Danish register data, MNE group information, firm-to-firm trade linkages, and a plausibly exogenous policy shock that reduces firms’ employment related R&D expenditures to provide evidence for the allocation of R&D activities among Swedish-Danish trade and MNE partners. We first show that Swedish firms increased their R&D employment in response to the introduction of an R&D related tax deduction. We then show that the R&D tax reform leads to a fall in R&D employment among Danish MNE partners, but an increase among Danish trade partners. We conclude that R&D policies increase global research activities within trade networks, but substitution across affiliates dampens the reform’s effect on research activity within MNE networks."
-  links:
-    - {label: "PDF", href: "https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/06/RFF-Studypaper217-RD-reform-spillovers-RFF_September2024.pdf"}
-    - {label: "ROCKWOOL page", href: "https://en.rockwoolfonden.dk/publications/rd-employment-and-transmission-in-trade-and-mne-networks-evidence-from-a-rd-tax-reform/"}
-  bibtex: |
-    @techreport{ArnarsonBuusMunchSchaur2024,
-      author      = {Arnarson, Bj{\"o}rn Thor and Buus, Magnus Tolum and Munch, Jakob R. and Schaur, Georg},
-      title       = {{R\&D} Employment and Transmission in Trade and {MNE} Networks: Evidence from an {R\&D} Tax Reform},
-      institution = {ROCKWOOL Foundation Research Unit},
-      type        = {Study Paper},
-      number      = {217},
-      year        = {2024}
-    }
-
-- id: comm
-  type: working-paper
-  title: "Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment"
-  year: 2024
-  coauthors:
-    - {name: "Jakob R. Munch", url: "https://sites.google.com/view/jakob-roland-munch"}
-    - {name: "Morten G. Olsen", url: "https://morten-olsen.com/"}
-    - {name: "Emil A. L. Simonsen", url: "https://emilalsimonsen.github.io/index.html"}
-  venue: "ROCKWOOL Foundation Study Paper 215, 2024"
-  topics: [Øresund, Knowledge spillovers, Labour markets]
-  abstract: "How is knowledge transmitted across borders? We exploit the construction of the Øresund bridge which joined the capital region of Denmark with Malmö in Sweden, creating an integrated labor market. The bridge led to a steep increase in cross-border commuting, predominantly one-way from Sweden to Denmark. We examine the consequences of Swedish cross-border workers on the productivity of Danish firms and the wages of their close coworkers. We find substantial positive effects in Danish firms that (exogenously) increase the share of Swedish commuters, as cross-border commuters carry a productivity premium that likely reflects knowledge spillovers. To examine the extent of knowledge spillovers further, we estimate the impact of cross border commuters on wages of incumbent coworkers in occupations of the commuters and find a positive effect. We also find that high-skilled commuters and commuters with experience in high-tech occupations in the Swedish labor market have the strongest spillover effects on the wages of Danish coworkers."
-  links:
-    - {label: "PDF", href: "https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/10/RFF-Studypaper215-Knowledge-Spillovers-from-Cross-Border-Commuters_Oktober2024.pdf"}
-    - {label: "ROCKWOOL page", href: "https://en.rockwoolfonden.dk/publications/knowledge-spillovers-from-cross-border-commuters-evidence-from-a-natural-experiment/"}
-  bibtex: |
-    @techreport{ArnarsonMunchOlsenSimonsen2024,
-      author      = {Arnarson, Bj{\"o}rn Thor and Munch, Jakob Roland and Olsen, Morten and Simonsen, Emil A. L.},
-      title       = {Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment},
-      institution = {ROCKWOOL Foundation Research Unit},
-      type        = {Study Paper},
-      number      = {215},
-      year        = {2024}
-    }
-
-- id: bridging
-  type: working-paper
-  title: "Bridging Trade Barriers: Evaluating Multi-Product Models of Exporting"
-  year: 2015
-  coauthors: []
-  status: "Dormant"
-  venue: "Lund University Working Paper 2015:6 (revised 2016)"
-  topics: [Øresund, Trade]
-  abstract: "In this paper I investigate the impact of a decrease in trade costs on firms’ decisions to export. The main contribution of this paper is to evaluate empirically the theoretical predictions of several models of multi-product exporters. The focus is on the firm export entry decision and the within firm adjustment regarding product scope and intensity. For identification I use a quasi-natural experiment, the introduction of the Öresund Bridge between southern Sweden and Denmark, to analyse the impact on firm behaviour. Using a difference-in-difference methodology, firms in the ‘treated’ municipality, Malmö, are compared to firms in more geographically distant Gothenburg and Stockholm (‘controls’). For the ‘treated’ manufacturing firms a theoretically consistent positive effect is found for firm entry into exporting, aggregate firm trade flow and the number of products exported. The models of multi-product exporters evaluated do not provide a clear theoretical prediction regarding the impact on average trade value per product. In this paper, however, I find that around 70-80% of the increase in aggregate firm trade value is due to increases in the average trade value per product (the product intensive margin), while only 20-30% is due to increases in the number of products exported (the product extensive margin)."
-  links:
-    - {label: "Working paper", href: "https://swopec.hhs.se/lunewp/abs/lunewp2015_006.htm"}
-  bibtex: |
-    @techreport{Arnarson2015,
-      author      = {Arnarson, Bj{\"o}rn Thor},
-      title       = {Bridging Trade Barriers: Evaluating Multi-Product Models of Exporting},
-      institution = {Lund University, Department of Economics},
-      type        = {Working Paper},
-      number      = {2015:6},
-      year        = {2015}
-    }
-
-# ---------------- Work in progress ----------------
-
-- id: superstar
-  type: wip
-  title: "International Spillovers from Supplying Superstars: Evidence from Firm-to-Firm Linkages"
-  coauthors:
-    - {name: "Jonas Slaathaug Hansen", url: "https://sites.google.com/view/jonashansen8"}
-  status: "Work in progress"
-  topics: [Trade, Firm networks, Knowledge spillovers]
-  presented: "DIEW 2026 (Aarhus)"
-
-- id: intangible
-  type: wip
-  title: "The Intangible Gains from Trade"
-  coauthors:
-    - {name: "Martina Magli", url: "https://martinamagli.wixsite.com/mysite/research"}
-    - {name: "Andreas Moxnes", url: "https://sites.google.com/site/moxnes/home"}
-  status: "Work in progress"
-  topics: [Trade, Firm networks]

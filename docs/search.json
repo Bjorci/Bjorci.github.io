@@ -49,48 +49,6 @@
     "text": "Samband"
   },
   {
-    "objectID": "cv.html#positions",
-    "href": "cv.html#positions",
-    "title": "Björn Thor Arnarson",
-    "section": "Positions",
-    "text": "Positions"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Björn Thor Arnarson",
-    "section": "Education",
-    "text": "Education"
-  },
-  {
-    "objectID": "cv.html#selected-grants",
-    "href": "cv.html#selected-grants",
-    "title": "Björn Thor Arnarson",
-    "section": "Selected grants",
-    "text": "Selected grants\nFull list in the PDF."
-  },
-  {
-    "objectID": "cv.html#service",
-    "href": "cv.html#service",
-    "title": "Björn Thor Arnarson",
-    "section": "Service",
-    "text": "Service"
-  },
-  {
-    "objectID": "cv.html#languages",
-    "href": "cv.html#languages",
-    "title": "Björn Thor Arnarson",
-    "section": "Languages",
-    "text": "Languages"
-  },
-  {
-    "objectID": "cv.html#also",
-    "href": "cv.html#also",
-    "title": "Björn Thor Arnarson",
-    "section": "Also",
-    "text": "Also"
-  },
-  {
     "objectID": "about.html#background",
     "href": "about.html#background",
     "title": "Björn Thor Arnarson",
@@ -133,13 +91,6 @@
     "text": "In the media"
   },
   {
-    "objectID": "about.html#collaborators",
-    "href": "about.html#collaborators",
-    "title": "Björn Thor Arnarson",
-    "section": "Collaborators",
-    "text": "Collaborators"
-  },
-  {
     "objectID": "about.html#conference-organising",
     "href": "about.html#conference-organising",
     "title": "Björn Thor Arnarson",
@@ -154,18 +105,11 @@
     "text": "Contact and profiles"
   },
   {
-    "objectID": "index.html#news-talks",
-    "href": "index.html#news-talks",
+    "objectID": "index.html#current-research",
+    "href": "index.html#current-research",
     "title": "Björn Thor Arnarson",
-    "section": "News & talks",
-    "text": "News & talks\nAll news and talks →"
-  },
-  {
-    "objectID": "index.html#working-papers",
-    "href": "index.html#working-papers",
-    "title": "Björn Thor Arnarson",
-    "section": "Working papers",
-    "text": "Working papers\nWith abstracts →"
+    "section": "Current research",
+    "text": "Current research\nWorking papers and work in progress. With abstracts →"
   },
   {
     "objectID": "index.html#publications",
@@ -175,11 +119,11 @@
     "text": "Publications\nWith abstracts →"
   },
   {
-    "objectID": "index.html#work-in-progress",
-    "href": "index.html#work-in-progress",
+    "objectID": "index.html#news-talks",
+    "href": "index.html#news-talks",
     "title": "Björn Thor Arnarson",
-    "section": "Work in progress",
-    "text": "Work in progress"
+    "section": "News & talks",
+    "text": "News & talks\nAll news and talks →"
   },
   {
     "objectID": "index.html#the-øresund-region",

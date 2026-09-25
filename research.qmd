@@ -1,6 +1,6 @@
 ---
 pagetitle: "Research · Björn Thor Arnarson"
-description: "Publications, working papers and work in progress by Björn Thor Arnarson on international trade, knowledge spillovers, firm networks and labour markets, using linked Danish and Swedish register data."
+description: "Current research (working papers and work in progress) and publications by Björn Thor Arnarson on international trade, knowledge spillovers, firm networks and labour markets, using linked Danish and Swedish register data."
 listing:
   - id: papers
     contents: data/papers.yml
@@ -24,9 +24,8 @@ listing:
   <div class="filter-row">
     <span class="filter-label">Show</span>
     <button type="button" class="chip is-on" data-type-filter="all">All</button>
-    <button type="button" class="chip" data-type-filter="working-paper">Working papers</button>
+    <button type="button" class="chip" data-type-filter="current">Current research</button>
     <button type="button" class="chip" data-type-filter="publication">Publications</button>
-    <button type="button" class="chip" data-type-filter="wip">Work in progress</button>
     <input type="search" id="paper-search" class="search-box" placeholder="Search titles, abstracts, coauthors" aria-label="Search papers">
   </div>
   <div class="filter-row">

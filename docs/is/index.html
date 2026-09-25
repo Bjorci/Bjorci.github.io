@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6dca013aa5922457ac98e803b5676a7f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-666ba204f4f0f273c355ac53f5c5bfa1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Engar niðurstöður",
@@ -142,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv.html"> 
+    <a class="nav-link" href="../files/Arnarson_CV.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -303,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
     function apply() {
       var shown = 0;
       papers.forEach(function (p) {
-        var okType = state.type === "all" || p.getAttribute("data-type") === state.type;
+        var okType = state.type === "all" || p.getAttribute("data-group") === state.type;
         var topics = (p.getAttribute("data-topics") || "").split("|");
         var okTopic = state.topic === "all" || topics.indexOf(state.topic) >= 0;
         var okQ = !state.q || (p.getAttribute("data-search") || "").indexOf(state.q) >= 0;
@@ -335,7 +335,7 @@ ul.task-list li input[type="checkbox"] {
     // Deep link: research.html#topic=Øresund or #type=publication
     var h = decodeURIComponent(location.hash || "");
     var m = h.match(/^#topic=(.+)$/); if (m) state.topic = m[1];
-    var n = h.match(/^#type=(.+)$/); if (n) state.type = n[1];
+    var n = h.match(/^#type=(.+)$/); if (n) state.type = (n[1] === "working-paper" || n[1] === "wip") ? "current" : n[1];
     apply();
     // Paper anchors (#jie): open its abstract and highlight
     var target = h.length > 1 && document.getElementById(h.slice(1));

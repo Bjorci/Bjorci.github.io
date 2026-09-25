@@ -1,5 +1,4 @@
 <%
-const featuredOnly = (typeof templateParams !== 'undefined') && templateParams && templateParams.featured;
 const esc = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const authorsHtml = (list) => {
   if (!Array.isArray(list) || !list.length) return '';
@@ -7,26 +6,34 @@ const authorsHtml = (list) => {
   const joined = parts.length === 1 ? parts[0] : parts.slice(0, -1).join(', ') + ' and ' + parts[parts.length - 1];
   return 'with ' + joined;
 };
+// Working papers and work in progress are shown together as "Current research".
+const groupOf = (p) => p.type === 'publication' ? 'publication' : 'current';
 const groups = [
-  { type: 'working-paper', label: 'Working papers' },
-  { type: 'publication', label: 'Publications' },
-  { type: 'wip', label: 'Work in progress' }
+  { key: 'current', label: 'Current research', note: 'Working papers and work in progress' },
+  { key: 'publication', label: 'Publications', note: '' }
 ];
+// Tag shown for a paper: gold for R&R, teal for work in progress, grey otherwise.
+const tagOf = (p) => {
+  if (!p.status) return null;
+  if (String(p.status).indexOf('R&R') === 0) return { text: p.status, cls: 'tag tag-rr' };
+  if (p.type === 'wip') return { text: 'In progress', cls: 'tag tag-wip' };
+  return { text: p.status, cls: 'tag' };
+};
+const homeGroup = (typeof templateParams !== 'undefined') && templateParams && templateParams.group;
 %>
-<% const homeType = (typeof templateParams !== 'undefined') && templateParams && templateParams.type; %>
-<% if (homeType) { %>
+<% if (homeGroup) { %>
 <div class="home-papers">
-<% for (const p of items.filter(p => p.type === homeType)) {
-const isRR = p.status && String(p.status).indexOf('R&R') === 0;
+<% for (const p of items.filter(p => groupOf(p) === homeGroup)) {
+const tag = tagOf(p);
 const links = (Array.isArray(p.links) ? p.links : []).slice(0, 2);
 const media = Array.isArray(p.media) ? p.media : [];
 %>
-<article class="home-paper">
+<article class="home-paper<%= p.type === 'wip' ? ' is-wip' : '' %>">
 <div class="home-paper-main">
 <% if (p.page) { %><a class="home-paper-title" href="<%- p.page %>"><%= p.title %></a><% } else { %><a class="home-paper-title" href="research.html#<%= p.id %>"><%= p.title %></a><% } %>
 <% if (p.coauthors && p.coauthors.length) { %><div class="paper-authors"><%= authorsHtml(p.coauthors) %></div><% } %>
 <div class="home-paper-links">
-<% if (isRR) { %><span class="tag tag-rr"><%= p.status %></span><% } else if (p.status && p.status !== 'Work in progress') { %><span class="tag"><%= p.status %></span><% } %><% if (!isRR && p.venue) { %><span class="home-venue"><%= p.venue %></span><% } %>
+<% if (tag) { %><span class="<%= tag.cls %>"><%= tag.text %></span><% } %><% if (p.venue && !(tag && tag.cls === 'tag tag-rr')) { %><span class="home-venue"><%= p.venue %></span><% } %><% if (p.presented) { %><span class="home-venue">Presented at <%= p.presented %></span><% } %>
 <% for (const l of links) { %><a href="<%- l.href %>"><%= l.label %></a><% } %>
 <% for (const m of media) { %><a class="media-link" href="<%- m.href %>"><%= m.label %></a><% } %>
 </div>
@@ -35,47 +42,35 @@ const media = Array.isArray(p.media) ? p.media : [];
 </article>
 <% } %>
 </div>
-<% } else if (featuredOnly) { %>
-<div class="papers">
-<% for (const p of items.filter(p => p.featured)) {
-const tag = p.status || p.tagline;
-const isRR = tag && String(tag).indexOf('R&R') === 0;
-%>
-<article class="paper">
-<% if (tag) { %><div class="tag <%= isRR ? 'tag-rr' : '' %>"><%= tag %></div><% } %>
-<% if (p.page) { %><a class="paper-title" href="<%- p.page %>"><%= p.title %></a><% } else { %><a class="paper-title" href="research.html#<%= p.id %>"><%= p.title %></a><% } %>
-<% if (p.coauthors && p.coauthors.length) { %><div class="paper-authors"><%= authorsHtml(p.coauthors) %></div><% } %>
-</article>
-<% } %>
-</div>
 <% } else { %>
-<% for (const g of groups) { const list = items.filter(p => p.type === g.type); if (!list.length) continue; %>
-<section class="sec paper-group" data-group="<%= g.type %>">
-<div class="label"><h2><%= g.label %></h2><p class="group-count"><span data-count><%= list.length %></span> <%= list.length === 1 ? 'paper' : 'papers' %></p></div>
+<% for (const g of groups) { const list = items.filter(p => groupOf(p) === g.key); if (!list.length) continue; %>
+<section class="sec paper-group" data-group="<%= g.key %>">
+<div class="label"><h2><%= g.label %></h2><p class="group-count"><span data-count><%= list.length %></span> <%= list.length === 1 ? 'paper' : 'papers' %><%= g.note ? ' · ' + g.note.toLowerCase() : '' %></p></div>
 <div>
 <% for (const p of list) {
-const tag = p.status;
-const isRR = tag && String(tag).indexOf('R&R') === 0;
+const tag = tagOf(p);
 const links = Array.isArray(p.links) ? p.links : [];
 const media = Array.isArray(p.media) ? p.media : [];
 const topics = Array.isArray(p.topics) ? p.topics : [];
 const names = (p.coauthors || []).map(c => c.name).join(' ');
 const search = [p.title, names, p.abstract || '', p.venue || '', topics.join(' ')].join(' ').toLowerCase();
 %>
-<article class="paper" id="<%= p.id %>" data-type="<%= p.type %>" data-topics="<%= topics.join('|') %>" data-search="<%= esc(search) %>">
+<article class="paper<%= p.type === 'wip' ? ' is-wip' : '' %>" id="<%= p.id %>" data-type="<%= p.type %>" data-group="<%= g.key %>" data-topics="<%= topics.join('|') %>" data-search="<%= esc(search) %>">
 <div class="paper-top">
-<% if (tag) { %><span class="tag <%= isRR ? 'tag-rr' : '' %>"><%= tag %></span><% } %>
+<% if (tag) { %><span class="<%= tag.cls %>"><%= tag.text %></span><% } %>
 <% if (p.year) { %><span class="paper-year"><%= p.year %></span><% } %>
 </div>
 <% if (p.page) { %><a class="paper-title" href="<%- p.page %>"><%= p.title %></a><% } else { %><div class="paper-title"><%= p.title %></div><% } %>
 <% if (p.coauthors && p.coauthors.length) { %><div class="paper-authors"><%= authorsHtml(p.coauthors) %></div><% } %>
 <% if (p.venue) { %><div class="paper-venue"><%= p.venue %></div><% } %>
 <% if (p.note) { %><div class="paper-venue"><%= p.note %></div><% } %>
+<% if (p.abstract || p.bibtex || links.length) { %>
 <div class="paper-actions">
 <% if (p.abstract) { %><button type="button" class="pill-btn" data-toggle="abs-<%= p.id %>" aria-expanded="false">Abstract</button><% } %>
 <% if (p.bibtex) { %><button type="button" class="pill-btn" data-toggle="cite-<%= p.id %>" aria-expanded="false">Cite</button><% } %>
 <% for (const l of links) { %><a class="pill-link" href="<%- l.href %>"><%= l.label %></a><% } %>
 </div>
+<% } %>
 <% if (p.abstract) { %><div class="paper-panel" id="abs-<%= p.id %>" hidden><p><%= p.abstract %></p></div><% } %>
 <% if (p.bibtex) { %><div class="paper-panel" id="cite-<%= p.id %>" hidden><pre class="bibtex"><%= p.bibtex.trim() %></pre><button type="button" class="copy-cite">Copy BibTeX</button></div><% } %>
 <% if (media.length || p.presented || topics.length) { %>
