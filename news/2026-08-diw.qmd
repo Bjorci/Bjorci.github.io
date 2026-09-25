@@ -1,0 +1,11 @@
+---
+title: "R&D and MNE networks at DIW Berlin"
+date: 2026-08-01
+datelabel: "August 2026"
+categories: ["Talk"]
+description: "Presented “R&D Employment and Transmission in Trade and MNE Networks” at the DIW Berlin Economic Experts conference."
+---
+
+Presented “R&D Employment and Transmission in Trade and MNE Networks” at the DIW Berlin Economic Experts conference.
+
+[← News & talks](../news.qmd)

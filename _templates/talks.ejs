@@ -11,10 +11,10 @@ const years = items.filter(t => t.year);
 <div class="what"><strong><%= t.event %></strong>, <%= t.place %><% if (t.note) { %> · <%= t.note %><% } %> <span class="countdown"></span></div>
 </div>
 <% } %>
-<p class="empty-note" hidden>No talks scheduled right now. See <a href="talks.html">past talks</a>.</p>
+<p class="empty-note" hidden>No talks scheduled right now. See the <a href="news.html#talks">talk archive</a>.</p>
 </div>
 <% } else if (mode === 'detailed') { %>
-<div class="talk-list">
+<div class="talk-list" data-past-only>
 <% for (const t of detailed) { %>
 <div class="talk-card" data-iso="<%= t.iso %>" data-paper="<%= t.paper || '' %>">
 <div class="talk-when"><%= t.when %> <span class="countdown"></span></div>

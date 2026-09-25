@@ -2,10 +2,10 @@
 title: "Op-ed in Vísbending"
 date: 2025-05-01
 datelabel: "May 2025"
-categories: [Media]
+categories: ["Media"]
 description: "Op-ed in *Vísbending* on Trump’s tariffs (in Icelandic)."
 ---
 
 Op-ed in *Vísbending* on Trump’s tariffs (in Icelandic).
 
-[← All news](../news.qmd)
+[← News & talks](../news.qmd)

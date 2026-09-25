@@ -1,11 +1,11 @@
 ---
 title: "Revise and resubmit at the JPE"
 date: 2025-12-01   # TODO: real date (only the order matters; the page shows datelabel)
-datelabel: "[Month]"
-categories: [Revision]
+datelabel: "Recent"
+categories: ["Revision"]
 description: "“Growing Together and Apart” received a revise-and-resubmit at the *Journal of Political Economy*."
 ---
 
 “Growing Together and Apart” received a revise-and-resubmit at the *Journal of Political Economy*.
 
-[← All news](../news.qmd)
+[← News & talks](../news.qmd)

@@ -97,6 +97,7 @@
     $("[data-iso]", list).forEach(function (el) { if (el.classList.contains("is-past")) el.hidden = true; else any = true; });
     var e = list.querySelector(".empty-note"); if (e) e.hidden = any;
   });
+  $("[data-past-only] [data-iso].is-upcoming").forEach(function (el) { el.hidden = true; });
   var talkCards = $(".talk-card");
   if (talkCards.length) {
     $("[data-paper-filter]").forEach(function (b) {

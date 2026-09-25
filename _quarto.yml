@@ -23,10 +23,8 @@ website:
     right:
       - text: Research
         href: research.qmd
-      - text: News
+      - text: News & talks
         href: news.qmd
-      - text: Talks
-        href: talks.qmd
       - text: Teaching
         href: teaching.qmd
       - text: About

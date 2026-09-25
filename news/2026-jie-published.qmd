@@ -2,10 +2,10 @@
 title: "Out in the Journal of International Economics"
 date: 2026-03-01   # TODO: real date (only the order matters; the page shows datelabel)
 datelabel: "2026"
-categories: [Published]
+categories: ["Publication"]
 description: "“Globalization and the Gender Gap in Mental Well-being” (with David, Javorcik and Munch) is out in the *Journal of International Economics*."
 ---
 
 “Globalization and the Gender Gap in Mental Well-being” (with David, Javorcik and Munch) is out in the *Journal of International Economics*.
 
-[← All news](../news.qmd)
+[← News & talks](../news.qmd)

@@ -2,10 +2,10 @@
 title: "Research visit to LMU Munich"
 date: 2026-07-01
 datelabel: "July 2026"
-categories: [Visit]
+categories: ["Visit"]
 description: "Research visit to LMU Munich."
 ---
 
 Research visit to LMU Munich.
 
-[← All news](../news.qmd)
+[← News & talks](../news.qmd)

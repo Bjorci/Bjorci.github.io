@@ -304,3 +304,12 @@ div.csl-entry, .quarto-appendix-bibtex pre { font-size: 0.85rem; }
   .region-card { grid-template-columns: minmax(0, 1fr); }
   .region-card img { width: 100%; height: 160px; }
 }
+
+// ---------- Talk archive (News & talks page) ----------
+details.archive { border-top: 1px solid $rule; }
+details.archive + details.archive { margin-top: 0; }
+details.archive > summary { cursor: pointer; list-style: none; padding: 14px 0; font-size: 0.95rem; font-weight: 500; color: $accent; }
+details.archive > summary::-webkit-details-marker { display: none; }
+details.archive > summary::before { content: "+"; display: inline-block; width: 18px; color: $muted; }
+details.archive[open] > summary::before { content: "–"; }
+details.archive[open] { padding-bottom: 16px; }

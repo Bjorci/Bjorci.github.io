@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c232c0d57a20b86be5ce25c7eebd1643.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c7e2c0b88bce91567250c6f34cb2bde5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -131,11 +131,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../news.html"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../talks.html"> 
-<span class="menu-text">Talks</span></a>
+<span class="menu-text">News &amp; talks</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../teaching.html"> 
@@ -174,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">Joined the ROCKWOOL Foundation Research Unit</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Position</div>
+    <div class="quarto-category">New position</div>
   </div>
   </div>
 
@@ -204,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Joined the ROCKWOOL Foundation Research Unit as Researcher.</p>
-<p><a href="../news.html">← All news</a></p>
+<p><a href="../news.html">← News &amp; talks</a></p>
 
 
 
@@ -308,6 +304,7 @@ ul.task-list li input[type="checkbox"] {
     $("[data-iso]", list).forEach(function (el) { if (el.classList.contains("is-past")) el.hidden = true; else any = true; });
     var e = list.querySelector(".empty-note"); if (e) e.hidden = any;
   });
+  $("[data-past-only] [data-iso].is-upcoming").forEach(function (el) { el.hidden = true; });
   var talkCards = $(".talk-card");
   if (talkCards.length) {
     $("[data-paper-filter]").forEach(function (b) {

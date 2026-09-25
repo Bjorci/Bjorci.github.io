@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Submissions, revisions, publications and talks.">
+<meta name="description" content="Upcoming talks, new papers, publications, revisions and other news from Björn Thor Arnarson.">
 
-<title>News · Björn Thor Arnarson – Björn Thor Arnarson</title>
+<title>News &amp; talks · Björn Thor Arnarson – Björn Thor Arnarson</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dccd0957f4813d806766cbf2bd629ec4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6dca013aa5922457ac98e803b5676a7f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -77,6 +77,90 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-news-all'] = new List('listing-news-all', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-talks-upcoming .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-iso','listing-when','listing-event','listing-place','listing-kind','listing-note','listing-paper','listing-paper_title','listing-year','listing-text',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-iso","listing-when","listing-event","listing-place","listing-kind","listing-note","listing-paper","listing-paper_title","listing-year","listing-text"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-talks-upcoming'] = new List('listing-talks-upcoming', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-talks-detailed .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-iso','listing-when','listing-event','listing-place','listing-kind','listing-note','listing-paper','listing-paper_title','listing-year','listing-text',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-iso","listing-when","listing-event","listing-place","listing-kind","listing-note","listing-paper","listing-paper_title","listing-year","listing-text"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-talks-detailed'] = new List('listing-talks-detailed', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-talks-years .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-iso','listing-when','listing-event','listing-place','listing-kind','listing-note','listing-paper','listing-paper_title','listing-year','listing-text',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-iso","listing-when","listing-event","listing-place","listing-kind","listing-note","listing-paper","listing-paper_title","listing-year","listing-text"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-talks-years'] = new List('listing-talks-years', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -163,8 +247,8 @@ window.Quarto = {
 };
 </script>
 
-<link rel="alternate" type="application/rss+xml" title="Björn Thor Arnarson" href="news.xml" data-external="1"><meta property="og:title" content="News · Björn Thor Arnarson">
-<meta property="og:description" content="Submissions, revisions, publications and talks.">
+<link rel="alternate" type="application/rss+xml" title="Björn Thor Arnarson" href="news.xml" data-external="1"><meta property="og:title" content="News &amp; talks · Björn Thor Arnarson">
+<meta property="og:description" content="Upcoming talks, new papers, publications, revisions and other news from Björn Thor Arnarson.">
 <meta property="og:site_name" content="Björn Thor Arnarson">
 </head>
 
@@ -190,11 +274,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./news.html" aria-current="page"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
-<span class="menu-text">Talks</span></a>
+<span class="menu-text">News &amp; talks</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
@@ -234,30 +314,85 @@ window.Quarto = {
 
 <div class="wrap">
 <div class="page-head">
-<section id="news" class="level1">
-<h1>News</h1>
-<p><span class="intro">Submissions, revisions, publications and talks. <a href="news.xml">Follow by RSS</a>.</span></p>
+<section id="news-talks" class="level1">
+<h1>News &amp; talks</h1>
+<p><span class="intro">Talks, new papers, publications and revisions. <a href="news.xml">Follow by RSS</a>.</span></p>
 </section>
 </div>
-<div class="chip-row" style="margin: 24px 0 8px;">
-  <button type="button" class="chip is-on" data-kind-filter="all">All</button>
-  <button type="button" class="chip" data-kind-filter="papers" data-kinds="Published|Revision|Paper">Papers</button>
-  <button type="button" class="chip" data-kind-filter="talks" data-kinds="Talk|Visit">Talks and visits</button>
-  <button type="button" class="chip" data-kind-filter="other" data-kinds="Media|Position|Service">Media and other</button>
-</div>
-<div id="listing-news-all" class="quarto-listing quarto-listing-container-custom">
-<div class="news-list news-big">
-<div class="news-row" data-kind="Talk">
+<div class="sec">
+<section id="upcoming-talks" class="level2 label">
+<h2 data-anchor-id="upcoming-talks">Upcoming talks</h2>
+</section>
+<div id="listing-talks-upcoming" class="quarto-listing quarto-listing-container-custom">
+<div class="talk-list" data-upcoming-only="">
+<div class="row-line talk" data-iso="2026-11-20">
 <div class="when">
-Upcoming
-</div>
-<div class="kind">
-Talk
+20 November 2026
 </div>
 <div class="what">
-Invited to present at the OECD in Paris on 20 November 2026, as part of the LIFT initiative on firm-to-firm data.
+<strong>OECD</strong>, Paris · LIFT initiative on firm-to-firm data <span class="countdown"></span>
 </div>
 </div>
+<div class="row-line talk" data-iso="2026-09-29">
+<div class="when">
+29 September 2026
+</div>
+<div class="what">
+<strong>ROCKWOOL Foundation Annual Internal Workshop</strong>, Berlin <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-09-01">
+<div class="when">
+2026
+</div>
+<div class="what">
+<strong>European Trade Study Group (ETSG)</strong>, Exeter <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-08-01">
+<div class="when">
+August 2026
+</div>
+<div class="what">
+<strong>DIW Berlin, Economic Experts conference</strong>, Berlin <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-05-01">
+<div class="when">
+2026
+</div>
+<div class="what">
+<strong>Danish International Economics Workshop (DIEW)</strong>, Aarhus <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-04-01">
+<div class="when">
+2026
+</div>
+<div class="what">
+<strong>Rocky Mountain Empirical Trade Conference (RMET), a FREIT conference</strong>, Banff <span class="countdown"></span>
+</div>
+</div>
+<p class="empty-note" hidden="">
+No talks scheduled right now. See the <a href="news.html#talks">talk archive</a>.
+</p>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div class="sec">
+<section id="news" class="level2 label">
+<h2 data-anchor-id="news">News</h2>
+</section>
+<div>
+<div class="chip-row" style="margin-bottom: 8px;">
+  <button type="button" class="chip is-on" data-kind-filter="all">All</button>
+  <button type="button" class="chip" data-kind-filter="papers" data-kinds="Publication|Revision|Working paper">Papers</button>
+  <button type="button" class="chip" data-kind-filter="talks" data-kinds="Talk|Visit">Talks and visits</button>
+  <button type="button" class="chip" data-kind-filter="other" data-kinds="Media|New position|Organising">Other</button>
+</div>
+<div id="listing-news-all" class="quarto-listing quarto-listing-container-custom">
+<div class="news-list">
 <div class="news-row" data-kind="Talk">
 <div class="when">
 2026
@@ -277,7 +412,7 @@ August 2026
 Talk
 </div>
 <div class="what">
-Seminar at RFBerlin, Berlin.
+Presented “R&amp;D Employment and Transmission in Trade and MNE Networks” at the DIW Berlin Economic Experts conference.
 </div>
 </div>
 <div class="news-row" data-kind="Visit">
@@ -299,26 +434,26 @@ Research visit to LMU Munich.
 Talk
 </div>
 <div class="what">
-Presented “R&amp;D Employment and Transmission in Trade and MNE Networks” at the Rocky Mountain Empirical Trade Conference (RMET, Banff) and at the DIW Berlin Economic Experts conference, and “International Spillovers from Supplying Superstars” at DIEW in Aarhus.
+Presented “R&amp;D Employment and Transmission in Trade and MNE Networks” at the Rocky Mountain Empirical Trade Conference (RMET, Banff) and “International Spillovers from Supplying Superstars” at DIEW in Aarhus.
 </div>
 </div>
-<div class="news-row" data-kind="Published">
+<div class="news-row" data-kind="Publication">
 <div class="when">
 2026
 </div>
 <div class="kind">
-Published
+Publication
 </div>
 <div class="what">
 “Globalization and the Gender Gap in Mental Well-being” (with David, Javorcik and Munch) is out in the <em>Journal of International Economics</em>.
 </div>
 </div>
-<div class="news-row" data-kind="Paper">
+<div class="news-row" data-kind="Working paper">
 <div class="when">
 2026
 </div>
 <div class="kind">
-Paper
+Working paper
 </div>
 <div class="what">
 “Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains” (with Buus, Moxnes, Munch and Xiang) is out as CESifo Working Paper 12710 and CEPR Discussion Paper 21543.
@@ -326,7 +461,7 @@ Paper
 </div>
 <div class="news-row" data-kind="Revision">
 <div class="when">
-[Month]
+Recent
 </div>
 <div class="kind">
 Revision
@@ -335,23 +470,23 @@ Revision
 “Growing Together and Apart” received a revise-and-resubmit at the <em>Journal of Political Economy</em>.
 </div>
 </div>
-<div class="news-row" data-kind="Service">
+<div class="news-row" data-kind="Organising">
 <div class="when">
 2025
 </div>
 <div class="kind">
-Service
+Organising
 </div>
 <div class="what">
 Organised NOITS 2025 in Copenhagen, the annual Nordic conference in international economics.
 </div>
 </div>
-<div class="news-row" data-kind="Position">
+<div class="news-row" data-kind="New position">
 <div class="when">
 June 2025
 </div>
 <div class="kind">
-Position
+New position
 </div>
 <div class="what">
 Joined the ROCKWOOL Foundation Research Unit as Researcher.
@@ -368,23 +503,23 @@ Media
 Op-ed in <em>Vísbending</em> on Trump’s tariffs (in Icelandic).
 </div>
 </div>
-<div class="news-row" data-kind="Paper">
+<div class="news-row" data-kind="Working paper">
 <div class="when">
 October 2024
 </div>
 <div class="kind">
-Paper
+Working paper
 </div>
 <div class="what">
 “Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment” (with Munch, Olsen and Simonsen) is out as ROCKWOOL Foundation Study Paper 215.
 </div>
 </div>
-<div class="news-row" data-kind="Paper">
+<div class="news-row" data-kind="Working paper">
 <div class="when">
 September 2024
 </div>
 <div class="kind">
-Paper
+Working paper
 </div>
 <div class="what">
 “R&amp;D Employment and Transmission in Trade and MNE Networks” (with Buus, Munch and Schaur) is out as ROCKWOOL Foundation Study Paper 217.
@@ -392,6 +527,204 @@ Paper
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+</div>
+<div id="talks" class="sec">
+<section id="talk-archive" class="level2 label">
+<h2 data-anchor-id="talk-archive">Talk archive</h2>
+</section>
+<div>
+<details class="archive" open="">
+<summary>2026, with the paper presented</summary>
+<div id="listing-talks-detailed" class="quarto-listing quarto-listing-container-custom">
+<div class="talk-list" data-past-only="">
+<div class="talk-card" data-iso="2026-11-20" data-paper="">
+<div class="talk-when">
+20 November 2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
+OECD
+</div>
+<div class="talk-where">
+Invited seminar, Paris · LIFT initiative on firm-to-firm data
+</div>
+</div>
+<div class="talk-card" data-iso="2026-09-29" data-paper="">
+<div class="talk-when">
+29 September 2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
+ROCKWOOL Foundation Annual Internal Workshop
+</div>
+<div class="talk-where">
+Workshop, Berlin
+</div>
+</div>
+<div class="talk-card" data-iso="2026-09-01" data-paper="scale">
+<div class="talk-when">
+2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
+European Trade Study Group (ETSG)
+</div>
+<div class="talk-where">
+Conference, Exeter
+</div>
+<div class="talk-paper">
+Paper: <a href="research.html#scale">Growing Together and Apart</a>
+</div>
+</div>
+<div class="talk-card" data-iso="2026-08-01" data-paper="rd">
+<div class="talk-when">
+August 2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
+DIW Berlin, Economic Experts conference
+</div>
+<div class="talk-where">
+Conference, Berlin
+</div>
+<div class="talk-paper">
+Paper: <a href="research.html#rd">R&amp;D Employment and Transmission in Trade and MNE Networks</a>
+</div>
+</div>
+<div class="talk-card" data-iso="2026-05-01" data-paper="superstar">
+<div class="talk-when">
+2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
+Danish International Economics Workshop (DIEW)
+</div>
+<div class="talk-where">
+Workshop, Aarhus
+</div>
+<div class="talk-paper">
+Paper: <a href="research.html#superstar">International Spillovers from Supplying Superstars</a>
+</div>
+</div>
+<div class="talk-card" data-iso="2026-04-01" data-paper="rd">
+<div class="talk-when">
+2026 <span class="countdown"></span>
+</div>
+<div class="talk-event">
+Rocky Mountain Empirical Trade Conference (RMET), a FREIT conference
+</div>
+<div class="talk-where">
+Conference, Banff
+</div>
+<div class="talk-paper">
+Paper: <a href="research.html#rd">R&amp;D Employment and Transmission in Trade and MNE Networks</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</details>
+<details class="archive">
+<summary>Earlier talks, 2014–2025</summary>
+<div id="listing-talks-years" class="quarto-listing quarto-listing-container-custom">
+<div>
+<div class="row-line year-line">
+<div class="when year">
+2025
+</div>
+<div class="what">
+Swedish Network for European Studies in Economics and Business (SNEE); invited seminar, ROCKWOOL Foundation Research Unit.
+</div>
+</div>
+<div class="row-line year-line">
+<div class="when year">
+2024
+</div>
+<div class="what">
+NOITS (Oslo); SNEE (Lund); CESifo Area Conference on the Global Economy.
+</div>
+</div>
+<div class="row-line year-line">
+<div class="when year">
+2023
+</div>
+<div class="what">
+Invited seminar, Icelandic Economists Abroad conference (University of Iceland); EPRN Copenhagen; SNEE (Lund).
+</div>
+</div>
+<div class="row-line year-line">
+<div class="when year">
+2021
+</div>
+<div class="what">
+Invited seminar for Business Sweden.
+</div>
+</div>
+<div class="row-line year-line">
+<div class="when year">
+2019
+</div>
+<div class="what">
+Road to Exporting, Copenhagen.
+</div>
+</div>
+<div class="row-line year-line">
+<div class="when year">
+2018
+</div>
+<div class="what">
+Moscow International Economics Conference (Moscow); ADI Conference (Copenhagen); SNEE (Lund).
+</div>
+</div>
+<div class="row-line year-line">
+<div class="when year">
+2017
+</div>
+<div class="what">
+Empirical Investigations in Trade and Investment, Yogyakarta (FREIT); invited seminar, Örebro University; NOITS (Helsinki); LETC (Slovenia, FREIT); ADI Conference (Copenhagen); SNEE (Lund).
+</div>
+</div>
+<div class="row-line year-line">
+<div class="when year">
+2016
+</div>
+<div class="what">
+Invited seminars at the University of Copenhagen and IFN Stockholm; NOITS (Oslo); ADI Conference (Copenhagen); Lund University; ETSG (Helsinki).
+</div>
+</div>
+<div class="row-line year-line">
+<div class="when year">
+2015
+</div>
+<div class="what">
+ETSG (Paris); NOITS (Copenhagen); GEP Postgraduate Conference (University of Nottingham); Lund University; Danish International Economics Workshop (Aarhus); invited seminar, Sydsvenska Handelskammaren (Malmö).
+</div>
+</div>
+<div class="row-line year-line">
+<div class="when year">
+2014
+</div>
+<div class="what">
+NOITS; Nordic Summer Symposium in Macroeconomics; Lund University; ETSG.
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</details>
+</div>
+</div>
+<div class="sec">
+<section id="visits-and-organising" class="level2 label">
+<h2 data-anchor-id="visits-and-organising">Visits and organising</h2>
+</section>
+<div>
+<div class="row-line">
+<p><span class="when">Research visits</span></p>
+<p><span class="what">LMU Munich (July 2026); CESifo, Munich (July 2024).</span></p>
+</div>
+<div class="row-line">
+<p><span class="when">Organising</span></p>
+<p><span class="what">NOITS, Copenhagen 2025 and Iceland 2021; administrator of <a href="https://www.noits.org">www.noits.org</a>.</span></p>
+</div>
+</div>
 </div>
 </div>
 
@@ -498,6 +831,7 @@ Paper
     $("[data-iso]", list).forEach(function (el) { if (el.classList.contains("is-past")) el.hidden = true; else any = true; });
     var e = list.querySelector(".empty-note"); if (e) e.hidden = any;
   });
+  $("[data-past-only] [data-iso].is-upcoming").forEach(function (el) { el.hidden = true; });
   var talkCards = $(".talk-card");
   if (talkCards.length) {
     $("[data-paper-filter]").forEach(function (b) {

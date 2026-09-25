@@ -223,14 +223,14 @@ document.getElementById('copy-bio').addEventListener('click', function () {
 As firms grow, they hand more tasks to their suppliers, and the workforces of firms and suppliers become more specialized. Using Danish data that link firms’ cross-border trade to their employees, we show that this outsourcing makes firms markedly more productive: without it, average labour productivity would be 25 percent lower.
 :::
 ::: {.paper}
-[Knowledge Spillovers from Cross-Border Commuters](research.qmd#comm){.paper-title}
-
-The Øresund Bridge turned Copenhagen and Malmö into one labour market. Danish firms that took on more Swedish commuters became more productive, and the Danish colleagues working alongside the commuters earned more, consistent with knowledge travelling across the border.
-:::
-::: {.paper}
 [Globalization and the Gender Gap in Mental Well-being](research.qmd#jie){.paper-title}
 
 When a Danish firm trades with partners in distant time zones, work spills outside normal hours. In such firms, women become more likely than men to use antidepressants, with the largest effects among college-educated workers under 45 and single mothers.
+:::
+::: {.paper}
+[Knowledge Spillovers from Cross-Border Commuters](research.qmd#comm){.paper-title}
+
+The Øresund Bridge turned Copenhagen and Malmö into one labour market. Danish firms that took on more Swedish commuters became more productive, and the Danish colleagues working alongside the commuters earned more, consistent with knowledge travelling across the border.
 :::
 :::
 :::

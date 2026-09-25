@@ -2,10 +2,10 @@
 title: "Growing Together and Apart released"
 date: 2026-02-01   # TODO: real date (only the order matters; the page shows datelabel)
 datelabel: "2026"
-categories: [Paper]
+categories: ["Working paper"]
 description: "“Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains” (with Buus, Moxnes, Munch and Xiang) is out as CESifo Working Paper 12710 and CEPR Discussion Paper 21543."
 ---
 
 “Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains” (with Buus, Moxnes, Munch and Xiang) is out as CESifo Working Paper 12710 and CEPR Discussion Paper 21543.
 
-[← All news](../news.qmd)
+[← News & talks](../news.qmd)

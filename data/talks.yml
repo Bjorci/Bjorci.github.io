@@ -11,12 +11,20 @@
   note: "LIFT initiative on firm-to-firm data"
   paper: ""
 
+- iso: 2026-09-29
+  when: "29 September 2026"
+  event: "ROCKWOOL Foundation Annual Internal Workshop"
+  place: "Berlin"
+  kind: "Workshop"
+  paper: ""
+
 - iso: 2026-08-01
   when: "August 2026"
-  event: "RFBerlin"
+  event: "DIW Berlin, Economic Experts conference"
   place: "Berlin"
-  kind: "Seminar"
-  paper: ""
+  kind: "Conference"
+  paper: rd
+  paper_title: "R&D Employment and Transmission in Trade and MNE Networks"
 
 - iso: 2026-09-01   # TODO: exact ETSG date
   when: "2026"
@@ -25,14 +33,6 @@
   kind: "Conference"
   paper: scale
   paper_title: "Growing Together and Apart"
-
-- iso: 2026-06-01   # TODO: exact date
-  when: "2026"
-  event: "DIW Berlin, Economic Experts conference"
-  place: "Berlin"
-  kind: "Conference"
-  paper: rd
-  paper_title: "R&D Employment and Transmission in Trade and MNE Networks"
 
 - iso: 2026-05-01   # TODO: exact date
   when: "2026"

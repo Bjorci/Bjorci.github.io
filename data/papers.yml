@@ -167,31 +167,6 @@
       doi         = {10.65864/rekivjv2z7}
     }
 
-- id: comm
-  type: working-paper
-  title: "Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment"
-  year: 2024
-  coauthors:
-    - {name: "Jakob R. Munch", url: "https://sites.google.com/view/jakob-roland-munch"}
-    - {name: "Morten G. Olsen", url: "https://morten-olsen.com/"}
-    - {name: "Emil A. L. Simonsen", url: "https://emilalsimonsen.github.io/index.html"}
-  venue: "ROCKWOOL Foundation Study Paper 215, 2024"
-  featured: true
-  topics: [Øresund, Knowledge spillovers, Labour markets]
-  abstract: "How is knowledge transmitted across borders? We exploit the construction of the Øresund bridge which joined the capital region of Denmark with Malmö in Sweden, creating an integrated labor market. The bridge led to a steep increase in cross-border commuting, predominantly one-way from Sweden to Denmark. We examine the consequences of Swedish cross-border workers on the productivity of Danish firms and the wages of their close coworkers. We find substantial positive effects in Danish firms that (exogenously) increase the share of Swedish commuters, as cross-border commuters carry a productivity premium that likely reflects knowledge spillovers. To examine the extent of knowledge spillovers further, we estimate the impact of cross border commuters on wages of incumbent coworkers in occupations of the commuters and find a positive effect. We also find that high-skilled commuters and commuters with experience in high-tech occupations in the Swedish labor market have the strongest spillover effects on the wages of Danish coworkers."
-  links:
-    - {label: "PDF", href: "https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/10/RFF-Studypaper215-Knowledge-Spillovers-from-Cross-Border-Commuters_Oktober2024.pdf"}
-    - {label: "ROCKWOOL page", href: "https://en.rockwoolfonden.dk/publications/knowledge-spillovers-from-cross-border-commuters-evidence-from-a-natural-experiment/"}
-  bibtex: |
-    @techreport{ArnarsonMunchOlsenSimonsen2024,
-      author      = {Arnarson, Bj{\"o}rn Thor and Munch, Jakob Roland and Olsen, Morten and Simonsen, Emil A. L.},
-      title       = {Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment},
-      institution = {ROCKWOOL Foundation Research Unit},
-      type        = {Study Paper},
-      number      = {215},
-      year        = {2024}
-    }
-
 - id: rd
   type: working-paper
   title: "R&D Employment and Transmission in Trade and MNE Networks: Evidence from an R&D Tax Reform"
@@ -201,6 +176,7 @@
     - {name: "Jakob R. Munch", url: "https://sites.google.com/view/jakob-roland-munch"}
     - {name: "Georg Schaur", url: "https://sites.google.com/site/georgschaur/home"}
   venue: "ROCKWOOL Foundation Study Paper 217, 2024"
+  featured: true
   topics: [Øresund, Firm networks, Knowledge spillovers]
   presented: "RMET 2026 (Banff); DIW Berlin 2026"
   abstract: "We combine R&D survey data, Swedish and Danish register data, MNE group information, firm-to-firm trade linkages, and a plausibly exogenous policy shock that reduces firms’ employment related R&D expenditures to provide evidence for the allocation of R&D activities among Swedish-Danish trade and MNE partners. We first show that Swedish firms increased their R&D employment in response to the introduction of an R&D related tax deduction. We then show that the R&D tax reform leads to a fall in R&D employment among Danish MNE partners, but an increase among Danish trade partners. We conclude that R&D policies increase global research activities within trade networks, but substitution across affiliates dampens the reform’s effect on research activity within MNE networks."
@@ -214,6 +190,30 @@
       institution = {ROCKWOOL Foundation Research Unit},
       type        = {Study Paper},
       number      = {217},
+      year        = {2024}
+    }
+
+- id: comm
+  type: working-paper
+  title: "Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment"
+  year: 2024
+  coauthors:
+    - {name: "Jakob R. Munch", url: "https://sites.google.com/view/jakob-roland-munch"}
+    - {name: "Morten G. Olsen", url: "https://morten-olsen.com/"}
+    - {name: "Emil A. L. Simonsen", url: "https://emilalsimonsen.github.io/index.html"}
+  venue: "ROCKWOOL Foundation Study Paper 215, 2024"
+  topics: [Øresund, Knowledge spillovers, Labour markets]
+  abstract: "How is knowledge transmitted across borders? We exploit the construction of the Øresund bridge which joined the capital region of Denmark with Malmö in Sweden, creating an integrated labor market. The bridge led to a steep increase in cross-border commuting, predominantly one-way from Sweden to Denmark. We examine the consequences of Swedish cross-border workers on the productivity of Danish firms and the wages of their close coworkers. We find substantial positive effects in Danish firms that (exogenously) increase the share of Swedish commuters, as cross-border commuters carry a productivity premium that likely reflects knowledge spillovers. To examine the extent of knowledge spillovers further, we estimate the impact of cross border commuters on wages of incumbent coworkers in occupations of the commuters and find a positive effect. We also find that high-skilled commuters and commuters with experience in high-tech occupations in the Swedish labor market have the strongest spillover effects on the wages of Danish coworkers."
+  links:
+    - {label: "PDF", href: "https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/10/RFF-Studypaper215-Knowledge-Spillovers-from-Cross-Border-Commuters_Oktober2024.pdf"}
+    - {label: "ROCKWOOL page", href: "https://en.rockwoolfonden.dk/publications/knowledge-spillovers-from-cross-border-commuters-evidence-from-a-natural-experiment/"}
+  bibtex: |
+    @techreport{ArnarsonMunchOlsenSimonsen2024,
+      author      = {Arnarson, Bj{\"o}rn Thor and Munch, Jakob Roland and Olsen, Morten and Simonsen, Emil A. L.},
+      title       = {Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment},
+      institution = {ROCKWOOL Foundation Research Unit},
+      type        = {Study Paper},
+      number      = {215},
       year        = {2024}
     }
 

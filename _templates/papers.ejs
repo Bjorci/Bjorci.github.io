@@ -16,7 +16,7 @@ const groups = [
 <% const homeType = (typeof templateParams !== 'undefined') && templateParams && templateParams.type; %>
 <% if (homeType) { %>
 <div class="home-papers">
-<% for (const p of items.filter(p => p.type === homeType && p.status !== 'Dormant')) {
+<% for (const p of items.filter(p => p.type === homeType)) {
 const isRR = p.status && String(p.status).indexOf('R&R') === 0;
 const links = (Array.isArray(p.links) ? p.links : []).slice(0, 2);
 const media = Array.isArray(p.media) ? p.media : [];
@@ -26,7 +26,7 @@ const media = Array.isArray(p.media) ? p.media : [];
 <% if (p.page) { %><a class="home-paper-title" href="<%- p.page %>"><%= p.title %></a><% } else { %><a class="home-paper-title" href="research.html#<%= p.id %>"><%= p.title %></a><% } %>
 <% if (p.coauthors && p.coauthors.length) { %><div class="paper-authors"><%= authorsHtml(p.coauthors) %></div><% } %>
 <div class="home-paper-links">
-<% if (isRR) { %><span class="tag tag-rr"><%= p.status %></span><% } else if (p.type === 'publication') { %><span class="home-venue"><%= p.venue %></span><% } else if (p.venue) { %><span class="home-venue"><%= p.venue %></span><% } %>
+<% if (isRR) { %><span class="tag tag-rr"><%= p.status %></span><% } else if (p.status && p.status !== 'Work in progress') { %><span class="tag"><%= p.status %></span><% } %><% if (!isRR && p.venue) { %><span class="home-venue"><%= p.venue %></span><% } %>
 <% for (const l of links) { %><a href="<%- l.href %>"><%= l.label %></a><% } %>
 <% for (const m of media) { %><a class="media-link" href="<%- m.href %>"><%= m.label %></a><% } %>
 </div>

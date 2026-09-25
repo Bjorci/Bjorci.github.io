@@ -187,7 +187,7 @@ Icelandic (native), English (fluent), Swedish (fluent), Danish (working knowledg
 ## Also
 :::
 ::: {}
-Publications and working papers are on [Research](research.qmd); talks and research visits on [Talks](talks.qmd); teaching on [Teaching](teaching.qmd).
+Publications and working papers are on [Research](research.qmd); talks and research visits on [News & talks](news.qmd); teaching on [Teaching](teaching.qmd).
 :::
 :::
 

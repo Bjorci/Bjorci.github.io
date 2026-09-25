@@ -1,38 +1,119 @@
 ---
-pagetitle: "News · Björn Thor Arnarson"
-description: "Submissions, revisions, publications and talks."
+pagetitle: "News & talks · Björn Thor Arnarson"
+description: "Upcoming talks, new papers, publications, revisions and other news from Björn Thor Arnarson."
+aliases:
+  - talks.html
 listing:
-  id: news-all
-  contents: news/*.qmd
-  template: _templates/news.ejs
-  template-params:
-    big: true
-  sort: "date desc"
-  date-format: "MMMM YYYY"
-  feed: true
+  - id: news-all
+    contents: news/*.qmd
+    template: _templates/news.ejs
+    sort: "date desc"
+    date-format: "MMMM YYYY"
+    feed: true
+  - id: talks-upcoming
+    contents: data/talks.yml
+    template: _templates/talks.ejs
+    template-params:
+      mode: home
+    sort: false
+  - id: talks-detailed
+    contents: data/talks.yml
+    template: _templates/talks.ejs
+    template-params:
+      mode: detailed
+    sort: false
+  - id: talks-years
+    contents: data/talks.yml
+    template: _templates/talks.ejs
+    template-params:
+      mode: years
+    sort: false
 ---
 
 ::: {.wrap}
 
 ::: {.page-head}
 ::: {}
-# News
+# News & talks
 
-[Submissions, revisions, publications and talks. [Follow by RSS](news.xml).]{.intro}
+[Talks, new papers, publications and revisions. [Follow by RSS](news.xml).]{.intro}
 
 :::
 :::
 
+::: {.sec}
+::: {.label}
+## Upcoming talks
+:::
+::: {#talks-upcoming}
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## News
+:::
+::: {}
 ```{=html}
-<div class="chip-row" style="margin: 24px 0 8px;">
+<div class="chip-row" style="margin-bottom: 8px;">
   <button type="button" class="chip is-on" data-kind-filter="all">All</button>
-  <button type="button" class="chip" data-kind-filter="papers" data-kinds="Published|Revision|Paper">Papers</button>
+  <button type="button" class="chip" data-kind-filter="papers" data-kinds="Publication|Revision|Working paper">Papers</button>
   <button type="button" class="chip" data-kind-filter="talks" data-kinds="Talk|Visit">Talks and visits</button>
-  <button type="button" class="chip" data-kind-filter="other" data-kinds="Media|Position|Service">Media and other</button>
+  <button type="button" class="chip" data-kind-filter="other" data-kinds="Media|New position|Organising">Other</button>
 </div>
 ```
 
 ::: {#news-all}
+:::
+:::
+:::
+
+::: {.sec #talks}
+::: {.label}
+## Talk archive
+:::
+::: {}
+```{=html}
+<details class="archive" open>
+<summary>2026, with the paper presented</summary>
+```
+
+::: {#talks-detailed}
+:::
+
+```{=html}
+</details>
+<details class="archive">
+<summary>Earlier talks, 2014–2025</summary>
+```
+
+::: {#talks-years}
+:::
+
+```{=html}
+</details>
+```
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Visits and organising
+:::
+::: {}
+::: {.row-line}
+[Research visits]{.when}
+
+[LMU Munich (July 2026); CESifo, Munich (July 2024).]{.what}
+
+:::
+::: {.row-line}
+[Organising]{.when}
+
+[NOITS, Copenhagen 2025 and Iceland 2021; administrator of [www.noits.org](https://www.noits.org).]{.what}
+
+:::
+:::
 :::
 
 :::

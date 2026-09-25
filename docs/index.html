@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dccd0957f4813d806766cbf2bd629ec4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6dca013aa5922457ac98e803b5676a7f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -133,6 +133,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-home-pub'] = new List('listing-home-pub', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-home-wip .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-id','listing-type','listing-title','listing-year','listing-coauthors','listing-venue','listing-tagline','listing-featured','listing-topics','listing-abstract','listing-links','listing-media','listing-bibtex','listing-note','listing-status','listing-page','listing-presented',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-id","listing-type","listing-title","listing-year","listing-coauthors","listing-venue","listing-tagline","listing-featured","listing-topics","listing-abstract","listing-links","listing-media","listing-bibtex","listing-note","listing-status","listing-page","listing-presented"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-home-wip'] = new List('listing-home-wip', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -275,11 +303,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
-<span class="menu-text">Talks</span></a>
+<span class="menu-text">News &amp; talks</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
@@ -321,7 +345,7 @@ window.Quarto = {
 <section class="hero">
   <div class="hero-text">
     <h1 class="hero-name">Björn Thor<br>Arnarson</h1>
-    <p class="hero-lead">Economist at the <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation Research Unit</a>, Copenhagen. I study how globalization, knowledge spillovers and firm networks shape firms and workers, with a particular focus on the Øresund region.</p>
+    <p class="hero-lead">Icelandic economist living in Sweden and working at the <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation Research Unit</a> in Copenhagen, focusing on innovation, knowledge spillovers, R&amp;D tax policy and international trade.</p>
     <div class="hero-links">
       <a href="mailto:bth@rff.dk">bth@rff.dk</a>
       <a href="https://scholar.google.se/citations?user=RM3pq-gAAAAJ&amp;hl=en">Google Scholar</a>
@@ -336,10 +360,12 @@ window.Quarto = {
   <img class="hero-photo" src="images/bjorn.jpg" alt="Portrait of Björn Thor Arnarson">
 </section>
 <div class="sec reveal">
-<section id="upcoming-talks" class="level2 label">
-<h2 data-anchor-id="upcoming-talks">Upcoming talks</h2>
-<p><a href="./talks.html">All talks →</a></p>
+<section id="news-talks" class="level2 label">
+<h2 data-anchor-id="news-talks">News &amp; talks</h2>
+<p><a href="./news.html">All news and talks →</a></p>
 </section>
+<div>
+<p><span class="sub-h" style="display:block;">Upcoming</span></p>
 <div id="listing-upcoming" class="quarto-listing quarto-listing-container-custom">
 <div class="talk-list" data-upcoming-only="">
 <div class="row-line talk" data-iso="2026-11-20">
@@ -348,6 +374,14 @@ window.Quarto = {
 </div>
 <div class="what">
 <strong>OECD</strong>, Paris · LIFT initiative on firm-to-firm data <span class="countdown"></span>
+</div>
+</div>
+<div class="row-line talk" data-iso="2026-09-29">
+<div class="when">
+29 September 2026
+</div>
+<div class="what">
+<strong>ROCKWOOL Foundation Annual Internal Workshop</strong>, Berlin <span class="countdown"></span>
 </div>
 </div>
 <div class="row-line talk" data-iso="2026-09-01">
@@ -361,14 +395,6 @@ window.Quarto = {
 <div class="row-line talk" data-iso="2026-08-01">
 <div class="when">
 August 2026
-</div>
-<div class="what">
-<strong>RFBerlin</strong>, Berlin <span class="countdown"></span>
-</div>
-</div>
-<div class="row-line talk" data-iso="2026-06-01">
-<div class="when">
-2026
 </div>
 <div class="what">
 <strong>DIW Berlin, Economic Experts conference</strong>, Berlin <span class="countdown"></span>
@@ -391,30 +417,14 @@ August 2026
 </div>
 </div>
 <p class="empty-note" hidden="">
-No talks scheduled right now. See <a href="talks.html">past talks</a>.
+No talks scheduled right now. See the <a href="news.html#talks">talk archive</a>.
 </p>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-</div>
-<div class="sec reveal">
-<section id="latest" class="level2 label">
-<h2 data-anchor-id="latest">Latest</h2>
-<p><a href="./news.html">All news →</a></p>
-</section>
+<p><span class="sub-h" style="display:block; margin-top: 28px;">Recent</span></p>
 <div id="listing-latest" class="quarto-listing quarto-listing-container-custom">
 <div class="news-list">
-<div class="news-row" data-kind="Talk">
-<div class="when">
-Upcoming
-</div>
-<div class="kind">
-Talk
-</div>
-<div class="what">
-Invited to present at the OECD in Paris on 20 November 2026, as part of the LIFT initiative on firm-to-firm data.
-</div>
-</div>
 <div class="news-row" data-kind="Talk">
 <div class="when">
 2026
@@ -434,7 +444,7 @@ August 2026
 Talk
 </div>
 <div class="what">
-Seminar at RFBerlin, Berlin.
+Presented “R&amp;D Employment and Transmission in Trade and MNE Networks” at the DIW Berlin Economic Experts conference.
 </div>
 </div>
 <div class="news-row" data-kind="Visit">
@@ -448,8 +458,20 @@ Visit
 Research visit to LMU Munich.
 </div>
 </div>
+<div class="news-row" data-kind="Talk">
+<div class="when">
+2026
+</div>
+<div class="kind">
+Talk
+</div>
+<div class="what">
+Presented “R&amp;D Employment and Transmission in Trade and MNE Networks” at the Rocky Mountain Empirical Trade Conference (RMET, Banff) and “International Spillovers from Supplying Superstars” at DIEW in Aarhus.
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+</div>
 </div>
 </div>
 <div class="sec reveal">
@@ -475,6 +497,20 @@ with <a href="https://sites.google.com/view/magnusbuus">Magnus T. Buus</a>, <a h
 </article>
 <article class="home-paper">
 <div class="home-paper-main">
+<a class="home-paper-title" href="research.html#rd">R&amp;D Employment and Transmission in Trade and MNE Networks: Evidence from an R&amp;D Tax Reform</a>
+<div class="paper-authors">
+with <a href="https://sites.google.com/view/magnusbuus">Magnus T. Buus</a>, <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a> and <a href="https://sites.google.com/site/georgschaur/home">Georg Schaur</a>
+</div>
+<div class="home-paper-links">
+<p><span class="home-venue">ROCKWOOL Foundation Study Paper 217, 2024</span> <a href="https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/06/RFF-Studypaper217-RD-reform-spillovers-RFF_September2024.pdf">PDF</a><a href="https://en.rockwoolfonden.dk/publications/rd-employment-and-transmission-in-trade-and-mne-networks-evidence-from-a-rd-tax-reform/">ROCKWOOL page</a></p>
+</div>
+</div>
+<div class="home-paper-year">
+2024
+</div>
+</article>
+<article class="home-paper">
+<div class="home-paper-main">
 <a class="home-paper-title" href="research.html#comm">Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment</a>
 <div class="paper-authors">
 with <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a>, <a href="https://morten-olsen.com/">Morten G. Olsen</a> and <a href="https://emilalsimonsen.github.io/index.html">Emil A. L. Simonsen</a>
@@ -489,16 +525,13 @@ with <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</
 </article>
 <article class="home-paper">
 <div class="home-paper-main">
-<a class="home-paper-title" href="research.html#rd">R&amp;D Employment and Transmission in Trade and MNE Networks: Evidence from an R&amp;D Tax Reform</a>
-<div class="paper-authors">
-with <a href="https://sites.google.com/view/magnusbuus">Magnus T. Buus</a>, <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a> and <a href="https://sites.google.com/site/georgschaur/home">Georg Schaur</a>
-</div>
+<p><a class="home-paper-title" href="research.html#bridging">Bridging Trade Barriers: Evaluating Multi-Product Models of Exporting</a></p>
 <div class="home-paper-links">
-<p><span class="home-venue">ROCKWOOL Foundation Study Paper 217, 2024</span> <a href="https://rockwoolfonden.s3.eu-central-1.amazonaws.com/wp-content/uploads/2024/06/RFF-Studypaper217-RD-reform-spillovers-RFF_September2024.pdf">PDF</a><a href="https://en.rockwoolfonden.dk/publications/rd-employment-and-transmission-in-trade-and-mne-networks-evidence-from-a-rd-tax-reform/">ROCKWOOL page</a></p>
+<p><span class="tag">Dormant</span><span class="home-venue">Lund University Working Paper 2015:6 (revised 2016)</span> <a href="https://swopec.hhs.se/lunewp/abs/lunewp2015_006.htm">Working paper</a></p>
 </div>
 </div>
 <div class="home-paper-year">
-2024
+2015
 </div>
 </article>
 </div>
@@ -574,6 +607,44 @@ with Aparna Mitra
 </div>
 <div class="home-paper-year">
 2010
+</div>
+</article>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<div class="sec reveal">
+<section id="work-in-progress" class="level2 label">
+<h2 data-anchor-id="work-in-progress">Work in progress</h2>
+</section>
+<div id="listing-home-wip" class="quarto-listing quarto-listing-container-custom">
+<div class="home-papers">
+<article class="home-paper">
+<div class="home-paper-main">
+<a class="home-paper-title" href="research.html#superstar">International Spillovers from Supplying Superstars: Evidence from Firm-to-Firm Linkages</a>
+<div class="paper-authors">
+with <a href="https://sites.google.com/view/jonashansen8">Jonas Slaathaug Hansen</a>
+</div>
+<div class="home-paper-links">
+
+</div>
+</div>
+<div class="home-paper-year">
+
+</div>
+</article>
+<article class="home-paper">
+<div class="home-paper-main">
+<a class="home-paper-title" href="research.html#intangible">The Intangible Gains from Trade</a>
+<div class="paper-authors">
+with <a href="https://martinamagli.wixsite.com/mysite/research">Martina Magli</a> and <a href="https://sites.google.com/site/moxnes/home">Andreas Moxnes</a>
+</div>
+<div class="home-paper-links">
+
+</div>
+</div>
+<div class="home-paper-year">
+
 </div>
 </article>
 </div>
@@ -700,6 +771,7 @@ with Aparna Mitra
     $("[data-iso]", list).forEach(function (el) { if (el.classList.contains("is-past")) el.hidden = true; else any = true; });
     var e = list.querySelector(".empty-note"); if (e) e.hidden = any;
   });
+  $("[data-past-only] [data-iso].is-upcoming").forEach(function (el) { el.hidden = true; });
   var talkCards = $(".talk-card");
   if (talkCards.length) {
     $("[data-paper-filter]").forEach(function (b) {

@@ -21,6 +21,12 @@ listing:
     template-params:
       type: publication
     sort: false
+  - id: home-wip
+    contents: data/papers.yml
+    template: _templates/papers.ejs
+    template-params:
+      type: wip
+    sort: false
   - id: upcoming
     contents: data/talks.yml
     template: _templates/talks.ejs
@@ -35,7 +41,7 @@ listing:
 <section class="hero">
   <div class="hero-text">
     <h1 class="hero-name">Björn Thor<br>Arnarson</h1>
-    <p class="hero-lead">Economist at the <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation Research Unit</a>, Copenhagen. I study how globalization, knowledge spillovers and firm networks shape firms and workers, with a particular focus on the Øresund region.</p>
+    <p class="hero-lead">Icelandic economist living in Sweden and working at the <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation Research Unit</a> in Copenhagen, focusing on innovation, knowledge spillovers, R&amp;D tax policy and international trade.</p>
     <div class="hero-links">
       <a href="mailto:bth@rff.dk">bth@rff.dk</a>
       <a href="https://scholar.google.se/citations?user=RM3pq-gAAAAJ&hl=en">Google Scholar</a>
@@ -53,21 +59,20 @@ listing:
 
 ::: {.sec .reveal}
 ::: {.label}
-## Upcoming talks
+## News & talks
 
-[All talks →](talks.qmd)
+[All news and talks →](news.qmd)
 :::
+::: {}
+[Upcoming]{.sub-h style="display:block;"}
+
 ::: {#upcoming}
 :::
-:::
 
-::: {.sec .reveal}
-::: {.label}
-## Latest
+[Recent]{.sub-h style="display:block; margin-top: 28px;"}
 
-[All news →](news.qmd)
-:::
 ::: {#latest}
+:::
 :::
 :::
 
@@ -88,6 +93,14 @@ listing:
 [With abstracts →](research.qmd#type=publication)
 :::
 ::: {#home-pub}
+:::
+:::
+
+::: {.sec .reveal}
+::: {.label}
+## Work in progress
+:::
+::: {#home-wip}
 :::
 :::
 

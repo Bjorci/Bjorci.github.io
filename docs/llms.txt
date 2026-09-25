@@ -27,6 +27,6 @@
 
 ## Optional
 - [Research, with abstracts](https://bjorci.github.io/research.html)
-- [News](https://bjorci.github.io/news.html) ([RSS](https://bjorci.github.io/news.xml))
-- [Talks](https://bjorci.github.io/talks.html)
+- [News and upcoming talks](https://bjorci.github.io/news.html) ([RSS](https://bjorci.github.io/news.xml))
+- [Talks](https://bjorci.github.io/news.html#talks)
 - Profiles: [Google Scholar](https://scholar.google.se/citations?user=RM3pq-gAAAAJ), [RePEc](https://ideas.repec.org/f/par416.html), [ROCKWOOL Foundation](https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/), [LinkedIn](https://www.linkedin.com/in/bjornthor/)

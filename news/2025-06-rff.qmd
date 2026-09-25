@@ -2,10 +2,10 @@
 title: "Joined the ROCKWOOL Foundation Research Unit"
 date: 2025-06-01
 datelabel: "June 2025"
-categories: [Position]
+categories: ["New position"]
 description: "Joined the ROCKWOOL Foundation Research Unit as Researcher."
 ---
 
 Joined the ROCKWOOL Foundation Research Unit as Researcher.
 
-[← All news](../news.qmd)
+[← News & talks](../news.qmd)

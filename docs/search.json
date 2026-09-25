@@ -14,74 +14,46 @@
     "text": "Supervision"
   },
   {
-    "objectID": "sv/index.html#bakgrund",
-    "href": "sv/index.html#bakgrund",
+    "objectID": "research.html#books-thesis-and-other-writing",
+    "href": "research.html#books-thesis-and-other-writing",
     "title": "Björn Thor Arnarson",
-    "section": "Bakgrund",
-    "text": "Bakgrund"
+    "section": "Books, thesis and other writing",
+    "text": "Books, thesis and other writing"
   },
   {
-    "objectID": "sv/index.html#kort-presentation",
-    "href": "sv/index.html#kort-presentation",
-    "title": "Björn Thor Arnarson",
-    "section": "Kort presentation",
-    "text": "Kort presentation\nFri att citera."
-  },
-  {
-    "objectID": "sv/index.html#öresundsregionen",
-    "href": "sv/index.html#öresundsregionen",
-    "title": "Björn Thor Arnarson",
-    "section": "Öresundsregionen",
-    "text": "Öresundsregionen"
-  },
-  {
-    "objectID": "sv/index.html#expertområden",
-    "href": "sv/index.html#expertområden",
-    "title": "Björn Thor Arnarson",
-    "section": "Expertområden",
-    "text": "Expertområden"
-  },
-  {
-    "objectID": "sv/index.html#kontakt",
-    "href": "sv/index.html#kontakt",
-    "title": "Björn Thor Arnarson",
-    "section": "Kontakt",
-    "text": "Kontakt"
-  },
-  {
-    "objectID": "papers/growing-together.html#in-short",
-    "href": "papers/growing-together.html#in-short",
-    "title": "Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains",
-    "section": "In short",
-    "text": "In short"
-  },
-  {
-    "objectID": "papers/growing-together.html#abstract",
-    "href": "papers/growing-together.html#abstract",
-    "title": "Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains",
-    "section": "Abstract",
-    "text": "Abstract"
-  },
-  {
-    "objectID": "papers/growing-together.html#around-the-paper",
-    "href": "papers/growing-together.html#around-the-paper",
-    "title": "Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains",
-    "section": "Around the paper",
-    "text": "Around the paper"
-  },
-  {
-    "objectID": "index.html#upcoming-talks",
-    "href": "index.html#upcoming-talks",
+    "objectID": "news.html#upcoming-talks",
+    "href": "news.html#upcoming-talks",
     "title": "Björn Thor Arnarson",
     "section": "Upcoming talks",
-    "text": "Upcoming talks\nAll talks →"
+    "text": "Upcoming talks"
   },
   {
-    "objectID": "index.html#latest",
-    "href": "index.html#latest",
+    "objectID": "news.html#news",
+    "href": "news.html#news",
     "title": "Björn Thor Arnarson",
-    "section": "Latest",
-    "text": "Latest\nAll news →"
+    "section": "News",
+    "text": "News"
+  },
+  {
+    "objectID": "news.html#talk-archive",
+    "href": "news.html#talk-archive",
+    "title": "Björn Thor Arnarson",
+    "section": "Talk archive",
+    "text": "Talk archive"
+  },
+  {
+    "objectID": "news.html#visits-and-organising",
+    "href": "news.html#visits-and-organising",
+    "title": "Björn Thor Arnarson",
+    "section": "Visits and organising",
+    "text": "Visits and organising"
+  },
+  {
+    "objectID": "index.html#news-talks",
+    "href": "index.html#news-talks",
+    "title": "Björn Thor Arnarson",
+    "section": "News & talks",
+    "text": "News & talks\nAll news and talks →"
   },
   {
     "objectID": "index.html#working-papers",
@@ -96,6 +68,13 @@
     "title": "Björn Thor Arnarson",
     "section": "Publications",
     "text": "Publications\nWith abstracts →"
+  },
+  {
+    "objectID": "index.html#work-in-progress",
+    "href": "index.html#work-in-progress",
+    "title": "Björn Thor Arnarson",
+    "section": "Work in progress",
+    "text": "Work in progress"
   },
   {
     "objectID": "index.html#the-øresund-region",
@@ -238,38 +217,59 @@
     "text": "Samband"
   },
   {
-    "objectID": "research.html#books-thesis-and-other-writing",
-    "href": "research.html#books-thesis-and-other-writing",
-    "title": "Björn Thor Arnarson",
-    "section": "Books, thesis and other writing",
-    "text": "Books, thesis and other writing"
+    "objectID": "papers/growing-together.html#in-short",
+    "href": "papers/growing-together.html#in-short",
+    "title": "Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains",
+    "section": "In short",
+    "text": "In short"
   },
   {
-    "objectID": "talks.html#and-upcoming",
-    "href": "talks.html#and-upcoming",
-    "title": "Björn Thor Arnarson",
-    "section": "2026 and upcoming",
-    "text": "2026 and upcoming\nFilter by paper."
+    "objectID": "papers/growing-together.html#abstract",
+    "href": "papers/growing-together.html#abstract",
+    "title": "Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains",
+    "section": "Abstract",
+    "text": "Abstract"
   },
   {
-    "objectID": "talks.html#earlier-talks",
-    "href": "talks.html#earlier-talks",
-    "title": "Björn Thor Arnarson",
-    "section": "Earlier talks",
-    "text": "Earlier talks"
+    "objectID": "papers/growing-together.html#around-the-paper",
+    "href": "papers/growing-together.html#around-the-paper",
+    "title": "Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains",
+    "section": "Around the paper",
+    "text": "Around the paper"
   },
   {
-    "objectID": "talks.html#research-visits",
-    "href": "talks.html#research-visits",
+    "objectID": "sv/index.html#bakgrund",
+    "href": "sv/index.html#bakgrund",
     "title": "Björn Thor Arnarson",
-    "section": "Research visits",
-    "text": "Research visits"
+    "section": "Bakgrund",
+    "text": "Bakgrund"
   },
   {
-    "objectID": "talks.html#conference-organising",
-    "href": "talks.html#conference-organising",
+    "objectID": "sv/index.html#kort-presentation",
+    "href": "sv/index.html#kort-presentation",
     "title": "Björn Thor Arnarson",
-    "section": "Conference organising",
-    "text": "Conference organising"
+    "section": "Kort presentation",
+    "text": "Kort presentation\nFri att citera."
+  },
+  {
+    "objectID": "sv/index.html#öresundsregionen",
+    "href": "sv/index.html#öresundsregionen",
+    "title": "Björn Thor Arnarson",
+    "section": "Öresundsregionen",
+    "text": "Öresundsregionen"
+  },
+  {
+    "objectID": "sv/index.html#expertområden",
+    "href": "sv/index.html#expertområden",
+    "title": "Björn Thor Arnarson",
+    "section": "Expertområden",
+    "text": "Expertområden"
+  },
+  {
+    "objectID": "sv/index.html#kontakt",
+    "href": "sv/index.html#kontakt",
+    "title": "Björn Thor Arnarson",
+    "section": "Kontakt",
+    "text": "Kontakt"
   }
 ]
