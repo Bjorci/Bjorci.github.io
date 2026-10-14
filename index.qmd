@@ -27,6 +27,12 @@ listing:
     template-params:
       mode: home
     sort: false
+  - id: linkedin
+    contents: data/linkedin.yml
+    template: _templates/linkedin.ejs
+    template-params:
+      max: 3
+    sort: false
 ---
 
 ::: {.wrap}
@@ -85,6 +91,9 @@ listing:
 :::
 
 ::: {#latest}
+:::
+
+::: {#linkedin}
 :::
 :::
 :::

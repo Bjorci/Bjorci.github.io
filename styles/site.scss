@@ -336,6 +336,15 @@ details.archive[open] { padding-bottom: 16px; }
 .btn-quiet { background: none; font: inherit; font-size: 0.875rem; font-weight: 500; line-height: inherit; cursor: pointer; transition: background .15s, color .15s, border-color .15s; }
 .cite-panel .bibtex { max-width: 760px; }
 
+// ---------- Journal name as the link to the article ----------
+a.venue-link { color: inherit; text-decoration-color: $rule-strong; }
+a.venue-link:hover { color: $accent; text-decoration-color: $accent; }
+
+// ---------- Home: LinkedIn posts (data/linkedin.yml, written by the daily sync job) ----------
+.li-row .kind { display: flex; align-items: center; }
+.li-row .what a { color: $ink; text-decoration-color: $rule-strong; }
+.li-row .what a:hover { color: $accent; text-decoration-color: $accent; }
+
 // ---------- Icons (sprite in _includes/site.html) ----------
 .ico { display: inline-block; width: 1em; height: 1em; fill: currentColor; flex-shrink: 0; vertical-align: -0.125em; }
 .ico-lead { margin-right: 0.4em; }

@@ -19,7 +19,7 @@ description: "Teaching and supervision."
 
 ::: {.what}
 [Advanced International Trade]{style="font-family: 'Instrument Serif', serif; font-size: 1.625rem;"}\
-Lecturer and course responsible, University of Copenhagen
+Lecturer and course responsible, University of Copenhagen (MSc)
 :::
 :::
 ::: {.row-line}

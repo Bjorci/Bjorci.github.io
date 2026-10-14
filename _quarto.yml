@@ -58,8 +58,6 @@ website:
         href: "https://x.com/bjorci"
       - text: '<svg class="ico" role="img" aria-label="Bluesky"><title>Bluesky</title><use href="#i-bluesky"></use></svg>'
         href: "https://bsky.app/profile/bjorci.bsky.social"
-      - text: '<svg class="ico" role="img" aria-label="RSS feed"><title>RSS feed</title><use href="#i-rss"></use></svg>'
-        href: news.xml
 
 format:
   html:

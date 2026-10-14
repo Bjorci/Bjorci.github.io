@@ -1,0 +1,19 @@
+<%
+// Public LinkedIn posts, newest first, written to data/linkedin.yml by the daily sync job.
+// Renders nothing while the file is empty.
+const max = ((typeof templateParams !== 'undefined') && templateParams && templateParams.max) || 3;
+// Post text is outside our control: encode every character that HTML or Pandoc's Markdown would act on.
+const safe = (s) => String(s == null ? '' : s).replace(/[&<>"'*_`\[\]\\#@~^$|]/g, c => '&#' + c.charCodeAt(0) + ';');
+const posts = items.filter(p => p.url && p.text).slice(0, max);
+%>
+<% if (posts.length) { %>
+<div class="li-feed">
+<% for (const p of posts) { %>
+<div class="news-row li-row">
+<div class="when"><%= safe(p.datelabel || p.iso) %></div>
+<div class="kind"><svg class="ico ico-lead" aria-hidden="true"><use href="#i-linkedin"></use></svg>LinkedIn</div>
+<div class="what"><a href="<%= safe(p.url) %>"><%= safe(p.text) %></a></div>
+</div>
+<% } %>
+</div>
+<% } %>

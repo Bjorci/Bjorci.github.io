@@ -29,13 +29,21 @@ const iconOf = (l) => {
   else if (/^PDF$|\(PDF\)/.test(t) || /\.pdf($|[?#])/.test(h)) id = 'pdf';
   return id ? '<svg class="ico ico-lead" aria-hidden="true"><use href="#i-' + id + '"></use></svg>' : '';
 };
+// A link labelled "Journal…" is shown on the journal name (venue) instead of as a separate button.
+const journalOf = (p) => (Array.isArray(p.links) ? p.links : []).find(l => /^Journal\b/.test(String(l.label || '')));
+const otherLinks = (p) => (Array.isArray(p.links) ? p.links : []).filter(l => l !== journalOf(p));
+const venueHtml = (p) => {
+  const j = journalOf(p);
+  if (!j) return esc(p.venue);
+  return '<a class="venue-link" href="' + esc(j.href) + '">' + esc(p.venue) + '</a>' + (/open access/i.test(j.label) ? ' · open access' : '');
+};
 const homeGroup = (typeof templateParams !== 'undefined') && templateParams && templateParams.group;
 %>
 <% if (homeGroup) { %>
 <div class="home-papers">
 <% for (const p of items.filter(p => groupOf(p) === homeGroup)) {
 const tag = tagOf(p);
-const links = (Array.isArray(p.links) ? p.links : []).slice(0, 2);
+const links = otherLinks(p).slice(0, journalOf(p) ? 1 : 2);
 const media = Array.isArray(p.media) ? p.media : [];
 %>
 <article class="home-paper<%= p.type === 'wip' ? ' is-wip' : '' %>">
@@ -43,7 +51,7 @@ const media = Array.isArray(p.media) ? p.media : [];
 <% if (p.page) { %><a class="home-paper-title" href="<%- p.page %>"><%= p.title %></a><% } else { %><a class="home-paper-title" href="research.html#<%= p.id %>"><%= p.title %></a><% } %>
 <% if (p.coauthors && p.coauthors.length) { %><div class="paper-authors"><%= authorsHtml(p.coauthors) %></div><% } %>
 <div class="home-paper-links">
-<% if (tag) { %><span class="<%= tag.cls %>"><%= tag.text %></span><% } %><% if (p.venue && !(tag && tag.cls === 'tag tag-rr')) { %><span class="home-venue"><%= p.venue %></span><% } %><% if (p.presented) { %><span class="home-venue">Presented at <%= p.presented %></span><% } %>
+<% if (tag) { %><span class="<%= tag.cls %>"><%= tag.text %></span><% } %><% if (p.venue && !(tag && tag.cls === 'tag tag-rr')) { %><span class="home-venue"><%= venueHtml(p) %></span><% } %><% if (p.presented) { %><span class="home-venue">Presented at <%= p.presented %></span><% } %>
 <% for (const l of links) { %><a href="<%- l.href %>"><%= iconOf(l) %><%= l.label %></a><% } %>
 <% for (const m of media) { %><a class="media-link" href="<%- m.href %>"><%= iconOf(m) %><%= m.label %></a><% } %>
 </div>
@@ -59,7 +67,7 @@ const media = Array.isArray(p.media) ? p.media : [];
 <div>
 <% for (const p of list) {
 const tag = tagOf(p);
-const links = Array.isArray(p.links) ? p.links : [];
+const links = otherLinks(p);
 const media = Array.isArray(p.media) ? p.media : [];
 const topics = Array.isArray(p.topics) ? p.topics : [];
 const names = (p.coauthors || []).map(c => c.name).join(' ');
@@ -72,7 +80,7 @@ const search = [p.title, names, p.abstract || '', p.venue || '', topics.join(' '
 </div>
 <% if (p.page) { %><a class="paper-title" href="<%- p.page %>"><%= p.title %></a><% } else { %><div class="paper-title"><%= p.title %></div><% } %>
 <% if (p.coauthors && p.coauthors.length) { %><div class="paper-authors"><%= authorsHtml(p.coauthors) %></div><% } %>
-<% if (p.venue) { %><div class="paper-venue"><%= p.venue %></div><% } %>
+<% if (p.venue) { %><div class="paper-venue"><%= venueHtml(p) %></div><% } %>
 <% if (p.note) { %><div class="paper-venue"><%= p.note %></div><% } %>
 <% if (p.abstract || links.length || p.bibtex) { %>
 <div class="paper-actions">
