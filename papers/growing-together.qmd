@@ -5,6 +5,7 @@ description: "Working paper by Björn Thor Arnarson, Magnus T. Buus, Andreas Mox
 # Author order confirmed against the CESifo and CEPR listings.
 body-classes: paper-page
 google-scholar: true
+appendix-cite-as: false
 author:
   - name:
       given: Björn Thor
@@ -53,7 +54,6 @@ citation:
 [PDF](https://www.ifo.de/DocDL/cesifo1_wp12710.pdf){.btn-pill}
 [CESifo](https://doi.org/10.65864/rekivjv2z7){.btn-ghost}
 [CEPR](https://cepr.org/publications/dp21543){.btn-ghost}
-[Cite](#quarto-appendix){.btn-ghost}
 :::
 :::
 :::
@@ -89,6 +89,24 @@ European Trade Study Group (ETSG), Exeter, 2026
 [Related]{.sub-h style="display:block;"}
 
 [All research](../research.qmd) · [News & talks](../news.qmd)
+:::
+:::
+
+::: {.sec}
+::: {.label}
+:::
+::: {}
+```{=html}
+<details class="cite-box"><summary>Cite this paper</summary><pre class="bibtex">@techreport{ArnarsonBuusMoxnesMunchXiang2026,
+  author      = {Arnarson, Bj{\"o}rn Thor and Buus, Magnus Tolum and Moxnes, Andreas and Munch, Jakob Roland and Xiang, Chong},
+  title       = {Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains},
+  institution = {CESifo},
+  type        = {CESifo Working Paper},
+  number      = {12710},
+  year        = {2026},
+  doi         = {10.65864/rekivjv2z7}
+}</pre><button type="button" class="copy-cite">Copy BibTeX</button></details>
+```
 :::
 :::
 

@@ -1,6 +1,6 @@
 ---
 pagetitle: "Björn Thor Arnarson · Economist"
-description: "Björn Thor Arnarson is an economist at the ROCKWOOL Foundation Research Unit in Copenhagen who studies trade, globalization and labour markets in Scandinavia and the Øresund region."
+description: "Björn Thor Arnarson is an international economist at the ROCKWOOL Foundation Research Unit in Copenhagen who studies global value chains, innovation and knowledge spillovers, using firm-to-firm trade data linked to Danish and Swedish employer-employee registers."
 image: images/bjorn.jpg
 listing:
   - id: latest
@@ -35,7 +35,8 @@ listing:
 <section class="hero">
   <div class="hero-text">
     <h1 class="hero-name">Björn Thor<br>Arnarson</h1>
-    <p class="hero-lead">Icelandic economist living in Sweden and working at the <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation Research Unit</a> in Copenhagen, focusing on innovation, knowledge spillovers, R&amp;D tax policy and international trade.</p>
+    <p class="hero-lead">International economist at the <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation Research Unit</a> in Copenhagen. I study global value chains, innovation and knowledge spillovers, using firm-to-firm trade data linked to Danish and Swedish employer–employee registers.</p>
+    <p class="hero-sub">Icelandic, living in Sweden · Affiliated researcher, Lund University · CESifo affiliate</p>
     <div class="hero-links">
       <a href="mailto:bth@rff.dk">bth@rff.dk</a>
       <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation profile</a>

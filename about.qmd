@@ -57,38 +57,9 @@ Most of my work builds on Danish and Swedish administrative microdata. Over the 
 ::: {.sec}
 ::: {.label}
 ## Biography
-
-In three lengths, free to reuse.
 :::
-::: {.bio}
-::: {.panel-tabset}
-## One line
-
-Björn Thor Arnarson is an economist at the ROCKWOOL Foundation Research Unit in Copenhagen who studies trade, globalization and labour markets in Scandinavia and the Øresund region.
-
-## Paragraph
-
-Björn Thor Arnarson is a researcher at the ROCKWOOL Foundation Research Unit in Copenhagen and an affiliated researcher at the Department of Economics, Lund University. He uses Danish and Swedish administrative data to study how globalization, trade and knowledge spillovers affect firms and workers, with a particular focus on the integrated labour market of the Øresund region. His research has appeared in the Journal of International Economics and the Scandinavian Journal of Economics.
-
-## Full
-
+::: {style="font-size: 1.1875rem; line-height: 1.65; max-width: 760px;"}
 Björn Thor Arnarson is a researcher at the ROCKWOOL Foundation Research Unit in Copenhagen, an affiliated researcher at the Department of Economics, Lund University, a CESifo affiliate and an affiliated research fellow at EPRU. He uses Danish and Swedish administrative data to study how globalization, trade and knowledge spillovers affect firms and workers, with a particular focus on the Øresund region. Born in Iceland, he studied economics at the University of Iceland and Boston University (MA) and was chief economist of the Iceland Chamber of Commerce before completing his PhD at Lund University (2016), and he was later an assistant professor at the University of Copenhagen (2021–2026) and a Marie Skłodowska-Curie fellow. He has built a unique database that merges and links Danish and Swedish administrative microdata across the border, which underpins much of his research. His work has appeared in the Journal of International Economics and the Scandinavian Journal of Economics. He is fluent in Icelandic, English and Swedish and has a working knowledge of Danish.
-:::
-
-```{=html}
-<button type="button" class="copy-bio" id="copy-bio">Copy this bio</button>
-<script>
-document.getElementById('copy-bio').addEventListener('click', function () {
-  var pane = document.querySelector('.bio .tab-pane.active');
-  if (!pane) return;
-  var btn = this;
-  navigator.clipboard.writeText(pane.innerText.trim()).then(function () {
-    btn.textContent = 'Copied';
-    setTimeout(function () { btn.textContent = 'Copy this bio'; }, 2000);
-  });
-});
-</script>
-```
 :::
 :::
 

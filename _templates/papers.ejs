@@ -64,15 +64,13 @@ const search = [p.title, names, p.abstract || '', p.venue || '', topics.join(' '
 <% if (p.coauthors && p.coauthors.length) { %><div class="paper-authors"><%= authorsHtml(p.coauthors) %></div><% } %>
 <% if (p.venue) { %><div class="paper-venue"><%= p.venue %></div><% } %>
 <% if (p.note) { %><div class="paper-venue"><%= p.note %></div><% } %>
-<% if (p.abstract || p.bibtex || links.length) { %>
+<% if (p.abstract || links.length) { %>
 <div class="paper-actions">
 <% if (p.abstract) { %><button type="button" class="pill-btn" data-toggle="abs-<%= p.id %>" aria-expanded="false">Abstract</button><% } %>
-<% if (p.bibtex) { %><button type="button" class="pill-btn" data-toggle="cite-<%= p.id %>" aria-expanded="false">Cite</button><% } %>
 <% for (const l of links) { %><a class="pill-link" href="<%- l.href %>"><%= l.label %></a><% } %>
 </div>
 <% } %>
 <% if (p.abstract) { %><div class="paper-panel" id="abs-<%= p.id %>" hidden><p><%= p.abstract %></p></div><% } %>
-<% if (p.bibtex) { %><div class="paper-panel" id="cite-<%= p.id %>" hidden><pre class="bibtex"><%= p.bibtex.trim() %></pre><button type="button" class="copy-cite">Copy BibTeX</button></div><% } %>
 <% if (media.length || p.presented || topics.length) { %>
 <div class="paper-meta">
 <% if (topics.length) { %><span class="topics"><% for (const t of topics) { %><button type="button" class="topic-chip" data-topic-jump="<%= t %>"><%= t %></button><% } %></span><% } %>
@@ -80,6 +78,7 @@ const search = [p.title, names, p.abstract || '', p.venue || '', topics.join(' '
 <% if (media.length) { %><span>In the media: <% media.forEach((m, i) => { %><a href="<%- m.href %>"><%= m.label %></a><%= i < media.length - 1 ? ', ' : '' %><% }) %></span><% } %>
 </div>
 <% } %>
+<% if (p.bibtex) { %><details class="cite-box"><summary>Cite this paper</summary><pre class="bibtex"><%= p.bibtex.trim() %></pre><button type="button" class="copy-cite">Copy BibTeX</button></details><% } %>
 </article>
 <% } %>
 </div>

@@ -1,9 +1,9 @@
 # Björn Thor Arnarson
 
-> Economist at the ROCKWOOL Foundation Research Unit, Copenhagen, and affiliated researcher at the Department of Economics, Lund University. Research on international trade, globalization, firm networks, knowledge spillovers and labour markets, using linked Danish and Swedish administrative register data with cross-border links, with a particular focus on the Øresund region. Born in Iceland; BS University of Iceland, MA Boston University, PhD Lund University (2016). Fluent in Icelandic, English and Swedish; working knowledge of Danish. Contact: bth@rff.dk. ORCID 0000-0003-4981-8965.
+> Economist at the ROCKWOOL Foundation Research Unit, Copenhagen, and affiliated researcher at the Department of Economics, Lund University. International economist: global value chains, innovation and knowledge spillovers, using firm-to-firm trade data linked to Danish and Swedish employer-employee registers (with cross-border links), with a particular focus on the Øresund region. Born in Iceland; BS University of Iceland, MA Boston University, PhD Lund University (2016). Fluent in Icelandic, English and Swedish; working knowledge of Danish. Contact: bth@rff.dk. ORCID 0000-0003-4981-8965.
 
 ## About
-- [About](https://bjorci.github.io/about.html): background, research on the Øresund region, areas of expertise, languages, biography in three lengths, collaborators
+- [About](https://bjorci.github.io/about.html): background, research on the Øresund region, areas of expertise, languages, biography
 - [CV (PDF)](https://bjorci.github.io/files/Arnarson_CV.pdf)
 - [Om mig (svenska)](https://bjorci.github.io/sv/)
 - [Um mig (íslenska)](https://bjorci.github.io/is/)

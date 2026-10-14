@@ -324,3 +324,14 @@ details.archive[open] { padding-bottom: 16px; }
 .home-quiet .row-line, .home-quiet .news-row { padding: 9px 0; }
 .home-quiet .row-line .what, .home-quiet .news-row .what { font-size: 0.92rem; }
 .home-quiet .news-row { grid-template-columns: 120px 100px minmax(0, 1fr); }
+
+// ---------- Hero sub-line ----------
+.hero-sub { margin: -14px 0 0; font-size: 0.9rem; letter-spacing: 0.01em; color: $muted; }
+
+// ---------- Citation, tucked away ----------
+details.cite-box { margin-top: 6px; }
+details.cite-box > summary { display: inline-block; list-style: none; cursor: pointer; font-size: 0.78rem; color: $muted; text-decoration: underline; text-decoration-color: $rule-strong; text-underline-offset: 3px; }
+details.cite-box > summary::-webkit-details-marker { display: none; }
+details.cite-box > summary:hover { color: $accent; }
+details.cite-box[open] > summary { color: $ink-soft; margin-bottom: 8px; }
+details.cite-box .bibtex { max-width: 760px; }
