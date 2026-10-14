@@ -5,10 +5,10 @@
 
 - iso: 2026-11-20
   when: "20 November 2026"
-  event: "OECD"
+  event: "OECD LIFT seminar"
   place: "Paris"
-  kind: "Invited seminar"
-  note: "LIFT (Leveraging Inter-Firm Transactions) initiative on firm-to-firm data"
+  kind: "Seminar"
+  note: "LIFT: Leveraging Inter-Firm Transactions, the OECD network on firm-to-firm data"
   url: "https://www.oecd.org/en/about/projects/leveraging-inter-firm-transactions.html"
   paper: ""
 
@@ -21,8 +21,8 @@
 
 - iso: 2026-08-24
   when: "24–25 August 2026"
-  event: "Scientific Workshop on Productivity, DIW Berlin and the German Council of Economic Experts"
-  url: "https://www.diw.de/en/diw_01.c.1003942.en/events/scientific_workshop_on_productivity.html"
+  event: "Scientific Workshop on Productivity, German Council of Economic Experts and DIW Berlin"
+  url: "https://www.sachverstaendigenrat-wirtschaft.de/en/topics/productivity/productivity-board/scientific-workshop-on-productivity-2026.html"
   place: "Berlin"
   kind: "Conference"
   paper: rd

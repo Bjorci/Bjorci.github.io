@@ -3,9 +3,9 @@ title: "R&D and MNE networks at DIW Berlin"
 date: 2026-08-24
 datelabel: "August 2026"
 categories: ["Talk"]
-description: "Presented “R&D Employment and Transmission in Trade and MNE Networks” at the [Scientific Workshop on Productivity](https://www.diw.de/en/diw_01.c.1003942.en/events/scientific_workshop_on_productivity.html), organised by DIW Berlin and the German Council of Economic Experts."
+description: "Presented “R&D Employment and Transmission in Trade and MNE Networks” at the [Scientific Workshop on Productivity](https://www.sachverstaendigenrat-wirtschaft.de/en/topics/productivity/productivity-board/scientific-workshop-on-productivity-2026.html), organised by the German Council of Economic Experts with DIW Berlin."
 ---
 
-Presented “R&D Employment and Transmission in Trade and MNE Networks” at the [Scientific Workshop on Productivity](https://www.diw.de/en/diw_01.c.1003942.en/events/scientific_workshop_on_productivity.html), organised by DIW Berlin and the German Council of Economic Experts.
+Presented “R&D Employment and Transmission in Trade and MNE Networks” at the [Scientific Workshop on Productivity](https://www.sachverstaendigenrat-wirtschaft.de/en/topics/productivity/productivity-board/scientific-workshop-on-productivity-2026.html), organised by the German Council of Economic Experts with DIW Berlin.
 
 [← News & talks](../news.qmd)
