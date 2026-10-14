@@ -39,13 +39,15 @@ After `quarto render`, open the Source Control panel in VS Code, write a one-lin
 (e.g. "Add JPE news item"), click **Commit**, then **Sync Changes**. GitHub Pages rebuilds the
 live site within a minute or two. Nothing else is needed.
 
-## Moving bjornthorarnarson.com here
+## Address and domain
 
-The site is live at https://bjorci.github.io (repository `Bjorci/Bjorci.github.io`, GitHub Pages
-serving `main` / `docs`). To move the domain from Weebly: add the domain under the repository's
-Settings → Pages → Custom domain, point the domain's DNS at GitHub Pages as GitHub instructs, then
-replace `https://bjorci.github.io` with `https://www.bjornthorarnarson.com` in `_quarto.yml`,
-`_includes/head.html`, `llms.txt`, `robots.txt` and `papers/*.qmd`, and render again.
+The site is live at https://www.bjornthorarnarson.com (repository `Bjorci/Bjorci.github.io`, GitHub Pages
+serving `main` / `docs`; https://bjorci.github.io forwards there). The domain is registered and its DNS is
+managed at Bluehost: the bare domain has four A records (185.199.108.153 to 185.199.111.153) and `www` is a
+CNAME to `bjorci.github.io`. The `CNAME` file in this folder holds the custom domain and must stay listed under
+`resources` in `_quarto.yml`, or a rebuild drops it and the site falls back to bjorci.github.io. The domain
+is verified in the Bjorci account's Pages settings (TXT record `_github-pages-challenge-Bjorci`); keep that
+record. The email (MX) records at Bluehost are unrelated to the site and must be left alone.
 
 ## Things still to fill in
 

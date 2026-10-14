@@ -3,13 +3,13 @@
 > Economist at the ROCKWOOL Foundation Research Unit, Copenhagen, and affiliated researcher at the Department of Economics, Lund University. International economist: global value chains, innovation and knowledge spillovers, using firm-to-firm trade data linked to Danish and Swedish employer-employee registers (with cross-border links), with a particular focus on the Øresund region. Born in Iceland; BS University of Iceland, MA Boston University, PhD Lund University (2016). Fluent in Icelandic, English and Swedish; working knowledge of Danish. Contact: bth@rff.dk. ORCID 0000-0003-4981-8965.
 
 ## About
-- [About](https://bjorci.github.io/about.html): background, research on the Øresund region, areas of expertise, languages, biography
-- [CV (PDF)](https://bjorci.github.io/files/Arnarson_CV.pdf)
-- [Om mig (svenska)](https://bjorci.github.io/sv/)
-- [Um mig (íslenska)](https://bjorci.github.io/is/)
+- [About](https://www.bjornthorarnarson.com/about.html): background, research on the Øresund region, areas of expertise, languages, biography
+- [CV (PDF)](https://www.bjornthorarnarson.com/files/Arnarson_CV.pdf)
+- [Om mig (svenska)](https://www.bjornthorarnarson.com/sv/)
+- [Um mig (íslenska)](https://www.bjornthorarnarson.com/is/)
 
 ## Working papers
-- [Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains](https://bjorci.github.io/papers/growing-together.html) (2026), with Buus, Moxnes, Munch and Xiang. Revise and resubmit, Journal of Political Economy. CESifo WP 12710, CEPR DP 21543. Firm growth reorganizes the division of labour across firms in global value chains; outsourcing implies endogenous scale economies.
+- [Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains](https://www.bjornthorarnarson.com/papers/growing-together.html) (2026), with Buus, Moxnes, Munch and Xiang. Revise and resubmit, Journal of Political Economy. CESifo WP 12710, CEPR DP 21543. Firm growth reorganizes the division of labour across firms in global value chains; outsourcing implies endogenous scale economies.
 - Knowledge Spillovers from Cross-Border Commuters: Evidence from a Natural Experiment (2024), with Munch, Olsen and Simonsen. ROCKWOOL Foundation Study Paper 215. Uses the opening of the Øresund Bridge: Swedish commuters raise productivity in Danish firms and wages of Danish coworkers.
 - R&D Employment and Transmission in Trade and MNE Networks: Evidence from an R&D Tax Reform (2024), with Buus, Munch and Schaur. ROCKWOOL Foundation Study Paper 217.
 - Bridging Trade Barriers: Evaluating Multi-Product Models of Exporting (2015). Lund University WP 2015:6. The Øresund Bridge as a fall in trade costs for Malmö exporters.
@@ -26,7 +26,7 @@
 - The Intangible Gains from Trade (with Magli and Moxnes)
 
 ## Optional
-- [Research, with abstracts](https://bjorci.github.io/research.html)
-- [News and upcoming talks](https://bjorci.github.io/news.html) ([RSS](https://bjorci.github.io/news.xml))
-- [Talks](https://bjorci.github.io/news.html#talks)
+- [Research, with abstracts](https://www.bjornthorarnarson.com/research.html)
+- [News and upcoming talks](https://www.bjornthorarnarson.com/news.html) ([RSS](https://www.bjornthorarnarson.com/news.xml))
+- [Talks](https://www.bjornthorarnarson.com/news.html#talks)
 - Profiles: [Google Scholar](https://scholar.google.se/citations?user=RM3pq-gAAAAJ), [RePEc](https://ideas.repec.org/f/par416.html), [ROCKWOOL Foundation](https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/), [LinkedIn](https://www.linkedin.com/in/bjornthor/)
