@@ -46,7 +46,7 @@ listing:
 
 ::: {.sec #other}
 ::: {.label}
-## Books, thesis and other writing
+## Books, thesis and reports
 :::
 ::: {}
 ::: {.row-line}
@@ -59,18 +59,6 @@ listing:
 [2016]{.when}
 
 [*Exports and Externalities*. Doctoral thesis, Lund University. Opponent: [Andreas Moxnes](https://sites.google.com/site/moxnes/home); committee: [Rikard Forslid](https://sites.google.com/site/rikardforslidhomepage/home), [Kerstin Enflo](https://sites.google.com/view/kerstinenflo/) and [Karin Olofsdotter](https://sites.google.com/site/karinmolofsdotter/research). [Lund University Research Portal](http://portal.research.lu.se/portal/en/publications/exports-and-externalities(c2dcfddd-bcf3-4cab-bb61-ce55349fa004).html)]{.what}
-
-:::
-::: {.row-line}
-[2025]{.when}
-
-[“Trump og tollar: Fórn á við margfalda íslenska verðmætasköpun – ár eftir ár?” *Vísbending* (in Icelandic). [Read](https://visbending.is/greinar/trump-og-tollar-forn-a-vid-margfalda-islenska-verdmaetaskopun-ar-eftir-ar/)]{.what}
-
-:::
-::: {.row-line}
-[Until 2026]{.when}
-
-[*The Road to Exporting* (RoadtoExporting.dk, sunset in 2026): lead designer of the research-based policy website on exporting, with Jakob Munch and Georg Schaur, financed by the Innovation Fund. [Example of the website](https://www.dropbox.com/scl/fi/bti8y184yhoicbuqvjs60/ku_website.dk.pdf?rlkey=67a9k93wrc6inrq7crrunf8p0&st=64y782rw&dl=0) · [Presentation](https://www.dropbox.com/scl/fi/n4n3z394i2kcu6wrjam2j/Road_To_Exporting.pdf?rlkey=zdw4n2qnjjsqpaz2qrllp5vnq&st=ory2one7&dl=0) · [Methods appendix](https://www.dropbox.com/scl/fi/05mgshlos3ztjqlts9w9t/Road_to_Exporting_methodology_appendix.pdf?rlkey=f6xno6yxeeh8nul4krom5pn93&dl=0)]{.what}
 
 :::
 ::: {.row-line}
