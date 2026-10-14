@@ -40,14 +40,26 @@ website:
         href: is/index.qmd
         aria-label: "Íslenska"
   page-footer:
-    left: "ROCKWOOL Foundation Research Unit · Ny Kongensgade 6 · DK-1472 Copenhagen K"
+    left: "[ROCKWOOL Foundation Research Unit](https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/) · Ny Kongensgade 6 · DK-1472 Copenhagen K"
+    # Icons come from the sprite in _includes/site.html. Quarto drops aria-label on footer items,
+    # so the label sits inside the svg (<title> also gives the hover tooltip).
     right:
-      - text: "ROCKWOOL Foundation profile"
-        href: "https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/"
-      - text: "RSS"
-        href: news.xml
-      - text: "bth@rff.dk"
+      - text: '<svg class="ico" role="img" aria-label="Email bth@rff.dk"><title>bth@rff.dk</title><use href="#i-mail"></use></svg>'
         href: "mailto:bth@rff.dk"
+      - text: '<svg class="ico" role="img" aria-label="Google Scholar"><title>Google Scholar</title><use href="#i-scholar"></use></svg>'
+        href: "https://scholar.google.se/citations?user=RM3pq-gAAAAJ&hl=en"
+      - text: '<svg class="ico" role="img" aria-label="RePEc/IDEAS"><title>RePEc/IDEAS</title><use href="#i-repec"></use></svg>'
+        href: "https://ideas.repec.org/f/par416.html"
+      - text: '<svg class="ico" role="img" aria-label="ORCID"><title>ORCID</title><use href="#i-orcid"></use></svg>'
+        href: "https://orcid.org/0000-0003-4981-8965"
+      - text: '<svg class="ico" role="img" aria-label="LinkedIn"><title>LinkedIn</title><use href="#i-linkedin"></use></svg>'
+        href: "https://www.linkedin.com/in/bjornthor/"
+      - text: '<svg class="ico" role="img" aria-label="X"><title>X</title><use href="#i-x"></use></svg>'
+        href: "https://x.com/bjorci"
+      - text: '<svg class="ico" role="img" aria-label="Bluesky"><title>Bluesky</title><use href="#i-bluesky"></use></svg>'
+        href: "https://bsky.app/profile/bjorci.bsky.social"
+      - text: '<svg class="ico" role="img" aria-label="RSS feed"><title>RSS feed</title><use href="#i-rss"></use></svg>'
+        href: news.xml
 
 format:
   html:

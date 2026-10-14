@@ -19,6 +19,16 @@ const tagOf = (p) => {
   if (p.type === 'wip') return { text: 'In progress', cls: 'tag tag-wip' };
   return { text: p.status, cls: 'tag' };
 };
+// Small leading icon for a link (sprite in _includes/site.html): X and Bluesky posts, PDFs.
+const iconOf = (l) => {
+  const h = String(l.href || '').toLowerCase();
+  const t = String(l.label || '');
+  let id = null;
+  if (/\/\/(www\.)?(twitter|x)\.com\//.test(h)) id = 'x';
+  else if (/\/\/bsky\.app\//.test(h)) id = 'bluesky';
+  else if (/^PDF$|\(PDF\)/.test(t) || /\.pdf($|[?#])/.test(h)) id = 'pdf';
+  return id ? '<svg class="ico ico-lead" aria-hidden="true"><use href="#i-' + id + '"></use></svg>' : '';
+};
 const homeGroup = (typeof templateParams !== 'undefined') && templateParams && templateParams.group;
 %>
 <% if (homeGroup) { %>
@@ -34,8 +44,8 @@ const media = Array.isArray(p.media) ? p.media : [];
 <% if (p.coauthors && p.coauthors.length) { %><div class="paper-authors"><%= authorsHtml(p.coauthors) %></div><% } %>
 <div class="home-paper-links">
 <% if (tag) { %><span class="<%= tag.cls %>"><%= tag.text %></span><% } %><% if (p.venue && !(tag && tag.cls === 'tag tag-rr')) { %><span class="home-venue"><%= p.venue %></span><% } %><% if (p.presented) { %><span class="home-venue">Presented at <%= p.presented %></span><% } %>
-<% for (const l of links) { %><a href="<%- l.href %>"><%= l.label %></a><% } %>
-<% for (const m of media) { %><a class="media-link" href="<%- m.href %>"><%= m.label %></a><% } %>
+<% for (const l of links) { %><a href="<%- l.href %>"><%= iconOf(l) %><%= l.label %></a><% } %>
+<% for (const m of media) { %><a class="media-link" href="<%- m.href %>"><%= iconOf(m) %><%= m.label %></a><% } %>
 </div>
 </div>
 <div class="home-paper-year"><%= p.year || '' %></div>
@@ -67,7 +77,7 @@ const search = [p.title, names, p.abstract || '', p.venue || '', topics.join(' '
 <% if (p.abstract || links.length) { %>
 <div class="paper-actions">
 <% if (p.abstract) { %><button type="button" class="pill-btn" data-toggle="abs-<%= p.id %>" aria-expanded="false">Abstract</button><% } %>
-<% for (const l of links) { %><a class="pill-link" href="<%- l.href %>"><%= l.label %></a><% } %>
+<% for (const l of links) { %><a class="pill-link" href="<%- l.href %>"><%= iconOf(l) %><%= l.label %></a><% } %>
 </div>
 <% } %>
 <% if (p.abstract) { %><div class="paper-panel" id="abs-<%= p.id %>" hidden><p><%= p.abstract %></p></div><% } %>
@@ -75,7 +85,7 @@ const search = [p.title, names, p.abstract || '', p.venue || '', topics.join(' '
 <div class="paper-meta">
 <% if (topics.length) { %><span class="topics"><% for (const t of topics) { %><button type="button" class="topic-chip" data-topic-jump="<%= t %>"><%= t %></button><% } %></span><% } %>
 <% if (p.presented) { %><span>Presented at <%= p.presented %></span><% } %>
-<% if (media.length) { %><span>In the media: <% media.forEach((m, i) => { %><a href="<%- m.href %>"><%= m.label %></a><%= i < media.length - 1 ? ', ' : '' %><% }) %></span><% } %>
+<% if (media.length) { %><span>In the media: <% media.forEach((m, i) => { %><a href="<%- m.href %>"><%= iconOf(m) %><%= m.label %></a><%= i < media.length - 1 ? ', ' : '' %><% }) %></span><% } %>
 </div>
 <% } %>
 <% if (p.bibtex) { %><details class="cite-box"><summary>Cite this paper</summary><pre class="bibtex"><%= p.bibtex.trim() %></pre><button type="button" class="copy-cite">Copy BibTeX</button></details><% } %>

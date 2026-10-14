@@ -52,7 +52,7 @@ listing:
 ::: {.row-line}
 [2023]{.when}
 
-[*Omstilling på Arbejdsmarkedet: Globalisering, Automatisering og Uddannelse*, with J. R. Munch, A. N. Christensen, D. Hémous, A. Humlum, B. Javorcik, B. B. Meyer, M. Olsen, P. Plato, M. Rasmussen and E. Vestergaard. Syddansk Universitetsforlag, Odense. [PDF](https://drive.google.com/file/d/1JdR9u26q6BISogb4glArD2KD48b6jDTS/view?usp=drive_link)]{.what}
+[*Omstilling på Arbejdsmarkedet: Globalisering, Automatisering og Uddannelse*, with J. R. Munch, A. N. Christensen, D. Hémous, A. Humlum, B. Javorcik, B. B. Meyer, M. Olsen, P. Plato, M. Rasmussen and E. Vestergaard. Syddansk Universitetsforlag, Odense. [<svg class="ico ico-lead" aria-hidden="true"><use href="#i-pdf"></use></svg>PDF](https://drive.google.com/file/d/1JdR9u26q6BISogb4glArD2KD48b6jDTS/view?usp=drive_link)]{.what}
 
 :::
 ::: {.row-line}

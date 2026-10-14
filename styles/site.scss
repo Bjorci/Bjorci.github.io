@@ -68,7 +68,7 @@ p { margin: 0 0 1rem; }
 .hero-text { flex: 1; display: flex; flex-direction: column; gap: 28px; }
 .hero-name { font-family: $serif; font-size: 6.5rem; line-height: 0.95; letter-spacing: -0.01em; margin: 0; }
 .hero-lead { font-family: $serif; font-size: 2rem; line-height: 1.3; color: $ink-soft; max-width: 720px; margin: 0; }
-.hero-links { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 0.95rem; }
+.hero-links { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px; font-size: 0.95rem; }
 .hero-photo { width: 240px; height: 300px; object-fit: cover; object-position: 50% 20%; flex-shrink: 0; }
 
 // ---------- Page head (inner pages) ----------
@@ -258,7 +258,8 @@ div.csl-entry, .quarto-appendix-bibtex pre { font-size: 0.85rem; }
 .service-list .t { font-family: $serif; font-size: 1.375rem; }
 .service-list .n { font-size: 0.9rem; color: $muted; }
 
-.profile-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.profile-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.profile-links > p { display: contents; }
 
 // ---------- Reveal ----------
 .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
@@ -335,3 +336,21 @@ details.cite-box > summary::-webkit-details-marker { display: none; }
 details.cite-box > summary:hover { color: $accent; }
 details.cite-box[open] > summary { color: $ink-soft; margin-bottom: 8px; }
 details.cite-box .bibtex { max-width: 760px; }
+
+// ---------- Icons (sprite in _includes/site.html) ----------
+.ico { display: inline-block; width: 1em; height: 1em; fill: currentColor; flex-shrink: 0; vertical-align: -0.125em; }
+.ico-lead { margin-right: 0.4em; }
+.hero-links .hero-cv { height: 38px; font-size: 0.9rem; }
+.icon-row { display: inline-flex; flex-wrap: wrap; gap: 8px; }
+.icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; border: 1px solid $accent-soft; color: $accent; font-size: 17px; text-decoration: none; transition: background .15s, color .15s, border-color .15s; }
+.icon-btn:hover, .icon-btn:focus-visible { background: $accent; border-color: $accent; color: $ground; }
+.nav-footer { align-items: center; }
+@media (min-width: 768px) {
+  .nav-footer-left { flex: 2 1 0px; }
+  .nav-footer-center { display: none; }
+}
+.nav-footer-right .footer-items { flex-wrap: wrap; gap: 2px; }
+.nav-footer-right .nav-link { padding: 4px 6px; color: $muted; }
+.nav-footer-right .nav-link:hover { color: $accent; }
+.nav-footer-right .nav-link p { margin: 0; }
+.nav-footer-right .nav-link .ico { display: block; font-size: 1rem; }

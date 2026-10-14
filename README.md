@@ -22,6 +22,9 @@ All of these are plain text files. Edit, save, then build (next section).
 | What AI tools read about you | `llms.txt` (and the profile block in `_includes/head.html`) |
 
 A status beginning with `R&R` gets the gold tag automatically; any other status gets a grey tag.
+Logos and icons are an SVG sprite at the top of `_includes/site.html`. A profile link (Scholar, LinkedIn, X, …)
+appears in the home hero (`index.qmd`), the About page pills (`about.qmd`), the footer (`_quarto.yml`) and
+`sameAs` in `_includes/head.html`; change all four together.
 Interactive parts (filters, search, abstract/cite toggles, countdowns) live in `_includes/site.html`.
 
 ## Build and preview

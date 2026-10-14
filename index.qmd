@@ -38,15 +38,16 @@ listing:
     <p class="hero-lead">International economist at the <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation Research Unit</a> in Copenhagen. I study global value chains, innovation and knowledge spillovers, using firm-to-firm trade data linked to Danish and Swedish employer–employee registers.</p>
     <p class="hero-sub">Icelandic, living in Sweden · Affiliated researcher, Lund University · CESifo affiliate</p>
     <div class="hero-links">
-      <a href="mailto:bth@rff.dk">bth@rff.dk</a>
-      <a href="https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/">ROCKWOOL Foundation profile</a>
-      <a href="https://scholar.google.se/citations?user=RM3pq-gAAAAJ&hl=en">Google Scholar</a>
-      <a href="https://ideas.repec.org/f/par416.html">RePEc</a>
-      <a href="https://orcid.org/0000-0003-4981-8965">ORCID</a>
-      <a href="https://www.linkedin.com/in/bjornthor/">LinkedIn</a>
-      <a href="https://x.com/bjorci">X</a>
-      <a href="https://bsky.app/profile/bjorci.bsky.social">Bluesky</a>
-      <a href="files/Arnarson_CV.pdf">CV (PDF)</a>
+      <a class="hero-mail" href="mailto:bth@rff.dk"><svg class="ico ico-lead" aria-hidden="true"><use href="#i-mail"></use></svg>bth@rff.dk</a>
+      <a class="pill-link hero-cv" href="files/Arnarson_CV.pdf"><svg class="ico ico-lead" aria-hidden="true"><use href="#i-pdf"></use></svg>CV (PDF)</a>
+      <span class="icon-row">
+        <a class="icon-btn" href="https://scholar.google.se/citations?user=RM3pq-gAAAAJ&hl=en" aria-label="Google Scholar" title="Google Scholar"><svg class="ico" aria-hidden="true"><use href="#i-scholar"></use></svg></a>
+        <a class="icon-btn" href="https://ideas.repec.org/f/par416.html" aria-label="RePEc/IDEAS" title="RePEc/IDEAS"><svg class="ico" aria-hidden="true"><use href="#i-repec"></use></svg></a>
+        <a class="icon-btn" href="https://orcid.org/0000-0003-4981-8965" aria-label="ORCID" title="ORCID"><svg class="ico" aria-hidden="true"><use href="#i-orcid"></use></svg></a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/bjornthor/" aria-label="LinkedIn" title="LinkedIn"><svg class="ico" aria-hidden="true"><use href="#i-linkedin"></use></svg></a>
+        <a class="icon-btn" href="https://x.com/bjorci" aria-label="X" title="X"><svg class="ico" aria-hidden="true"><use href="#i-x"></use></svg></a>
+        <a class="icon-btn" href="https://bsky.app/profile/bjorci.bsky.social" aria-label="Bluesky" title="Bluesky"><svg class="ico" aria-hidden="true"><use href="#i-bluesky"></use></svg></a>
+      </span>
     </div>
   </div>
   <img class="hero-photo" src="images/bjorn.jpg" alt="Portrait of Björn Thor Arnarson">

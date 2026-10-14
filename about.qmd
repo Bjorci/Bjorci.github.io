@@ -272,13 +272,13 @@ The Øresund Bridge turned Copenhagen and Malmö into one labour market. Danish 
 
 ::: {.profile-links}
 [ROCKWOOL Foundation](https://en.rockwoolfonden.dk/employees/bjorn-thor-arnarson/){.pill-link}
-[Google Scholar](https://scholar.google.se/citations?user=RM3pq-gAAAAJ&hl=en){.pill-link}
-[RePEc/IDEAS](https://ideas.repec.org/f/par416.html){.pill-link}
-[ORCID](https://orcid.org/0000-0003-4981-8965){.pill-link}
-[LinkedIn](https://www.linkedin.com/in/bjornthor/){.pill-link}
-[Bluesky](https://bsky.app/profile/bjorci.bsky.social){.pill-link}
-[X](https://x.com/bjorci){.pill-link}
-[ResearchGate](https://www.researchgate.net/profile/Bjoern_Thor_Arnarson){.pill-link}
+[<svg class="ico ico-lead" aria-hidden="true"><use href="#i-scholar"></use></svg>Google Scholar](https://scholar.google.se/citations?user=RM3pq-gAAAAJ&hl=en){.pill-link}
+[<svg class="ico ico-lead" aria-hidden="true"><use href="#i-repec"></use></svg>RePEc/IDEAS](https://ideas.repec.org/f/par416.html){.pill-link}
+[<svg class="ico ico-lead" aria-hidden="true"><use href="#i-orcid"></use></svg>ORCID](https://orcid.org/0000-0003-4981-8965){.pill-link}
+[<svg class="ico ico-lead" aria-hidden="true"><use href="#i-linkedin"></use></svg>LinkedIn](https://www.linkedin.com/in/bjornthor/){.pill-link}
+[<svg class="ico ico-lead" aria-hidden="true"><use href="#i-bluesky"></use></svg>Bluesky](https://bsky.app/profile/bjorci.bsky.social){.pill-link}
+[<svg class="ico ico-lead" aria-hidden="true"><use href="#i-x"></use></svg>X](https://x.com/bjorci){.pill-link}
+[<svg class="ico ico-lead" aria-hidden="true"><use href="#i-researchgate"></use></svg>ResearchGate](https://www.researchgate.net/profile/Bjoern_Thor_Arnarson){.pill-link}
 [CESifo](https://www.ifo.de/en/cesifo/network-member/arnarson-bjorn-thor){.pill-link}
 :::
 :::

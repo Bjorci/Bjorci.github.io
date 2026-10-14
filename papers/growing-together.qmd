@@ -51,7 +51,7 @@ citation:
 [CESifo Working Paper 12710 · CEPR Discussion Paper 21543 · 2026]{style="font-size: 0.95rem; color: #56615c; display: block; margin-top: 6px;"}
 
 ::: {.btn-row style="margin-top: 18px;"}
-[PDF](https://www.ifo.de/DocDL/cesifo1_wp12710.pdf){.btn-pill}
+[<svg class="ico ico-lead" aria-hidden="true"><use href="#i-pdf"></use></svg>PDF](https://www.ifo.de/DocDL/cesifo1_wp12710.pdf){.btn-pill}
 [CESifo](https://doi.org/10.65864/rekivjv2z7){.btn-ghost}
 [CEPR](https://cepr.org/publications/dp21543){.btn-ghost}
 :::
