@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0af0e88271d6a004228e3a07102bc5d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-efbaa02ab3240e22d404cec44d09e634.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -185,8 +185,8 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <div class="prose">
 <p>I was born and raised in Iceland, studied economics at the University of Iceland, with an exchange year at the University of Oklahoma, and at Boston University, and worked as an economist in Reykjavik before moving to Lund for my doctoral studies in 2011.</p>
-<p>In Lund, with Copenhagen a short train ride across the bridge, I became interested early in the Øresund region: two countries, two sets of institutions and a labour market that increasingly spans both. That interest has shaped my research for well over a decade.</p>
-<p>Most of my work builds on Danish and Swedish administrative microdata. Over the years I have built a database that merges and links these registers, with multiple links across the border. The result is a unique dataset, and it underpins several of my research projects, including work on <a href="./papers/growing-together.html">scale economies in global value chains</a>, knowledge spillovers from cross-border commuters and multinational firms, as well as a number of others.</p>
+<p>In Lund, with Copenhagen a short train ride across the bridge, I became interested early in the Øresund region: two countries, two sets of institutions and a labour market that increasingly spans both. That interest has shaped my research for well over a decade. Today I live in Sweden and work in Copenhagen, which makes me one of the cross-border commuters I study.</p>
+<p>Most of my work builds on Danish and Swedish administrative microdata. Over the years I have built a database that merges and links these registers, with multiple links across the border. The result is a unique dataset, and it underpins several of my research projects, including work on <a href="./papers/growing-together.html">scale economies in global value chains</a>, knowledge spillovers from cross-border commuters and multinational firms, as well as a number of others. The setting is local, but the questions are not: how production is organised in global value chains and how knowledge travels through trade networks. Some of my projects study value chains well beyond Denmark and Sweden.</p>
 </div>
 <div class="timeline">
 <div>
@@ -424,7 +424,7 @@ Academicons 1.9.4 (SIL OFL 1.1): repec, viewBox cropped to the glyph so it match
   // ---------- Copy BibTeX ----------
   $(".copy-cite").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      var pre = btn.parentNode.querySelector("pre");
+      var pre = (btn.closest(".cite-panel") || btn.parentNode).querySelector("pre");
       if (!pre || !navigator.clipboard) return;
       navigator.clipboard.writeText(pre.innerText.trim()).then(function () {
         var old = btn.textContent; btn.textContent = "Copied";

@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0af0e88271d6a004228e3a07102bc5d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-efbaa02ab3240e22d404cec44d09e634.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Engar niðurstöður",
@@ -301,7 +301,7 @@ Academicons 1.9.4 (SIL OFL 1.1): repec, viewBox cropped to the glyph so it match
   // ---------- Copy BibTeX ----------
   $(".copy-cite").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      var pre = btn.parentNode.querySelector("pre");
+      var pre = (btn.closest(".cite-panel") || btn.parentNode).querySelector("pre");
       if (!pre || !navigator.clipboard) return;
       navigator.clipboard.writeText(pre.innerText.trim()).then(function () {
         var old = btn.textContent; btn.textContent = "Copied";

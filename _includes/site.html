@@ -35,7 +35,7 @@ Academicons 1.9.4 (SIL OFL 1.1): repec, viewBox cropped to the glyph so it match
   // ---------- Copy BibTeX ----------
   $(".copy-cite").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      var pre = btn.parentNode.querySelector("pre");
+      var pre = (btn.closest(".cite-panel") || btn.parentNode).querySelector("pre");
       if (!pre || !navigator.clipboard) return;
       navigator.clipboard.writeText(pre.innerText.trim()).then(function () {
         var old = btn.textContent; btn.textContent = "Copied";

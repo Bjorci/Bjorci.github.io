@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0af0e88271d6a004228e3a07102bc5d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-efbaa02ab3240e22d404cec44d09e634.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -207,8 +207,17 @@ ul.task-list li input[type="checkbox"] {
 <p><span style="font-size: 1.05rem; color: #33403a; display: block;">Björn Thor Arnarson, <a href="https://sites.google.com/view/magnusbuus">Magnus T. Buus</a>, <a href="https://sites.google.com/site/moxnes/home">Andreas Moxnes</a>, <a href="https://sites.google.com/view/jakob-roland-munch">Jakob R. Munch</a> and <a href="https://sites.google.com/view/chongxiang/home">Chong Xiang</a></span></p>
 <p><span style="font-size: 0.95rem; color: #56615c; display: block; margin-top: 6px;">CESifo Working Paper 12710 · CEPR Discussion Paper 21543 · 2026</span></p>
 <div class="btn-row" style="margin-top: 18px;">
-<p><a href="https://www.ifo.de/DocDL/cesifo1_wp12710.pdf" class="btn-pill"><svg class="ico ico-lead" aria-hidden="true"><use href="#i-pdf"></use></svg>PDF</a> <a href="https://doi.org/10.65864/rekivjv2z7" class="btn-ghost">CESifo</a> <a href="https://cepr.org/publications/dp21543" class="btn-ghost">CEPR</a></p>
+<p><a href="https://www.ifo.de/DocDL/cesifo1_wp12710.pdf" class="btn-pill"><svg class="ico ico-lead" aria-hidden="true"><use href="#i-pdf"></use></svg>PDF</a> <a href="https://doi.org/10.65864/rekivjv2z7" class="btn-ghost">CESifo</a> <a href="https://cepr.org/publications/dp21543" class="btn-ghost">CEPR</a> <button type="button" class="btn-ghost btn-quiet" data-toggle="cite-gt" aria-expanded="false">Cite</button></p>
 </div>
+<div class="paper-panel cite-panel" id="cite-gt" hidden=""><pre class="bibtex">@techreport{ArnarsonBuusMoxnesMunchXiang2026,
+  author      = {Arnarson, Bj{\"o}rn Thor and Buus, Magnus Tolum and Moxnes, Andreas and Munch, Jakob Roland and Xiang, Chong},
+  title       = {Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains},
+  institution = {CESifo},
+  type        = {CESifo Working Paper},
+  number      = {12710},
+  year        = {2026},
+  doi         = {10.65864/rekivjv2z7}
+}</pre><button type="button" class="copy-cite">Copy BibTeX</button></div>
 </div>
 </div>
 <div class="sec">
@@ -238,22 +247,6 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <p><span class="sub-h" style="display:block;">Related</span></p>
 <p><a href="../research.html">All research</a> · <a href="../news.html">News &amp; talks</a></p>
-</div>
-</div>
-<div class="sec">
-<div class="label">
-
-</div>
-<div>
-<details class="cite-box"><summary>Cite this paper</summary><pre class="bibtex">@techreport{ArnarsonBuusMoxnesMunchXiang2026,
-  author      = {Arnarson, Bj{\"o}rn Thor and Buus, Magnus Tolum and Moxnes, Andreas and Munch, Jakob Roland and Xiang, Chong},
-  title       = {Growing Together and Apart: Scale Economies and Labor Specialization in Global Value Chains},
-  institution = {CESifo},
-  type        = {CESifo Working Paper},
-  number      = {12710},
-  year        = {2026},
-  doi         = {10.65864/rekivjv2z7}
-}</pre><button type="button" class="copy-cite">Copy BibTeX</button></details>
 </div>
 </div>
 </div>
@@ -298,7 +291,7 @@ Academicons 1.9.4 (SIL OFL 1.1): repec, viewBox cropped to the glyph so it match
   // ---------- Copy BibTeX ----------
   $(".copy-cite").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      var pre = btn.parentNode.querySelector("pre");
+      var pre = (btn.closest(".cite-panel") || btn.parentNode).querySelector("pre");
       if (!pre || !navigator.clipboard) return;
       navigator.clipboard.writeText(pre.innerText.trim()).then(function () {
         var old = btn.textContent; btn.textContent = "Copied";

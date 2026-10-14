@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0af0e88271d6a004228e3a07102bc5d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-efbaa02ab3240e22d404cec44d09e634.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -179,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <div>
 <div class="row-line">
-<p><span class="when">2021–20??</span></p>
+<p><span class="when">2021–2023</span></p>
 <div class="what">
 <p><span style="font-family: 'Instrument Serif', serif; font-size: 1.625rem;">Advanced International Trade</span><br>
 Lecturer and course responsible, University of Copenhagen</p>
@@ -206,7 +206,27 @@ Lecturer, Introductory Macroeconomics; teaching assistant, Applied Statistics (u
 <h2 data-anchor-id="supervision">Supervision</h2>
 </section>
 <div>
-<p>[Number] MSc and [number] BSc theses supervised at the University of Copenhagen.</p>
+<p>Five MSc and two BSc theses supervised at the University of Copenhagen.</p>
+</div>
+</div>
+<div class="sec">
+<section id="pedagogical-training" class="level2 label">
+<h2 data-anchor-id="pedagogical-training">Pedagogical training</h2>
+</section>
+<div>
+<div class="row-line">
+<p><span class="when">2021–2022</span></p>
+<div class="what">
+<p><span style="font-family: 'Instrument Serif', serif; font-size: 1.625rem;">Teaching and Learning in Higher Education</span><br>
+Universitetspædagogikum, Faculty of Social Sciences, University of Copenhagen. Final project: <em>Open and Unstructured Assignment in International Economics</em>, a new mandatory assignment for Advanced International Trade: an open policy report with individual feedback and a revise-and-resubmit round. <a href="https://humanities.ku.dk/about/administration/all2/teach/teaching-and-learning/projects/2021/posters/bj_rn_poster.pdf"><svg class="ico ico-lead" aria-hidden="true"><use href="#i-pdf"></use></svg>Poster</a></p>
+</div>
+</div>
+<div class="row-line">
+<p><span class="when">2021</span></p>
+<div class="what">
+<p><span style="font-family: 'Instrument Serif', serif; font-size: 1.625rem;">University Teaching and Supervision Course for Academic Staff</span></p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -251,7 +271,7 @@ Academicons 1.9.4 (SIL OFL 1.1): repec, viewBox cropped to the glyph so it match
   // ---------- Copy BibTeX ----------
   $(".copy-cite").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      var pre = btn.parentNode.querySelector("pre");
+      var pre = (btn.closest(".cite-panel") || btn.parentNode).querySelector("pre");
       if (!pre || !navigator.clipboard) return;
       navigator.clipboard.writeText(pre.innerText.trim()).then(function () {
         var old = btn.textContent; btn.textContent = "Copied";

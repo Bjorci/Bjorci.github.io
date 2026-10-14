@@ -329,13 +329,12 @@ details.archive[open] { padding-bottom: 16px; }
 // ---------- Hero sub-line ----------
 .hero-sub { margin: -14px 0 0; font-size: 0.9rem; letter-spacing: 0.01em; color: $muted; }
 
-// ---------- Citation, tucked away ----------
-details.cite-box { margin-top: 6px; }
-details.cite-box > summary { display: inline-block; list-style: none; cursor: pointer; font-size: 0.78rem; color: $muted; text-decoration: underline; text-decoration-color: $rule-strong; text-underline-offset: 3px; }
-details.cite-box > summary::-webkit-details-marker { display: none; }
-details.cite-box > summary:hover { color: $accent; }
-details.cite-box[open] > summary { color: $ink-soft; margin-bottom: 8px; }
-details.cite-box .bibtex { max-width: 760px; }
+// ---------- Citation: a quiet "Cite" button that opens the BibTeX ----------
+.pill-btn.pill-quiet, .btn-quiet { border-color: $rule-strong; color: $muted; }
+.pill-btn.pill-quiet:hover, .btn-quiet:hover { border-color: $accent; color: $accent; }
+.pill-btn.pill-quiet.is-on, .btn-quiet.is-on { background: $ink; border-color: $ink; color: $ground; }
+.btn-quiet { background: none; font: inherit; font-size: 0.875rem; font-weight: 500; line-height: inherit; cursor: pointer; transition: background .15s, color .15s, border-color .15s; }
+.cite-panel .bibtex { max-width: 760px; }
 
 // ---------- Icons (sprite in _includes/site.html) ----------
 .ico { display: inline-block; width: 1em; height: 1em; fill: currentColor; flex-shrink: 0; vertical-align: -0.125em; }

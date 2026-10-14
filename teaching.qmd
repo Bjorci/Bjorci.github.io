@@ -15,7 +15,7 @@ description: "Teaching and supervision."
 :::
 ::: {}
 ::: {.row-line}
-[2021–20??]{.when}
+[2021–2023]{.when}
 
 ::: {.what}
 [Advanced International Trade]{style="font-family: 'Instrument Serif', serif; font-size: 1.625rem;"}\
@@ -46,7 +46,30 @@ Lecturer, Introductory Macroeconomics; teaching assistant, Applied Statistics (u
 ## Supervision
 :::
 ::: {}
-[Number] MSc and [number] BSc theses supervised at the University of Copenhagen.
+Five MSc and two BSc theses supervised at the University of Copenhagen.
+:::
+:::
+
+::: {.sec}
+::: {.label}
+## Pedagogical training
+:::
+::: {}
+::: {.row-line}
+[2021–2022]{.when}
+
+::: {.what}
+[Teaching and Learning in Higher Education]{style="font-family: 'Instrument Serif', serif; font-size: 1.625rem;"}\
+Universitetspædagogikum, Faculty of Social Sciences, University of Copenhagen. Final project: *Open and Unstructured Assignment in International Economics*, a new mandatory assignment for Advanced International Trade: an open policy report with individual feedback and a revise-and-resubmit round. [<svg class="ico ico-lead" aria-hidden="true"><use href="#i-pdf"></use></svg>Poster](https://humanities.ku.dk/about/administration/all2/teach/teaching-and-learning/projects/2021/posters/bj_rn_poster.pdf)
+:::
+:::
+::: {.row-line}
+[2021]{.when}
+
+::: {.what}
+[University Teaching and Supervision Course for Academic Staff]{style="font-family: 'Instrument Serif', serif; font-size: 1.625rem;"}
+:::
+:::
 :::
 :::
 
