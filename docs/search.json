@@ -28,32 +28,60 @@
     "text": "Books, thesis and reports"
   },
   {
-    "objectID": "is/index.html#bakgrunnur",
-    "href": "is/index.html#bakgrunnur",
+    "objectID": "news.html#upcoming-talks",
+    "href": "news.html#upcoming-talks",
     "title": "Björn Thor Arnarson",
-    "section": "Bakgrunnur",
-    "text": "Bakgrunnur"
+    "section": "Upcoming talks",
+    "text": "Upcoming talks"
   },
   {
-    "objectID": "is/index.html#sérsvið",
-    "href": "is/index.html#sérsvið",
+    "objectID": "news.html#news",
+    "href": "news.html#news",
     "title": "Björn Thor Arnarson",
-    "section": "Sérsvið",
-    "text": "Sérsvið"
+    "section": "News",
+    "text": "News"
   },
   {
-    "objectID": "is/index.html#á-íslensku",
-    "href": "is/index.html#á-íslensku",
+    "objectID": "news.html#talk-archive",
+    "href": "news.html#talk-archive",
     "title": "Björn Thor Arnarson",
-    "section": "Á íslensku",
-    "text": "Á íslensku"
+    "section": "Talk archive",
+    "text": "Talk archive"
   },
   {
-    "objectID": "is/index.html#samband",
-    "href": "is/index.html#samband",
+    "objectID": "news.html#visits-and-organising",
+    "href": "news.html#visits-and-organising",
     "title": "Björn Thor Arnarson",
-    "section": "Samband",
-    "text": "Samband"
+    "section": "Visits and organising",
+    "text": "Visits and organising"
+  },
+  {
+    "objectID": "index.html#current-research",
+    "href": "index.html#current-research",
+    "title": "Björn Thor Arnarson",
+    "section": "Current research",
+    "text": "Current research\nWorking papers and work in progress. With abstracts →"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Björn Thor Arnarson",
+    "section": "Publications",
+    "text": "Publications\nWith abstracts →"
+  },
+  {
+    "objectID": "index.html#news-talks",
+    "href": "index.html#news-talks",
+    "title": "Björn Thor Arnarson",
+    "section": "News & talks",
+    "text": "News & talks\nAll news and talks →"
+  },
+  {
+    "objectID": "index.html#the-øresund-region",
+    "href": "index.html#the-øresund-region",
+    "title": "Björn Thor Arnarson",
+    "section": "The Øresund region",
+    "text": "The Øresund region"
   },
   {
     "objectID": "about.html#background",
@@ -112,60 +140,32 @@
     "text": "Contact and profiles"
   },
   {
-    "objectID": "index.html#current-research",
-    "href": "index.html#current-research",
+    "objectID": "is/index.html#bakgrunnur",
+    "href": "is/index.html#bakgrunnur",
     "title": "Björn Thor Arnarson",
-    "section": "Current research",
-    "text": "Current research\nWorking papers and work in progress. With abstracts →"
+    "section": "Bakgrunnur",
+    "text": "Bakgrunnur"
   },
   {
-    "objectID": "index.html#publications",
-    "href": "index.html#publications",
+    "objectID": "is/index.html#sérsvið",
+    "href": "is/index.html#sérsvið",
     "title": "Björn Thor Arnarson",
-    "section": "Publications",
-    "text": "Publications\nWith abstracts →"
+    "section": "Sérsvið",
+    "text": "Sérsvið"
   },
   {
-    "objectID": "index.html#news-talks",
-    "href": "index.html#news-talks",
+    "objectID": "is/index.html#á-íslensku",
+    "href": "is/index.html#á-íslensku",
     "title": "Björn Thor Arnarson",
-    "section": "News & talks",
-    "text": "News & talks\nAll news and talks →"
+    "section": "Á íslensku",
+    "text": "Á íslensku"
   },
   {
-    "objectID": "index.html#the-øresund-region",
-    "href": "index.html#the-øresund-region",
+    "objectID": "is/index.html#samband",
+    "href": "is/index.html#samband",
     "title": "Björn Thor Arnarson",
-    "section": "The Øresund region",
-    "text": "The Øresund region"
-  },
-  {
-    "objectID": "news.html#upcoming-talks",
-    "href": "news.html#upcoming-talks",
-    "title": "Björn Thor Arnarson",
-    "section": "Upcoming talks",
-    "text": "Upcoming talks"
-  },
-  {
-    "objectID": "news.html#news",
-    "href": "news.html#news",
-    "title": "Björn Thor Arnarson",
-    "section": "News",
-    "text": "News"
-  },
-  {
-    "objectID": "news.html#talk-archive",
-    "href": "news.html#talk-archive",
-    "title": "Björn Thor Arnarson",
-    "section": "Talk archive",
-    "text": "Talk archive"
-  },
-  {
-    "objectID": "news.html#visits-and-organising",
-    "href": "news.html#visits-and-organising",
-    "title": "Björn Thor Arnarson",
-    "section": "Visits and organising",
-    "text": "Visits and organising"
+    "section": "Samband",
+    "text": "Samband"
   },
   {
     "objectID": "papers/growing-together.html#in-short",

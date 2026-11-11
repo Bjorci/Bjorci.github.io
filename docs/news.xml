@@ -10,7 +10,31 @@
 <atom:link href="https://www.bjornthorarnarson.com/news.xml" rel="self" type="application/rss+xml"/>
 <description>Upcoming talks, new papers, publications, revisions and other news from Björn Thor Arnarson.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Wed, 09 Sep 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 02 Dec 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>NOITS 2026 in Stockholm</title>
+  <link>https://www.bjornthorarnarson.com/news/2026-12-noits.html</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Conference</category>
+  <guid>https://www.bjornthorarnarson.com/news/2026-12-noits.html</guid>
+  <pubDate>Wed, 02 Dec 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Research visit to LMU Munich</title>
+  <link>https://www.bjornthorarnarson.com/news/2026-11-lmu-visit.html</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Visit</category>
+  <guid>https://www.bjornthorarnarson.com/news/2026-11-lmu-visit.html</guid>
+  <pubDate>Tue, 03 Nov 2026 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Supplying Superstars in Berlin</title>
+  <link>https://www.bjornthorarnarson.com/news/2026-09-rfberlin.html</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>Talk</category>
+  <guid>https://www.bjornthorarnarson.com/news/2026-09-rfberlin.html</guid>
+  <pubDate>Mon, 28 Sep 2026 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Growing Together and Apart at ETSG</title>
   <link>https://www.bjornthorarnarson.com/news/2026-etsg.html</link>

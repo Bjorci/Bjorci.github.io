@@ -58,7 +58,7 @@ listing:
 <div class="chip-row" style="margin-bottom: 8px;">
   <button type="button" class="chip is-on" data-kind-filter="all">All</button>
   <button type="button" class="chip" data-kind-filter="papers" data-kinds="Publication|Revision|Working paper">Papers</button>
-  <button type="button" class="chip" data-kind-filter="talks" data-kinds="Talk|Visit">Talks and visits</button>
+  <button type="button" class="chip" data-kind-filter="talks" data-kinds="Talk|Visit|Conference">Talks and visits</button>
   <button type="button" class="chip" data-kind-filter="other" data-kinds="Media|New position|Organising">Other</button>
 </div>
 ```
@@ -104,7 +104,7 @@ listing:
 ::: {.row-line}
 [Research visits]{.when}
 
-[LMU Munich (July 2026); CESifo, Munich (July 2024).]{.what}
+[LMU Munich (November 2026, host Martina Magli; July 2026); CESifo, Munich (July 2024).]{.what}
 
 :::
 ::: {.row-line}

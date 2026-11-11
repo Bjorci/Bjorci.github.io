@@ -1,0 +1,11 @@
+---
+title: "Supplying Superstars in Berlin"
+date: 2026-09-29
+datelabel: "September 2026"
+categories: ["Talk"]
+description: "Presented “International Spillovers from Supplying Superstars” at the ROCKWOOL Foundation Annual Internal Workshop in Berlin."
+---
+
+Presented “International Spillovers from Supplying Superstars” at the ROCKWOOL Foundation Annual Internal Workshop in Berlin.
+
+[← News & talks](../news.qmd)

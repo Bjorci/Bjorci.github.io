@@ -4,8 +4,11 @@
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/news.html",
     "items": [
+      "/news/2026-12-noits.html",
+      "/news/2026-11-lmu-visit.html",
+      "/news/2026-09-rfberlin.html",
       "/news/2026-etsg.html",
       "/news/2026-08-diw.html",
       "/news/2026-lmu-visit.html",
@@ -22,8 +25,11 @@
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
+      "/news/2026-12-noits.html",
+      "/news/2026-11-lmu-visit.html",
+      "/news/2026-09-rfberlin.html",
       "/news/2026-etsg.html",
       "/news/2026-08-diw.html",
       "/news/2026-lmu-visit.html",

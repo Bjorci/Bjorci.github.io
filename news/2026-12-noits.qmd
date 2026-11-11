@@ -1,0 +1,11 @@
+---
+title: "NOITS 2026 in Stockholm"
+date: 2026-12-03
+datelabel: "December 2026"
+categories: ["Conference"]
+description: "Taking part in [NOITS 2026](http://www.noits.org/noits-2026/), the annual Nordic conference in international economics, at Stockholm University on 3–4 December, and chairing a session."
+---
+
+Taking part in [NOITS 2026](http://www.noits.org/noits-2026/), the annual Nordic conference in international economics, at Stockholm University on 3–4 December, and chairing a session.
+
+[← News & talks](../news.qmd)

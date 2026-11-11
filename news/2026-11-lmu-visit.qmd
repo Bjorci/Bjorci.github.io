@@ -1,0 +1,11 @@
+---
+title: "Research visit to LMU Munich"
+date: 2026-11-04
+datelabel: "November 2026"
+categories: ["Visit"]
+description: "Research visit to LMU Munich, hosted by [Martina Magli](https://martinamagli.wixsite.com/mysite/research)."
+---
+
+Research visit to LMU Munich, hosted by [Martina Magli](https://martinamagli.wixsite.com/mysite/research).
+
+[← News & talks](../news.qmd)
