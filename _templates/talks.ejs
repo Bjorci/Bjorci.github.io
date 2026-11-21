@@ -20,7 +20,7 @@ const years = items.filter(t => t.year);
 <div class="talk-when"><%= t.when %> <span class="countdown"></span></div>
 <div class="talk-event"><% if (t.url) { %><a href="<%- t.url %>"><%= t.event %></a><% } else { %><%= t.event %><% } %></div>
 <div class="talk-where"><%= t.kind %>, <%= t.place %><% if (t.note) { %> · <%= t.note %><% } %></div>
-<% if (t.paper_title) { %><div class="talk-paper">Paper: <a href="research.html#<%= t.paper %>"><%= t.paper_title %></a></div><% } %>
+<% if (t.paper_title) { %><div class="talk-paper">Paper: <a href="research.html#<%= t.paper %>"><%= t.paper_title %></a><% if (t.slides) { %> · <a href="<%- t.slides %>">Slides (PDF)</a><% } %></div><% } else if (t.slides) { %><div class="talk-paper"><a href="<%- t.slides %>">Slides (PDF)</a></div><% } %>
 </div>
 <% } %>
 </div>

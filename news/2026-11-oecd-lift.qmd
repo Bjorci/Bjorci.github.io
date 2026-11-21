@@ -1,0 +1,13 @@
+---
+title: "Cross-border R&D spillovers at the OECD"
+date: 2026-11-20
+datelabel: "November 2026"
+categories: ["Talk"]
+description: "Presented “R&D Employment Spillovers in Trade and MNE Networks” at the [OECD LIFT workshop](https://www.oecd.org/en/about/projects/leveraging-inter-firm-transactions.html) in Paris. [Slides (PDF)](/files/Arnarson_OECD_LIFT_2026-11-20.pdf)"
+---
+
+Presented “R&D Employment Spillovers in Trade and MNE Networks”, joint with Magnus Tolum Buus, Jakob Roland Munch and Georg Schaur, at the [OECD LIFT workshop](https://www.oecd.org/en/about/projects/leveraging-inter-firm-transactions.html) in Paris. LIFT (Leveraging Inter-Firm Transactions) is the OECD network on firm-to-firm data.
+
+[Slides (PDF)](../files/Arnarson_OECD_LIFT_2026-11-20.pdf) · [The paper](../research.qmd#rd)
+
+[← News & talks](../news.qmd)

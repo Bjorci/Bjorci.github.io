@@ -1,16 +1,19 @@
 # Talks.
 # A detailed talk has: iso (YYYY-MM-DD, for the countdown and sorting; use the 1st if only the month is known),
-#   when (what is shown), event, place, kind, paper (a paper id from papers.yml, or empty), note.
+#   when (what is shown), event, place, kind, paper (a paper id from papers.yml, or empty), note,
+#   and optionally slides (a path under files/, shown as a "Slides (PDF)" link in the talk archive).
 # Upcoming talks are detected automatically from the date. Older years can be a single summary line.
 
 - iso: 2026-11-20
   when: "20 November 2026"
-  event: "OECD LIFT seminar"
+  event: "OECD LIFT workshop"
   place: "Paris"
-  kind: "Seminar"
+  kind: "Workshop"
   note: "LIFT: Leveraging Inter-Firm Transactions, the OECD network on firm-to-firm data"
   url: "https://www.oecd.org/en/about/projects/leveraging-inter-firm-transactions.html"
-  paper: ""
+  paper: rd
+  paper_title: "R&D Employment Spillovers in Trade and MNE Networks"
+  slides: "files/Arnarson_OECD_LIFT_2026-11-20.pdf"
 
 - iso: 2026-09-29
   when: "29 September 2026"
